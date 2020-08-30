@@ -1,1 +1,131 @@
-theme: jekyll-theme-cayman
+baseURL = "http://taopj.github.io/blog"
+title = "taopj@sh.cn's blog"
+
+theme = "hugo-theme-fuji"
+hasCJKLanguage = true
+enableEmoji = true
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+## Change this two to switch between different language
+languageCode = "en"  # For RSS, view https://www.rssboard.org/rss-language-codes
+defaultContentLanguage = "zh-hans"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl
+
+summaryLength = 66 # Custom summary length, add <!--more--> in post file to custom split point
+paginate = 10
+
+# googleAnalytics = "UA-000000000-0" # Set your Google Analytics UA here
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    isPlainText = true
+    notAlternative = true
+    mediaType = "application/json"
+    path = "/search/"
+
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
+
+[permalinks]
+  post = "/:year/:month/:title/"# Custom post links, e.g.   "/:section/:filename/" 
+
+[params]
+  author = "陶佩军" # You can also set author in post front matter individually
+  subTitle = "季节调整、负荷预测和R"
+
+  # Use CloudFlare Workers to accelerate the Google Analytics
+  # If you are using this please comment the googleAnalytics above
+  # Check https://github.com/SukkaW/cloudflare-workers-async-google-analytics for more details
+  # googleAnalyticsTid = "UA-000000000-0"
+  # googleAnalyticsRoute = "https://*.*.workers.dev/"
+
+  # Google AdSense
+  # The AdSense code will be inserted between the head tags of your site.
+  # googleAdsense = "0000000000000000"
+
+  # Word counter and read time indicator in post metadata
+  showWordCounter = true
+  showReadTime = true
+
+  # License at the end of each post
+  showLicense = false
+  showToc = true
+
+  # Open Graph & Twitter Card variables
+  # You can also set description and images in post front matter individually
+  description = "A minimal Hugo theme with nice theme color."
+  images = ["img/og.png"] # This will use the image called og.png in static/img folder
+
+  # Posts shown in homepage
+  mainSections = ["post"]
+
+  # Bangumi image chart id
+  # bgmImageChart = "000000"
+
+  # License
+  license = "CC BY-NC-SA 4.0"
+  licenseLink = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
+  # Comments
+  # utterances, see: https://utteranc.es/
+  # utterancesRepo = "*/*"
+  # utterancesIssueTerm = "pathname"
+
+  # Disqus, see: https://disqus.com/admin/install/platforms/universalcode/
+  # disqusShortname = "*********"
+  # Also use DisqusJS for accessing from Mainland China, see: https://github.com/SukkaW/DisqusJS
+  # If you want to set multiple api key, see theme's README for more details
+  # disqusJSApi = "https://*********/"
+  # disqusJSApikey = "**********"
+
+  # custom lazyload placeholder
+  # 16:9
+  lazyPlaceholder = "/assets/lazyload/dsrca_loading_480x270.svg"
+  # 32:9
+  lazyPlaceholderRow = "/assets/lazyload/dsrca_loading_960x270.svg"
+  # 8:9
+  lazyPlaceholderCol = "/assets/lazyload/dsrca_loading_480x540.svg"
+
+  # Use Hugo Pipes in Hugo Extended Version to compile SCSS
+  # useHugoPipes = true
+
+  # Let images display in full brightness under dark mode
+  # disableDarkImage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content
+  [markup.highlight]
+    codeFences = true  # Enable Hugo's code highlighter  false  # Disable Hugo's code highlighter
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[taxonomies]
+  tag = "tags"
+
+[menu]
+  [[menu.nav]]
+    name = "网站主页"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "历史文件"
+    url = "/archives/"
+    weight = 2
+  [[menu.nav]]
+    name = "关于本站"
+    url = "/about/"
+    weight = 3
+  [[menu.nav]]
+    name = "站内查询"
+    url = "/search/"
+    weight = 4
+#  [[menu.nav]]
+#    name = "RSS"
+#    url = "/index.xml"
+#    weight = 5
