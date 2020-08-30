@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>安装 on 季节调整、负荷预测和R</title>
+    <link>/tags/%E5%AE%89%E8%A3%85/</link>
+    <description>Recent content in 安装 on 季节调整、负荷预测和R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>修改界面主题</title>
+      <link>/2020/08/%E4%BF%AE%E6%94%B9%E7%95%8C%E9%9D%A2%E4%B8%BB%E9%A2%98/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/08/%E4%BF%AE%E6%94%B9%E7%95%8C%E9%9D%A2%E4%B8%BB%E9%A2%98/</guid>
+      <description>折腾了两天Hugo的界面主题（theme），总算选定了这个amzrk2/hugo-theme-fuji 。 另外两个目录的界面主题用作参</description>
+    </item>
+    
+    <item>
+      <title>开篇（安装blogdown）</title>
+      <link>/2020/08/%E5%BC%80%E7%AF%87%E5%AE%89%E8%A3%85blogdown/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/08/%E5%BC%80%E7%AF%87%E5%AE%89%E8%A3%85blogdown/</guid>
+      <description>&lt;p&gt;第一次成功运行blogdown，生成了一下这个第一篇blog。
+庆祝一下在Rstudio中手动安装成功hugo，并生成了缺省界面的blog网站。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
