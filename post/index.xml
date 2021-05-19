@@ -8,6 +8,22 @@
     <language>zh-cn</language>
     <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>假日政策历史回顾</title>
+      <link>https://taopj.github.io/blog/2021/05/%E5%81%87%E6%97%A5%E6%94%BF%E7%AD%96%E5%8E%86%E5%8F%B2%E5%9B%9E%E9%A1%BE/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/2021/05/%E5%81%87%E6%97%A5%E6%94%BF%E7%AD%96%E5%8E%86%E5%8F%B2%E5%9B%9E%E9%A1%BE/</guid>
+      <description>
+&lt;script src=&#34;https://taopj.github.io/blog/blog/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;假日政策历史回顾&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;假日政策历史回顾&lt;/h2&gt;
+&lt;p&gt;季节调整程序（X13-Arima-AS）需要假日数据，因此，收集了一些建国以来中国假日变化情况历史资料，在此列出。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>关于时间序列的7本好书</title>
       <link>https://taopj.github.io/blog/2021/05/%E5%85%B3%E4%BA%8E%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97%E7%9A%847%E6%9C%AC%E5%A5%BD%E4%B9%A6/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
