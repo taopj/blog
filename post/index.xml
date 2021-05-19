@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on taopj@sh.cn&#39;s blog</title>
+    <title>Posts on Taopj@sh.cn&#39;s Blog</title>
     <link>https://taopj.github.io/blog/post/</link>
-    <description>Recent content in Posts on taopj@sh.cn&#39;s blog</description>
+    <description>Recent content in Posts on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于时间序列的7本好书</title>
+      <link>https://taopj.github.io/blog/2021/05/%E5%85%B3%E4%BA%8E%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97%E7%9A%847%E6%9C%AC%E5%A5%BD%E4%B9%A6/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/2021/05/%E5%85%B3%E4%BA%8E%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97%E7%9A%847%E6%9C%AC%E5%A5%BD%E4%B9%A6/</guid>
+      <description>
+&lt;script src=&#34;https://taopj.github.io/blog/blog/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;关于时间系列分析的 7 本好书&lt;/p&gt;
+&lt;p&gt;摘自：&lt;a href=&#34;https://www.tableau.com/learn/articles/time-series-analysis-books&#34; class=&#34;uri&#34;&gt;https://www.tableau.com/learn/articles/time-series-analysis-books&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;时间系列分析是一个独特的领域，参考书大致分两类：一是时间序列分析的基本理论和基础知识的经典书籍；二是有实例和练习的学术教科类书籍。推荐以下书籍，供自学和参考。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>开始使用Github Desktop</title>
+      <link>https://taopj.github.io/blog/2021/05/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8github-desktop/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/2021/05/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8github-desktop/</guid>
+      <description>笔记本上安装了Github。 所以 开始使用Github写blog。 主要是 记录 负荷预测、季节调整和R的开发过程。</description>
+    </item>
+    
+    <item>
+      <title>完成概率负荷预测所有理论</title>
+      <link>https://taopj.github.io/blog/2021/03/%E5%AE%8C%E6%88%90%E6%A6%82%E7%8E%87%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B%E6%89%80%E6%9C%89%E7%90%86%E8%AE%BA/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/2021/03/%E5%AE%8C%E6%88%90%E6%A6%82%E7%8E%87%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B%E6%89%80%E6%9C%89%E7%90%86%E8%AE%BA/</guid>
+      <description>完成了概率负荷预测的所有理论，和技术实现。</description>
+    </item>
+    
     <item>
       <title>启动失败再次安装</title>
       <link>https://taopj.github.io/blog/2020/10/%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%E5%86%8D%E6%AC%A1%E5%AE%89%E8%A3%85/</link>

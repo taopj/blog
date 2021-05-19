@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>安装 on taopj@sh.cn&#39;s blog</title>
+    <title>安装 on Taopj@sh.cn&#39;s Blog</title>
     <link>https://taopj.github.io/blog/tags/%E5%AE%89%E8%A3%85/</link>
-    <description>Recent content in 安装 on taopj@sh.cn&#39;s blog</description>
+    <description>Recent content in 安装 on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开始使用Github Desktop</title>
+      <link>https://taopj.github.io/blog/2021/05/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8github-desktop/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/2021/05/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8github-desktop/</guid>
+      <description>笔记本上安装了Github。 所以 开始使用Github写blog。 主要是 记录 负荷预测、季节调整和R的开发过程。</description>
+    </item>
+    
     <item>
       <title>启动失败再次安装</title>
       <link>https://taopj.github.io/blog/2020/10/%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%E5%86%8D%E6%AC%A1%E5%AE%89%E8%A3%85/</link>

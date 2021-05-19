@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>研究 on Taopj@sh.cn&#39;s Blog</title>
+    <link>https://taopj.github.io/blog/tags/%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 研究 on Taopj@sh.cn&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>完成概率负荷预测所有理论</title>
+      <link>https://taopj.github.io/blog/2021/03/%E5%AE%8C%E6%88%90%E6%A6%82%E7%8E%87%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B%E6%89%80%E6%9C%89%E7%90%86%E8%AE%BA/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/2021/03/%E5%AE%8C%E6%88%90%E6%A6%82%E7%8E%87%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B%E6%89%80%E6%9C%89%E7%90%86%E8%AE%BA/</guid>
+      <description>完成了概率负荷预测的所有理论，和技术实现。</description>
+    </item>
+    
+  </channel>
+</rss>
