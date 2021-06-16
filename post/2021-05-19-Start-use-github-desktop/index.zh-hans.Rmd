@@ -1,0 +1,19 @@
+---
+title: 开始使用Github Desktop
+author: Taopj
+date: '2021-05-19'
+slug: index.zh-hans
+showLicense: false
+showToc: true
+categories:
+  - 网站维护
+tags:
+  - Github
+---
+
+笔记本上安装了Github。
+所以
+开始使用Github写我的blog。
+主要是
+记录
+负荷预测、季节调整和R的开发过程。

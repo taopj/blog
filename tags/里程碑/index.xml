@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>里程碑 on Taopj@sh.cn&#39;s Blog</title>
+    <link>https://taopj.github.io/blog/tags/%E9%87%8C%E7%A8%8B%E7%A2%91/</link>
+    <description>Recent content in 里程碑 on Taopj@sh.cn&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/%E9%87%8C%E7%A8%8B%E7%A2%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>完成概率负荷预测所有理论</title>
+      <link>https://taopj.github.io/blog/post/2021-03-10-completefctthero/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2021-03-10-completefctthero/</guid>
+      <description>完成了概率负荷预测的所有理论，和技术实现。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>季节调整 on Taopj@sh.cn&#39;s Blog</title>
+    <link>https://taopj.github.io/blog/categories/%E5%AD%A3%E8%8A%82%E8%B0%83%E6%95%B4/</link>
+    <description>Recent content in 季节调整 on Taopj@sh.cn&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 12 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/categories/%E5%AD%A3%E8%8A%82%E8%B0%83%E6%95%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>时间序列分析的基本概念</title>
+      <link>https://taopj.github.io/blog/post/2021-06-12-timeseriesanalysisthebasics/</link>
+      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2021-06-12-timeseriesanalysisthebasics/</guid>
+      <description>这是一篇来自澳大利亚统计局 (https://www.abs.gov.au/) 的关于时间序列的一些基本概念的文章。 尝试用中英对照看看。 原文在此–《</description>
+    </item>
+    
+    <item>
+      <title>假日政策历史回顾</title>
+      <link>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</guid>
+      <description>季节调整程序（X13-Arima-AS）需要假日数据，因此，收集了一些建国以来中国假日变化情况历</description>
+    </item>
+    
+    <item>
+      <title>关于时间序列的7本好书</title>
+      <link>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</guid>
+      <description>关于时间系列分析的 7 本好书 摘自：https://www.tableau.com/learn/ar</description>
+    </item>
+    
+  </channel>
+</rss>

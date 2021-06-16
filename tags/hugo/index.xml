@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on taopj@sh.cn&#39;s blog</title>
+    <title>Hugo on Taopj@sh.cn&#39;s Blog</title>
     <link>https://taopj.github.io/blog/tags/hugo/</link>
-    <description>Recent content in hugo on taopj@sh.cn&#39;s blog</description>
+    <description>Recent content in Hugo on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>更新本站theme</title>
+      <link>https://taopj.github.io/blog/post/2021-06-16-update-hugo-theme/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2021-06-16-update-hugo-theme/</guid>
+      <description>更新本站theme，用了hugo-theme-Fuji V2.60。同时增加了categories</description>
+    </item>
+    
+    <item>
+      <title>启动失败再次安装</title>
+      <link>https://taopj.github.io/blog/post/2020-10-24-%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%E5%86%8D%E6%AC%A1%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2020-10-24-%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%E5%86%8D%E6%AC%A1%E5%AE%89%E8%A3%85/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;启动服务、增加post用Addins菜单。&lt;/strong&gt;（好久不用容易忘）&lt;/p&gt;
+&lt;p&gt;前几天对所有项目目录进行了整理，调整了blogs的目录位置。然后……&lt;/p&gt;
+&lt;p&gt;启动失败，只能重新来过，以下是重装过程。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修改界面主题</title>
+      <link>https://taopj.github.io/blog/post/2020-08-29-%E4%BF%AE%E6%94%B9theme/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2020-08-29-%E4%BF%AE%E6%94%B9theme/</guid>
+      <description>&lt;p&gt;折腾了两天Hugo的&lt;strong&gt;界面主题（theme）&lt;/strong&gt;，总算选定了这个&lt;a href=&#34;https://github.com/amzrk2/hugo-theme-fuji/&#34; target=&#34;_blank&#34;&gt;amzrk2/hugo-theme-fuji&lt;/a&gt; 。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>开篇（安装blogdown）</title>
-      <link>https://taopj.github.io/blog/2020/08/%E5%BC%80%E7%AF%87%E5%AE%89%E8%A3%85blogdown/</link>
+      <link>https://taopj.github.io/blog/post/2020-08-27-%E5%BC%80%E7%AF%87/</link>
       <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://taopj.github.io/blog/2020/08/%E5%BC%80%E7%AF%87%E5%AE%89%E8%A3%85blogdown/</guid>
+      <guid>https://taopj.github.io/blog/post/2020-08-27-%E5%BC%80%E7%AF%87/</guid>
       <description>&lt;p&gt;第一次成功运行blogdown，生成了一下这个第一篇blog。
 庆祝一下在Rstudio中手动安装成功hugo，并生成了缺省界面的blog网站。&lt;/p&gt;</description>
     </item>
