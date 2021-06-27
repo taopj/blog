@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="HandheldFriendly" content="True" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="generator" content="Hugo 0.83.1" />
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/amzrk2/cdn-stcapi@1/favicons/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/amzrk2/cdn-stcapi@1/favicons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/amzrk2/cdn-stcapi@1/favicons/favicon-16x16.png" />
+<link rel="manifest" href="https://cdn.jsdelivr.net/gh/amzrk2/cdn-stcapi@1/favicons/site.webmanifest" />
+<link rel="mask-icon" href="https://cdn.jsdelivr.net/gh/amzrk2/cdn-stcapi@1/favicons/safari-pinned-tab.svg" color="#8aa2d3" />
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/amzrk2/cdn-stcapi@1/favicons/favicon.ico" />
+<meta name="theme-color" content="#ffffff" />
+
+
+<title>季节调整历史 - Taopj@sh.cn&#39;s Blog</title>
+
+
+<meta name="author" content="Taopj" />
+
+
+<meta name="description" content="Taopj@sh.cn&#39;s Blog." />
+
+
+<meta name="keywords" content="研究" />
+
+
+<meta property="og:title" content="季节调整历史" />
+<meta name="twitter:title" content="季节调整历史" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://taopj.github.io/blog/post/2021-06-27-historyofseasonaladjustment/" /><meta property="og:description" content="季节调整理论研究已经有超过百年的历史了，在经济社会中的成熟应用也有超过50年的历史，然而，真正开" />
+<meta name="twitter:description" content="季节调整理论研究已经有超过百年的历史了，在经济社会中的成熟应用也有超过50年的历史，然而，真正开" /><meta property="og:image" content="https://taopj.github.io/img/og.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://taopj.github.io/img/og.png" /><meta property="article:published_time" content="2021-06-27T00:00:00+00:00" /><meta property="article:modified_time" content="2021-06-27T00:00:00+00:00" />
+
+
+<style>
+    @media (prefers-color-scheme: dark) {
+        body[data-theme='auto'] img {
+            filter: brightness(60%);
+        }
+    }
+
+    body[data-theme='dark'] img {
+        filter: brightness(60%);
+    }
+</style>
+
+
+
+
+<link rel="stylesheet" href="https://taopj.github.io/blog/assets/css/fuji.min.css" />
+
+
+
+
+
+
+
+
+</head>
+
+<body
+  data-theme="auto"
+  data-theme-auto='true'
+  >
+    <script data-cfasync="false">
+  
+  var fujiThemeData = localStorage.getItem('fuji_data-theme');
+  
+  if (!fujiThemeData) {
+    localStorage.setItem('fuji_data-theme', 'auto');
+  } else {
+    
+    if (fujiThemeData !== 'auto') {
+      document.body.setAttribute('data-theme', fujiThemeData === 'dark' ? 'dark' : 'light');
+    }
+  }
+</script>
+
+    <header>
+    <div class="container-lg clearfix">
+        <div class="col-12 header">
+            <a class="title-main" href="https://taopj.github.io/blog/">Taopj@sh.cn&#39;s Blog</a>
+            
+            <span class="title-sub">负荷预测、季节调整和R.</span>
+            
+        </div>
+    </div>
+</header>
+
+    <main>
+        <div class="container-lg clearfix">
+            
+            <div class="col-12 col-md-9 float-left content">
+                
+<article>
+    
+    <h2 class="post-item post-title">
+        <a href="https://taopj.github.io/blog/post/2021-06-27-historyofseasonaladjustment/">季节调整历史</a>
+    </h2>
+    <div class="post-item post-meta">
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2021-06-27</span>
+
+<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;3826 字</span>
+<span><i class="iconfont icon-time-sharp"></i>&nbsp;8 分钟</span>
+<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/blog/tags/%E7%A0%94%E7%A9%B6">研究</a>&nbsp;</span>
+
+
+    </div>
+    
+    <div class="post-content markdown-body">
+        <p>季节调整理论研究已经有超过百年的历史了，在经济社会中的成熟应用也有超过50年的历史，然而，真正开始在社会生活各方面的广泛应用也还是在计算机应用日益普及以及<a href="https://www.census.gov" target="_blank">美国普查局</a>和<a href="https://ec.europa.eu/eurostat/web/main/home" target="_blank">欧洲统计局</a>大力推进<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>之后的事了。季节调整从“阳春白雪”开始走入寻常百姓生活只是再一次证明了从科学研究到社会应用实在是一个道阻且长的进程。</p>
+<h2 id="SAHistory">季节调整的历史发展</h2>
+<p>将时间序列分解为未观察到的组成部分的想法早在19世纪就出现在经济学家的作品中<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>。当时许多研究的目的是揭示 &ldquo;周期&rdquo;，对其进行研究和分析使解释和预测经济危机成为可能。在这种情况下，短期的周期性成分，特别是那些与季节有关的成分是没有什么意义的。</p>
+<p>就宏观经济时间序列而言，基于线性滤波的平滑技术，特别是移动平均数，在20世纪20年代初已经为人所知，但在实践中却很少使用。在20世纪20年代末，新的平滑过滤器的发展使非参数或 &ldquo;经验 &ldquo;方法得到了更广泛的传播。同时，Joy A.和Thomas（1928）提出了一种基于移动平均数的方法，能够考虑到联邦储备委员会遵循的许多系列中存在的季节性波动的长期变化。逐步地，政府和统计局开始应用这种方法来获得季节性调整的时间序列。</p>
+<p>在第二次世界大战后的几年里，计算机科学的发展在很大程度上促进了非参数方法的传播和改进。在这方面，最著名的方法当然是X-11。1954年，Julius Shiskin在美国普查局首先开发了在计算机上运行的程序对时间序列进行季节调整，称为X-1。此后，季节调整的方法每改进一次都以X加上序号表示<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>，仍然由同一个团队开发。1965年,美国普查局推出了比较完整的季节调整程序X-11。由于这是第一个季节调整的自动方法，它很快被世界各地的许多统计机构采用，季节调整方法开始走向成熟并被广泛使用<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>。</p>
+<p>继Box和Jenkins在20世纪70年代关于ARIMA（自回归整合移动平均）模型的工作之后，X-11的一个新变体被开发出来，称为X11-ARIMA。X11-ARIMA是加拿大统计局的Dagum基于Box和Jenkins的理论提出的X-11程序的改进，并在X11-ARIMA/80中实现，1988 年更新为 X11-ARIMA/88。这个方法不仅包含了X-11的所有优点，而且还具有通过ARIMA模型在季节调整前向前或向后扩展时间序列的能力。</p>
+<p>在 20 世纪 90 年代末，美国普查局推出了X-12-ARIMA模型，它基本上囊括了X11-ARIMA/88的所有功能，并使用 regARIMA 模型，X-12-ARIMA 提供了有用的增强功能，包括：在季节调整之前使用来自 ARIMA 模型的预测和回溯扩展时间序列、对使用用户定义的回归量估计的影响进行调整、额外的季节性和趋势过滤器选项<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>、替代季节性趋势-不规则分解、调整质量和稳定性的附加诊断、广泛的时间序列建模和具有 ARIMA 错误的线性回归模型的模型选择功能。</p>
+<p>20世纪末，由西班牙中央银行的Victor Gómez和Agustín Maravall研制并推出TRAMO/SEATS模型，并 于2001 年用TSW程序 实现。该模型被广泛用于欧盟成员国季度和月度数据的季节调整。TRAMO使用由带有ARIMA误差的回归变量组成的混合模型进行估计、预测和插值，而SEATS先对TRAMO生成的静止线性序列拟合一个ARIMA模型，再将时间序列分解为趋势-周期、季节和不规则成分。</p>
+<p>2012年7月，美国普查局与西班牙银行合作发布了X-13ARIMA-SEATS，它基本是X-12-ARIMA和TRAMO-SEATS季节调整程序的合并<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>。</p>
+<p>2014年，基于TSW程序，西班牙银行的 Gianluca Caporello 和 Agustin Maravall 开发了TRAMO-SEATS+ ，并得到了 Domingo Perez 和 Roberto Lopez 的编程支持（TSW+程序）。</p>
+<p>除了以上方法外，世界各国还开发了一些其他方法，包括：1979年欧盟委员会开发的官方季节性调整方法DAINTIES，它以移动回归方法为基础，并假定在基数为10的对数加法分解的基础上进行加法或乘法分解；Nourney提出的一种基于移动滤波应用的季节性调整方法BV4，由回归方法的近似函数导出，它最初由柏林工业大学和德国经济研究所开发，它是德国中央统计局的官方季节性调整方法；Koopman等人在伦敦政治经济学院开发的STAMP软件，采用的是STS方法；日本数学统计研究所开发了BAYSEA和DECOMP软件；Bruce和Jurke开发的MING（基于MIxture的非高斯方法）软件；Young和Benner提出的MicroCAPTAIN软件；Bell在美国人口普查局开发的基于RegComponent模型的regCMPNT软件。</p>
+<h3 id="SAHistory-JDemetra">关于JDemetra+ </h3>
+<p>上述这些原始的季节调整程序被用户普遍认为难以操作。因此，为了让非专家更好地使用这些 季节调整 方法，2012 年开始，比利时国家银行（NBB）在欧盟统计局和欧洲中央银行的支持下与德国联邦银行合作开发用于季节调整和其他相关时间序列问题的开源、平台独立、可扩展软件 JDemetra+，创新地是按照真正的面向对象的方法用JAVA重写了X-12-ARIMA/X-13ARIMA-SEATS和TRAMO-SEATS+的原始FORTRAN代码，这使得软件可以更轻松地处理、扩展和修改。除了季节性调整外，JDemetra+ 还捆绑了在经济统计数据的生成或分析中有用的其他时间序列模型，包括例如异常值检测、临近预报、时间分解和基准测试。2015 年2月2日起，JDemetra+已被正式推荐给 ESS 和欧洲中央银行系统的成员，作为官方统计数据的季节性和日历调整软件。</p>
+<h3 id="SAHistory-China">中国季节调整的发展 </h3>
+<p>我国季节调整研究和应用起步较晚。2005年中国人民银行立项了“时间序列X-12-ARIMA季节调整”科技项目，由该行调查统计司牵头，会同南开大学、中国人民大学和武汉理工大学相关专家研究了季节调整的原理和方法，并对美国普查局提供的X-12软件进行了中国本地化改造和扩展功能的实现。此后，中国人民银行开始对金融序列进行季节调整。</p>
+<p>2009年国家统计局决定研制中国的季节调整软件NBS-SA，并于2010年推出正式版本。它是X-13ARIMA-SEATS的中国版，核心计算部分未作改动，只是在中国工作日和交易日效应的处理方面嵌入了结合中国国情的一些节假日效应，包括春节、中秋、端午以及工作日变化等的季节效应变量。经国务院批准，国家统计局于2011年4月正式发布季节调整数据，从而结束了中国官方不公布环比数据的历史。</p>
+<h3 id="SAHistory-Conclusion">结语 </h3>
+<p>季节调整是官方统计业务流程的重要组成部分。这种技术被广泛用于从时间序列中估计和去除季节性和日历相关的运动，从而产生能够清晰显示经济现象的数据。但目前还没有关于一种方法系统地优于其他方法的明确结论，因此同时使用几种类型的方法是有益的。欧洲统计局的JDemetra+和美国普查局的X-13ARIMA-SEATS程序都是朝着这个方向发展的，因为它们可以轻松实现X-12ARIMA和TRAMO-SEATS。为便于季节调整推广以及软件的应用、开发和维护，这些软件都是跨平台的且公开了源代码。</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>这包括理论研究的汇总比较、季节调整标准框架的构建、用户友好的跨平台软件和通俗易懂的软件使用教程编制和软件源代码公开等方面的卓越工作。这些工作正在使越来越多的非专家人员参与到季节调整工作中来，并有力推动了季节调整在方法和实践中的发展。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>根据中国人民银行“时间序列X-12-ARIMA季节调整项目”课题组的研究，1854~1856年爱尔兰吉伯特(John Thomas Gilbert, 1829~1898 )和英国巴贝奇( Charles Babbage, 1792~1871 ) 分别在伦敦统计学会杂志上发表论文&quot;钞票的流通&quot;和&quot;票据交换&quot;对季节变动做了最初研究，这是可查到的研究经济数据季节变动的最早记录。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>这些版本的改进都直接受到移动平均平滑技术和Macaulay作品的启发，这一改进过程中有几个较为重要的版本：1960年X-3发布，它的特点是特异项的代替方法和季节要素的计算方法有了进一步改进；1961年X-10方法发布，它考虑到了根据不规则变动和季节变动的相对大小来选择计算季节要素的移动平均项数；在这段时期，美国劳工局也推出了自己的季节调整方法即BLS法(最后也转向了X-11)。&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>类似X-11风格的方法包括：澳大利亚统计局1987年提出的SEASABS方法，它是一个基于知识的季节性分析和调整工具；英格兰银行开发的GLAS方法，用于获得季节性调整的货币变量；贝尔实验室提出的SABL和STL方法。&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>即允许用户在季节性调整之前预先调整序列以处理异常值和日历效果。&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p>X-12-ARIMA/X-13ARIMA-SEATS和TRAMO/SEATS+两种方法都分为两个主要部分。第一部分被称为预调整。它通过一个带有ARIMA噪音的回归模型，从系列中去除各种确定性的影响。第二部分是时间序列的分解，目的是估计和去除时间序列中的季节性成分。两种方法在第一部分使用了非常相似的方法来估计处理步骤中的相同模型，但它们在分解步骤中完全不同。因此，比较分解的结果往往是困难的。此外，它们的诊断方法侧重于不同的方面，其输出的形式也完全不同。&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+</article>
+
+
+
+
+            </div>
+            <aside class="col-12 col-md-3 float-left sidebar">
+    
+    <div class="sidebar-item sidebar-pages">
+        <h3>页面</h3>
+        <ul>
+            
+            <li>
+                <a href="/blog/">本站首页</a>
+            </li>
+            
+            <li>
+                <a href="/blog/search/">站内查找</a>
+            </li>
+            
+            <li>
+                <a href="/blog/archives/">档案历史</a>
+            </li>
+            
+            <li>
+                <a href="/blog/index.xml">RSS</a>
+            </li>
+            
+            <li>
+                <a href="/blog/about/">关于本站</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-tags">
+        <h3>标签</h3>
+        <div>
+            
+            <span>
+                <a href="/blog/tags/github/">Github</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/hugo/">Hugo</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E5%81%87%E6%97%A5/">假日</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E5%8F%82%E8%80%83%E4%B9%A6/">参考书</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/">时间序列</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E7%A0%94%E7%A9%B6/">研究</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E8%AF%91%E6%96%87/">译文</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E9%87%8C%E7%A8%8B%E7%A2%91/">里程碑</a>
+            </span>
+            
+        </div>
+    </div>
+    
+    <div class="sidebar-item sidebar-categories">
+        <h3>分类</h3>
+        <div>
+            
+            <span>
+                <a href="/blog/categories/%E5%AD%A3%E8%8A%82%E8%B0%83%E6%95%B4/">季节调整</a>
+            </span>
+            
+            <span>
+                <a href="/blog/categories/%E6%A8%A1%E6%9D%BF%E8%87%AA%E5%B8%A6/">模板自带</a>
+            </span>
+            
+            <span>
+                <a href="/blog/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/">网站维护</a>
+            </span>
+            
+            <span>
+                <a href="/blog/categories/%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B/">负荷预测</a>
+            </span>
+            
+        </div>
+    </div>
+    
+    <div class="sidebar-item sidebar-links">
+        <h3>链接</h3>
+        <ul>
+            
+            <li>
+                <a href="https://taopj.github.io/blog/" target="_blank"><span>GitHub</span></a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="sidebar-item sidebar-toc">
+        <h3>目录</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#SAHistory">季节调整的历史发展</a>
+      <ul>
+        <li><a href="#SAHistory-JDemetra">关于JDemetra+ </a></li>
+        <li><a href="#SAHistory-China">中国季节调整的发展 </a></li>
+        <li><a href="#SAHistory-Conclusion">结语 </a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+</aside>
+
+        </div>
+        <div class="btn">
+    <div class="btn-menu" id="btn-menu">
+        <i class="iconfont icon-grid-sharp"></i>
+    </div>
+    <div class="btn-toggle-mode">
+        <i class="iconfont icon-contrast-sharp"></i>
+    </div>
+    <div class="btn-scroll-top">
+        <i class="iconfont icon-chevron-up-circle-sharp"></i>
+    </div>
+</div>
+<aside class="sidebar-mobile" style="display: none;">
+  <div class="sidebar-wrapper">
+    
+    <div class="sidebar-item sidebar-pages">
+        <h3>页面</h3>
+        <ul>
+            
+            <li>
+                <a href="/blog/">本站首页</a>
+            </li>
+            
+            <li>
+                <a href="/blog/search/">站内查找</a>
+            </li>
+            
+            <li>
+                <a href="/blog/archives/">档案历史</a>
+            </li>
+            
+            <li>
+                <a href="/blog/index.xml">RSS</a>
+            </li>
+            
+            <li>
+                <a href="/blog/about/">关于本站</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-links">
+        <h3>链接</h3>
+        <ul>
+            
+            <li>
+                <a href="https://taopj.github.io/blog/" target="_blank"><span>GitHub</span></a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-tags">
+        <h3>标签</h3>
+        <div>
+            
+            <span>
+                <a href="/blog/tags/github/">Github</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/hugo/">Hugo</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E5%81%87%E6%97%A5/">假日</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E5%8F%82%E8%80%83%E4%B9%A6/">参考书</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/">时间序列</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E7%A0%94%E7%A9%B6/">研究</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E8%AF%91%E6%96%87/">译文</a>
+            </span>
+            
+            <span>
+                <a href="/blog/tags/%E9%87%8C%E7%A8%8B%E7%A2%91/">里程碑</a>
+            </span>
+            
+        </div>
+    </div>
+    
+    
+    
+    <div class="sidebar-item sidebar-toc">
+        <h3>目录</h3>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#SAHistory">季节调整的历史发展</a>
+      <ul>
+        <li><a href="#SAHistory-JDemetra">关于JDemetra+ </a></li>
+        <li><a href="#SAHistory-China">中国季节调整的发展 </a></li>
+        <li><a href="#SAHistory-Conclusion">结语 </a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+    
+    
+  </div>
+</aside>
+    </main>
+
+    <footer>
+    <div class="container-lg clearfix">
+        <div class="col-12 footer">
+            
+            <span>&copy; 2020-2021
+                <a href="https://taopj.github.io/blog/">Taopj@sh.cn</a>
+                
+                
+                | 基于 <a href="https://gohugo.io/"
+                                                    target="_blank">Hugo</a> &amp; <a href="https://github.com/dsrkafuu/hugo-theme-fuji/"
+                   target="_blank">Fuji-v2</a>  构建 | 增加显示“分类”
+            </span>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+    
+<script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-core.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+
+<script defer src="/blog/assets/js/fuji.min.js"></script>
+
+
+
+</body>
+
+</html>
