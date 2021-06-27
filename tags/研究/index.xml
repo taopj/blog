@@ -16,5 +16,14 @@
       <description>季节调整理论研究已经有超过百年的历史了，在经济社会中的成熟应用也有超过50年的历史，然而，真正开</description>
     </item>
     
+    <item>
+      <title>假日政策历史回顾</title>
+      <link>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</guid>
+      <description>季节调整程序（X13-Arima-AS）需要假日数据，因此，收集了一些建国以来中国假日变化情况历</description>
+    </item>
+    
   </channel>
 </rss>
