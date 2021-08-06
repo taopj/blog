@@ -6,7 +6,16 @@
     <description>Recent content in 研究 on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开始空调负荷理论研究</title>
+      <link>https://taopj.github.io/blog/post/2021-08-06-weather-sensitive-load/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2021-08-06-weather-sensitive-load/</guid>
+      <description>** 没有气象因素参与的负荷分析预测都是耍流氓！** &amp;ndash; 题记20210806 尽管3月底前后大部份的编程</description>
+    </item>
+    
     <item>
       <title>季节调整历史</title>
       <link>https://taopj.github.io/blog/post/2021-06-27-historyofseasonaladjustment/</link>

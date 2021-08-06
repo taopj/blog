@@ -6,7 +6,16 @@
     <description>Recent content in 负荷预测 on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/categories/%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/categories/%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开始空调负荷理论研究</title>
+      <link>https://taopj.github.io/blog/post/2021-08-06-weather-sensitive-load/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2021-08-06-weather-sensitive-load/</guid>
+      <description>** 没有气象因素参与的负荷分析预测都是耍流氓！** &amp;ndash; 题记20210806 尽管3月底前后大部份的编程</description>
+    </item>
+    
     <item>
       <title>梅沙尖</title>
       <link>https://taopj.github.io/blog/post/2021-03-28-meishajian/</link>
