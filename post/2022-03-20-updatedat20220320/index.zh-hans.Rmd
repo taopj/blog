@@ -50,7 +50,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-## 两年年度电量预测结果
+## 十年年度电量预测结果
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 # 实际值
@@ -145,7 +145,7 @@ cbnFctAct |>
 
 ```
 
-## 五年预测偏差结果
+## 五年预测电量偏差
 
 ```{r  echo=FALSE, message=FALSE, warning=FALSE}
 # 各月对当年预测准确率
