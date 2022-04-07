@@ -1,0 +1,180 @@
+---
+title: 5年预测评估
+author: taopj
+date: '2022-03-20'
+slug: index.zh-hans
+categories:
+  - 负荷预测
+tags:
+  - 研究
+  - 里程碑
+editor_options: 
+  chunk_output_type: console
+---
+
+对从2010年开始的各月5年预测结果进行了回顾，增加基准方法（GEN，ETS(log)方法）进行比较，相关结论如下：
+
+1、总体上看，包含气象分解的MTLF比GEN预测更加集中（各月预测全年值波动更小）--基于气象分解的预测理论是成立的；
+
+2、年初预测当年电量的总体偏差从4%下降为2%左右；
+
+3、5年预测MTLF比GEN预测更快回归“正轨”，且预测精度提升了40%左右（年初预测第5年全年电量偏差从25%降为15%）；
+
+4、从MAPE看，BU预测更准确，但其预测数学偏差比直接预测要更偏离0线（更高），可能：
+    a、与数据按购售同期调整后再回算有关；
+    b、与气象响应系数的逐年较快速变化有关；
+    c、与预测中未加入经济因素，且近年上海经济增长趋缓有关。
+
+即后续宜按MTLF_BU预测结果作为预测基础，进一步完善。
+
+
+```{r setup, include=FALSE}
+
+## 目标
+#  >  
+#  - 展现预测成果，当前预测方法有效！！--20220313
+
+knitr::opts_chunk$set(echo = TRUE)
+# knitr::opts_chunk$set(include = FALSE)
+# knitr::opts_chunk$set(include = FALSE)
+# 一、加载库----
+    #清空环境
+        rm(list = ls())
+        # library(lmtest) #用于格兰杰因果检验
+        library(ggplot2)
+        library(DT)
+
+# 二、读取数据 ------
+    source("c:/R/projects/ComFiles/TaoCommonFuncV25.R", encoding = "utf-8")
+    source("c:/R/projects/ComFiles/TaoReportFuncV25.R", encoding = "utf-8")
+
+```
+
+## 两年年度电量预测结果
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# 实际值
+    MC10KAct <- rdrDB3("Edate,PhaseCode,IndexName,FLOW","TDY_EL_MonMConsumpStat",
+                       list(list("PhaseCode","Y"),
+                            list("IndexName","MC10000"))) |> 
+        filter(month(Edate)==12) |> 
+        mutate(FLOW=FLOW/10000) |> 
+        arrange(desc(Edate))
+
+# MTLF预测值New
+    FctMN_MTLF <- rdrDB3("Edate,Updated,PhaseCode,IndexName,Fct_MN","FCT_EL_FctEcMcStat",
+                         list(list("PhaseCode","Y"))
+                         ) |>
+        filter(str_detect(IndexName,"MC100")) |> 
+        mutate(nFctYr=year(Edate)-year(Updated),
+               nFctMon=month(Updated)) |> 
+        transmute(Y=year(Edate),nFctMon,nFctYr,MdlName="MTLF",IndexName,Fct_MN)
+
+# # MTLF预测值old
+#     FctMN_MTLFold <- rdrDB3("Edate,Updated,PhaseCode,IndexName,Fct_MN","FCT_EL_FctEcMcStat0402",
+#                          list(list("PhaseCode","Y"))
+#                          ) |>
+#         filter(str_detect(IndexName,"MC100")) |> 
+#         mutate(nFctYr=year(Edate)-year(Updated),
+#                nFctMon=month(Updated)) |> 
+#         transmute(Y=year(Edate),nFctMon,nFctYr,MdlName="MTLFold",IndexName,Fct_MN)
+
+    
+    # fctold <- ReadDBTbl_DS("FCT_EL_FctEcMcStat")
+    # AntiBRow_DB("FCT_EL_FctEcMcStat0402",fctold)
+    
+#GEN预测值
+    # # FctMN_GEN <- ReadDBTbl_DS("FCT_EL_McGenFct5Yrs") |> 
+    # # FctMN_GEN <- ReadDBTbl_DS("FCT_EL_McGenFct5YrsSpan") |> 
+    # # FctMN_GEN <- ReadDBTbl_DS("FCT_EL_McGenFct5YrsSpan1") |> 
+    # FctMN_GEN <- ReadDBTbl_DS("FCT_EL_McGenFct5YrsSpan2") |> 
+    #     unnest(cols = c(EcAllFct)) |> 
+    #     mutate(nFctYr=Y-year(Updated),
+    #            nFctMon=month(Updated)) |> 
+    #     transmute(Y,nFctMon,nFctYr,MdlName,IndexName,Fct_MN=FctMN)
+    
+    FctMN_GENRaw <-  ReadDBTbl_DS("FCT_EL_GenMetFctAll") |>
+    # 按MdlName，合并产业电量生成总电量
+        filter(IndexName %in% c("MC1110A","MC1120A","MC1130A","MC1200A")) |>
+        # filter(str_detect(MdlName,"DRM")) |> unnest() |> View()
+        unnest(cols = c(EcAllFct)) |>
+        group_by(Updated,MdlName,Y) |>
+        summarise(FctMN=sum(FctMN),.groups = "drop") |>
+        group_by(Updated,MdlName) |>
+        nest(EcAllFct=c(Y,FctMN))|>
+        ungroup() |>
+        transmute(Updated,MdlName,IndexName="MC1000A",EcAllFct) |> 
+    # 合并原直接预测总电量
+        bind_rows(ReadDBTbl_DS("FCT_EL_GenMetFctAll") |> filter(IndexName=="MC10000"))
+            
+        # mutate(Mdlcats=case_when(
+        #     str_detect(MdlName,"Gen")~ "GEN",
+        #     str_detect(MdlName,"MA2")~ "MA2"
+        # )) |> 
+        # 
+    FctMN_GEN <- FctMN_GENRaw |>
+        unnest(cols = c(EcAllFct)) |>
+        mutate(nFctYr=Y-year(Updated),
+               nFctMon=month(Updated)) |>
+        transmute(Y,nFctMon,nFctYr,MdlName,IndexName,Fct_MN=FctMN)
+    
+# 合并数据
+    cbnFctAct <- bind_rows(FctMN_MTLF,FctMN_GEN) |> 
+        left_join(MC10KAct |> transmute(Y=year(Edate),FLOW),by="Y")
+
+# # 十年预测电量中值图
+cbnFctAct |>
+    # filter(MdlName=="MTLF") |> 
+    filter(MdlName %in% c("MTLF","GenArima","GenEts","GenPp")) |>
+    filter(IndexName=="MC1000A") |> 
+    filter(nFctYr<10) |> 
+    filter(nFctMon==1) |> 
+    mutate(Yr=Y-nFctYr) |> 
+    # filter(Y>2012 & Y!=2020) |>
+        ggplot(aes(x=Y))+
+        geom_line(aes(y=Fct_MN,color=as.factor(Yr),linetype=as.factor(Yr)))+ #linetype=as.factor(nFctMon)
+        # geom_point(aes(y=Fct_MN,shape=as.factor(Yr),color=as.factor(Yr)))+ 
+        geom_line(aes(y=FLOW),size=1)+
+        facet_wrap(vars(MdlName),scales = "fixed")+
+        scale_x_continuous(breaks = c(2010:2035))+
+        labs(#title="最近10年产业用电对季度全社会用电的拉动", # 图题
+             x = "年份", y = "全社会用电量（亿kWh）",
+             color = "预测年份",
+             linetype = "预测年份"
+             )
+
+```
+
+## 五年预测偏差结果
+
+```{r  echo=FALSE, message=FALSE, warning=FALSE}
+# 各月对当年预测准确率
+# 
+fctAPE <- cbnFctAct |> 
+    na.omit() |> 
+    mutate(MnDiff=(Fct_MN-FLOW)/FLOW) |> 
+    mutate(AbMnDiff=abs(Fct_MN-FLOW)/FLOW) 
+
+fctAPE |> 
+    filter(nFctYr==4) |> # 0对当年的预测
+    # filter(Y>2012 & Y!=2020) |>
+    # mutate(FctYr=year(Edate)-year(Updated)) |> 
+    filter(MdlName %in% c("MTLF","GenArima","GenEts","GenPp")) |>
+    filter(IndexName=="MC1000A") |>
+    group_by(nFctMon,nFctYr,MdlName) |> 
+    summarise(mnMAPE=mean(MnDiff,na.rm=TRUE),
+              AbmnMAPE=mean(AbMnDiff,na.rm=TRUE),
+              .groups = "drop") |> 
+    pivot_longer(c(mnMAPE,AbmnMAPE),names_to = "MapeType",
+                 values_to = "MapeValue") |> 
+    ggplot(aes(x=nFctMon))+
+    geom_line(aes(y=0),color="steelblue")+ # 基准线
+    geom_line(aes(y=MapeValue,
+                  color=as.factor(MapeType),
+                  linetype=as.factor(MapeType)))+
+    facet_wrap(vars(MdlName),scales = "fixed")+ # 按预测年和模型
+    labs(x="预测月份",y="五年预测偏差率",
+         color = "偏差类型",linetype = "偏差类型")+
+        scale_x_continuous(breaks = c(1:12))+
+        scale_y_continuous(labels = scales::percent)
+```

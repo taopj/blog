@@ -6,7 +6,25 @@
     <description>Recent content in 负荷预测 on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/categories/%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/categories/%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MTLF完成V30更新</title>
+      <link>https://taopj.github.io/blog/post/2022-04-07-finishmtlfv30/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2022-04-07-finishmtlfv30/</guid>
+      <description>完成了MTLF_V30版本更新。 当年年初电量预测平均偏差小于2.5%，4月之后预测平均偏差小于2</description>
+    </item>
+    
+    <item>
+      <title>5年预测评估</title>
+      <link>https://taopj.github.io/blog/post/2022-03-20-updatedat20220320/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2022-03-20-updatedat20220320/</guid>
+      <description>对从2010年开始的各月5年预测结果进行了回顾，增加基准方法（GEN，ETS(log)方法）进行</description>
+    </item>
+    
     <item>
       <title>开始空调负荷理论研究</title>
       <link>https://taopj.github.io/blog/post/2021-08-06-weather-sensitive-load/</link>
