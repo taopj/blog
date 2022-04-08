@@ -1,5 +1,5 @@
 ---
-title: 5年预测评估
+title: 预测方法评估
 author: taopj
 date: '2022-03-20'
 slug: index.zh-hans
@@ -12,20 +12,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-对从2010年开始的各月5年预测结果进行了回顾，增加基准方法（GEN，ETS(log)方法）进行比较，相关结论如下：
+对从2010年开始的各年初10年电量预测和各月5年预测偏差进行回顾，与基准方法（Arima、ETS、Prophet）预测进行比较。
 
-1、总体上看，包含气象分解的MTLF比GEN预测更加集中（各月预测全年值波动更小）--基于气象分解的预测理论是成立的；
+结论：
 
-2、年初预测当年电量的总体偏差从4%下降为2%左右；
-
-3、5年预测MTLF比GEN预测更快回归“正轨”，且预测精度提升了40%左右（年初预测第5年全年电量偏差从25%降为15%）；
-
-4、从MAPE看，BU预测更准确，但其预测数学偏差比直接预测要更偏离0线（更高），可能：
-    a、与数据按购售同期调整后再回算有关；
-    b、与气象响应系数的逐年较快速变化有关；
-    c、与预测中未加入经济因素，且近年上海经济增长趋缓有关。
-
-即后续宜按MTLF_BU预测结果作为预测基础，进一步完善。
+ 1. 包含气象分解的方法比基准方法预测更加准确，即基于气象分解的预测是有效的，可以显著提升预测准确率；
+ 
+ 2. 组合预测（zMTLF）可进一步提升预测准确率。
 
 
 ```{r setup, include=FALSE}
@@ -125,18 +118,26 @@ knitr::opts_chunk$set(echo = TRUE)
 # # 十年预测电量中值图
 cbnFctAct |>
     # filter(MdlName=="MTLF") |> 
-    filter(MdlName %in% c("MTLF","GenArima","GenEts","GenPp")) |>
+    filter(MdlName %in% c("MTLF","GenArima","ArimaMA2","GenEts","EtsMA2","GenPp","PpMA2")) |>
     filter(IndexName=="MC1000A") |> 
     filter(nFctYr<10) |> 
     filter(nFctMon==1) |> 
+    mutate(MdlName=case_when(
+        MdlName=="GenArima"~"ArimaGen",
+        MdlName=="GenEts"~"EtsGen",
+        MdlName=="GenPp"~"ProphetGen",
+        MdlName=="PpMA2"~"ProphetMA2",
+        MdlName=="MTLF"~"zMTLF",
+        TRUE ~ MdlName
+    )) |> 
     mutate(Yr=Y-nFctYr) |> 
     # filter(Y>2012 & Y!=2020) |>
         ggplot(aes(x=Y))+
         geom_line(aes(y=Fct_MN,color=as.factor(Yr),linetype=as.factor(Yr)))+ #linetype=as.factor(nFctMon)
         # geom_point(aes(y=Fct_MN,shape=as.factor(Yr),color=as.factor(Yr)))+ 
         geom_line(aes(y=FLOW),size=1)+
-        facet_wrap(vars(MdlName),scales = "fixed")+
-        scale_x_continuous(breaks = c(2010:2035))+
+        facet_wrap(vars(MdlName),ncol=2,scales = "fixed")+
+        scale_x_continuous(breaks = seq(2010,2035,by=5))+
         labs(#title="最近10年产业用电对季度全社会用电的拉动", # 图题
              x = "年份", y = "全社会用电量（亿kWh）",
              color = "预测年份",
@@ -159,20 +160,28 @@ fctAPE |>
     filter(nFctYr==4) |> # 0对当年的预测
     # filter(Y>2012 & Y!=2020) |>
     # mutate(FctYr=year(Edate)-year(Updated)) |> 
-    filter(MdlName %in% c("MTLF","GenArima","GenEts","GenPp")) |>
+    filter(MdlName %in% c("MTLF","GenArima","ArimaMA2","GenEts","EtsMA2","GenPp","PpMA2")) |>
     filter(IndexName=="MC1000A") |>
+    mutate(MdlName=case_when(
+        MdlName=="GenArima"~"ArimaGen",
+        MdlName=="GenEts"~"EtsGen",
+        MdlName=="GenPp"~"ProphetGen",
+        MdlName=="PpMA2"~"ProphetMA2",
+        MdlName=="MTLF"~"zMTLF",
+        TRUE ~ MdlName
+    )) |> 
     group_by(nFctMon,nFctYr,MdlName) |> 
-    summarise(mnMAPE=mean(MnDiff,na.rm=TRUE),
-              AbmnMAPE=mean(AbMnDiff,na.rm=TRUE),
+    summarise(MPE=mean(MnDiff,na.rm=TRUE),
+              MAPE=mean(AbMnDiff,na.rm=TRUE),
               .groups = "drop") |> 
-    pivot_longer(c(mnMAPE,AbmnMAPE),names_to = "MapeType",
+    pivot_longer(c(MPE,MAPE),names_to = "MapeType",
                  values_to = "MapeValue") |> 
     ggplot(aes(x=nFctMon))+
     geom_line(aes(y=0),color="steelblue")+ # 基准线
     geom_line(aes(y=MapeValue,
                   color=as.factor(MapeType),
                   linetype=as.factor(MapeType)))+
-    facet_wrap(vars(MdlName),scales = "fixed")+ # 按预测年和模型
+    facet_wrap(vars(MdlName),ncol=2,scales = "fixed")+ # 按预测年和模型
     labs(x="预测月份",y="五年预测偏差率",
          color = "偏差类型",linetype = "偏差类型")+
         scale_x_continuous(breaks = c(1:12))+

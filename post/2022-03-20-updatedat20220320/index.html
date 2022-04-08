@@ -22,7 +22,7 @@
 <meta name="theme-color" content="#ffffff" />
 
 
-<title>5年预测评估 - Taopj@sh.cn&#39;s Blog</title>
+<title>预测方法评估 - Taopj@sh.cn&#39;s Blog</title>
 
 
 <meta name="author" content="taopj" />
@@ -34,11 +34,11 @@
 <meta name="keywords" content="研究, 里程碑" />
 
 
-<meta property="og:title" content="5年预测评估" />
-<meta name="twitter:title" content="5年预测评估" />
+<meta property="og:title" content="预测方法评估" />
+<meta name="twitter:title" content="预测方法评估" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://taopj.github.io/blog/post/2022-03-20-updatedat20220320/" /><meta property="og:description" content="对从2010年开始的各月5年预测结果进行了回顾，增加基准方法（GEN，ETS(log)方法）进行" />
-<meta name="twitter:description" content="对从2010年开始的各月5年预测结果进行了回顾，增加基准方法（GEN，ETS(log)方法）进行" /><meta property="og:image" content="https://taopj.github.io/img/og.png" />
+<meta property="og:url" content="https://taopj.github.io/blog/post/2022-03-20-updatedat20220320/" /><meta property="og:description" content="对从2010年开始的各年初10年电量预测和各月5年预测偏差进行回顾，与基准方法（Arima、ET" />
+<meta name="twitter:description" content="对从2010年开始的各年初10年电量预测和各月5年预测偏差进行回顾，与基准方法（Arima、ET" /><meta property="og:image" content="https://taopj.github.io/img/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://taopj.github.io/img/og.png" /><meta property="article:published_time" content="2022-03-20T00:00:00+00:00" /><meta property="article:modified_time" content="2022-03-20T00:00:00+00:00" />
 
@@ -106,12 +106,12 @@
 <article>
     
     <h2 class="post-item post-title">
-        <a href="https://taopj.github.io/blog/post/2022-03-20-updatedat20220320/">5年预测评估</a>
+        <a href="https://taopj.github.io/blog/post/2022-03-20-updatedat20220320/">预测方法评估</a>
     </h2>
     <div class="post-item post-meta">
         <span><i class="iconfont icon-today-sharp"></i>&nbsp;2022-03-20</span>
 
-<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;363 字</span>
+<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;157 字</span>
 <span><i class="iconfont icon-time-sharp"></i>&nbsp;1 分钟</span>
 <span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/blog/tags/%E7%A0%94%E7%A9%B6">研究</a>&nbsp;<a href="/blog/tags/%E9%87%8C%E7%A8%8B%E7%A2%91">里程碑</a>&nbsp;</span>
 
@@ -122,15 +122,12 @@
         
 
 
-<p>对从2010年开始的各月5年预测结果进行了回顾，增加基准方法（GEN，ETS(log)方法）进行比较，相关结论如下：</p>
-<p>1、总体上看，包含气象分解的MTLF比GEN预测更加集中（各月预测全年值波动更小）–基于气象分解的预测理论是成立的；</p>
-<p>2、年初预测当年电量的总体偏差从4%下降为2%左右；</p>
-<p>3、5年预测MTLF比GEN预测更快回归“正轨”，且预测精度提升了40%左右（年初预测第5年全年电量偏差从25%降为15%）；</p>
-<p>4、从MAPE看，BU预测更准确，但其预测数学偏差比直接预测要更偏离0线（更高），可能：
-a、与数据按购售同期调整后再回算有关；
-b、与气象响应系数的逐年较快速变化有关；
-c、与预测中未加入经济因素，且近年上海经济增长趋缓有关。</p>
-<p>即后续宜按MTLF_BU预测结果作为预测基础，进一步完善。</p>
+<p>对从2010年开始的各年初10年电量预测和各月5年预测偏差进行回顾，与基准方法（Arima、ETS、Prophet）预测进行比较。</p>
+<p>结论：</p>
+<ol style="list-style-type: decimal">
+<li><p>包含气象分解的方法比基准方法预测更加准确，即基于气象分解的预测是有效的，可以显著提升预测准确率；</p></li>
+<li><p>组合预测（zMTLF）可进一步提升预测准确率。</p></li>
+</ol>
 <div id="十年年度电量预测结果" class="section level2">
 <h2>十年年度电量预测结果</h2>
 <p><img src="/blog/post/2022-03-20-updatedat20220320/index.zh-hans_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
