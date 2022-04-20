@@ -54,6 +54,7 @@ knitr::opts_chunk$set(echo = TRUE)
         mutate(FLOW=FLOW/10000) |> 
         arrange(desc(Edate))
 
+actbase <- (MC10KAct |> filter(year(Edate)==2010))$FLOW
 # MTLF预测值New
     FctMN_MTLF <- rdrDB3("Edate,Updated,PhaseCode,IndexName,Fct_MN","FCT_EL_FctEcMcStat",
                          list(list("PhaseCode","Y"))
@@ -131,6 +132,7 @@ cbnFctAct |>
         TRUE ~ MdlName
     )) |> 
     mutate(Yr=Y-nFctYr) |> 
+    mutate(Fct_MN=Fct_MN/actbase,FLOW=FLOW/actbase) |> #归一化，保密数据
     # filter(Y>2012 & Y!=2020) |>
         ggplot(aes(x=Y))+
         geom_line(aes(y=Fct_MN,color=as.factor(Yr),linetype=as.factor(Yr)))+ #linetype=as.factor(nFctMon)
@@ -139,7 +141,7 @@ cbnFctAct |>
         facet_wrap(vars(MdlName),ncol=2,scales = "fixed")+
         scale_x_continuous(breaks = seq(2010,2035,by=5))+
         labs(#title="最近10年产业用电对季度全社会用电的拉动", # 图题
-             x = "年份", y = "全社会用电量（亿kWh）",
+             x = "年份", y = "全社会用电量（归一化）",
              color = "预测年份",
              linetype = "预测年份"
              )
