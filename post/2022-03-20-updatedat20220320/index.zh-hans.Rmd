@@ -18,7 +18,7 @@ editor_options:
 
  1. 包含气象分解的方法比基准方法预测更加准确，即基于气象分解的预测是有效的，可以显著提升预测准确率；
  
- 2. 组合预测（zMTLF）可进一步提升预测准确率。
+ 2. 已验证简单组合预测可进一步提升预测准确率。
 
 
 ```{r setup, include=FALSE}
@@ -119,7 +119,8 @@ actbase <- (MC10KAct |> filter(year(Edate)==2010))$FLOW
 # # 十年预测电量中值图
 cbnFctAct |>
     # filter(MdlName=="MTLF") |> 
-    filter(MdlName %in% c("MTLF","GenArima","ArimaMA2","GenEts","EtsMA2","GenPp","PpMA2")) |>
+    filter(MdlName %in% c("GenArima","ArimaMA2","GenEts","EtsMA2","GenPp","PpMA2")) |>
+    # filter(MdlName %in% c("MTLF","GenArima","ArimaMA2","GenEts","EtsMA2","GenPp","PpMA2")) |>
     filter(IndexName=="MC1000A") |> 
     filter(nFctYr<10) |> 
     filter(nFctMon==1) |> 
@@ -128,7 +129,7 @@ cbnFctAct |>
         MdlName=="GenEts"~"EtsGen",
         MdlName=="GenPp"~"ProphetGen",
         MdlName=="PpMA2"~"ProphetMA2",
-        MdlName=="MTLF"~"zMTLF",
+        # MdlName=="MTLF"~"zMTLF",
         TRUE ~ MdlName
     )) |> 
     mutate(Yr=Y-nFctYr) |> 
@@ -162,14 +163,15 @@ fctAPE |>
     filter(nFctYr==4) |> # 0对当年的预测
     # filter(Y>2012 & Y!=2020) |>
     # mutate(FctYr=year(Edate)-year(Updated)) |> 
-    filter(MdlName %in% c("MTLF","GenArima","ArimaMA2","GenEts","EtsMA2","GenPp","PpMA2")) |>
+    filter(MdlName %in% c("GenArima","ArimaMA2","GenEts","EtsMA2","GenPp","PpMA2")) |>
+    # filter(MdlName %in% c("MTLF","GenArima","ArimaMA2","GenEts","EtsMA2","GenPp","PpMA2")) |>
     filter(IndexName=="MC1000A") |>
     mutate(MdlName=case_when(
         MdlName=="GenArima"~"ArimaGen",
         MdlName=="GenEts"~"EtsGen",
         MdlName=="GenPp"~"ProphetGen",
         MdlName=="PpMA2"~"ProphetMA2",
-        MdlName=="MTLF"~"zMTLF",
+        # MdlName=="MTLF"~"zMTLF",
         TRUE ~ MdlName
     )) |> 
     group_by(nFctMon,nFctYr,MdlName) |> 

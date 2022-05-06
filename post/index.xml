@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MTLF完成V30更新</title>
       <link>https://taopj.github.io/blog/post/2022-04-07-finishmtlfv30/</link>
-      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://taopj.github.io/blog/post/2022-04-07-finishmtlfv30/</guid>
-      <description>完成了MTLF_V30版本更新。 当年年初电量预测平均偏差小于2.5%，4月之后预测平均偏差小于2</description>
+      <description>2022年3月26日~5月6日，因新冠封控，家里电脑日夜运行超过500小时，完成了预测方法比较、</description>
     </item>
     
     <item>
@@ -62,21 +62,21 @@
     </item>
     
     <item>
-      <title>假日政策历史回顾</title>
-      <link>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</guid>
-      <description>季节调整程序（X13-Arima-AS）需要假日数据，因此，收集了一些建国以来中国假日变化情况历</description>
-    </item>
-    
-    <item>
       <title>关于时间序列的7本好书</title>
       <link>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</guid>
       <description>关于时间系列分析的 7 本好书 摘自：https://www.tableau.com/learn/ar</description>
+    </item>
+    
+    <item>
+      <title>假日政策历史回顾</title>
+      <link>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</guid>
+      <description>季节调整程序（X13-Arima-AS）需要假日数据，因此，收集了一些建国以来中国假日变化情况历</description>
     </item>
     
     <item>
