@@ -22,23 +22,25 @@
 <meta name="theme-color" content="#ffffff" />
 
 
-<title>Posts - Taopj@sh.cn&#39;s Blog</title>
+<title>负荷预测的3个基本问题 - Taopj@sh.cn&#39;s Blog</title>
 
 
-<meta name="author" content="Taopj@sh.cn" />
+<meta name="author" content="taopj" />
 
 
 <meta name="description" content="Taopj@sh.cn&#39;s Blog." />
 
 
-<link rel="alternate" type="application/rss+xml" href="https://taopj.github.io/blog/post/index.xml" title="Taopj@sh.cn's Blog" />
+<meta name="keywords" content="研究" />
 
-<meta property="og:title" content="Posts" />
-<meta name="twitter:title" content="Posts" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://taopj.github.io/blog/post/" /><meta property="og:image" content="https://taopj.github.io/img/og.png" />
+
+<meta property="og:title" content="负荷预测的3个基本问题" />
+<meta name="twitter:title" content="负荷预测的3个基本问题" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/" /><meta property="og:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升陷入了一个瓶颈，多数文献集中于某个地区的短期负荷预测准确率提升方法，而且大多不可重复。我认为目前电力负荷预测还是有些基本性的问题没有解决，这些问题也是电力负荷预测准确率&ndash;尤其是中长期（多年）预测准确率难以提升的根本原因。" />
+<meta name="twitter:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升陷入了一个瓶颈，多数文献集中于某个地区的短期负荷预测准确率提升方法，而且大多不可重复。我认为目前电力负荷预测还是有些基本性的问题没有解决，这些问题也是电力负荷预测准确率&ndash;尤其是中长期（多年）预测准确率难以提升的根本原因。" /><meta property="og:image" content="https://taopj.github.io/img/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://taopj.github.io/img/og.png" /><meta property="og:updated_time" content="2022-05-14T00:00:00+00:00" />
+<meta name="twitter:image" content="https://taopj.github.io/img/og.png" /><meta property="article:published_time" content="2022-05-14T00:00:00+00:00" /><meta property="article:modified_time" content="2022-05-14T00:00:00+00:00" />
 
 
 <style>
@@ -101,103 +103,35 @@
             
             <div class="col-12 col-md-9 float-left content">
                 
-
-
-
-<div class="post">
+<article>
+    
     <h2 class="post-item post-title">
-        <a href="https://taopj.github.io/blog/post/placeholder-text/">Placeholder Text</a>
+        <a href="https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/">负荷预测的3个基本问题</a>
     </h2>
     <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2019-03-09</span>
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2022-05-14</span>
 
-<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;269 字</span>
-<span><i class="iconfont icon-time-sharp"></i>&nbsp;1 分钟</span>
-<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;无标签</span>
-
-
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>Lorem est tota propiore conpellat pectoribus de
-pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
-subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
-caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis
-lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://taopj.github.io/blog/post/emoji-support/">Emoji Support</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2019-03-05</span>
-
-<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;143 字</span>
-<span><i class="iconfont icon-time-sharp"></i>&nbsp;1 分钟</span>
-<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;无标签</span>
+<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;546 字</span>
+<span><i class="iconfont icon-time-sharp"></i>&nbsp;2 分钟</span>
+<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/blog/tags/%E7%A0%94%E7%A9%B6">研究</a>&nbsp;</span>
 
 
     </div>
-    <div class="post-item post-summary markdown-body">
-        <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-<p>The <a href="https://gohugo.io/functions/emojify/" target="_blank"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes" target="_blank">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/" target="_blank">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<p><code>:s ee_no_evil:[Remove the space]</code> 🙈 <code>:h ear_no_evil:[Remove the space]</code> 🙉 <code>:s peak_no_evil:[Remove the space]</code> 🙊</p>
+    
+    <div class="post-content markdown-body">
+        <p>有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升陷入了一个瓶颈，多数文献集中于某个地区的短期负荷预测准确率提升方法，而且大多不可重复。我认为目前电力负荷预测还是有些基本性的问题没有解决，这些问题也是电力负荷预测准确率&ndash;尤其是中长期（多年）预测准确率难以提升的根本原因。</p>
+<h1 id="问题1负荷和电量的关系">问题1、负荷和电量的关系</h1>
+<p>对一个足够大的地区而言，如果我们假定一段时间内负荷是一个可导函数，则电量显然是负荷的积分，或者说负荷是电量的导数，也就是说负荷和电量是一回事，那么我们为什么需要用不同的预测方法对电量和负荷进行预测？</p>
+<h1 id="问题2负荷与经济的关系">问题2、负荷与经济的关系</h1>
+<p>毋庸置疑，电力与经济是相关的，同时，研究表明电力是经济的格兰杰因判断，或者说电力是经济的先行指数。但许多人倾向于用经济变量的预测来作为电力负荷预测的输入（自变量），这一做法不是与研究矛盾吗？</p>
+<h1 id="问题3分析和预测的割裂">问题3、分析和预测的割裂</h1>
+<p>电力负荷分析多采用分类及结构变化比较，预测则更多采用数学方法（当然也涉及结构变化，包括分层预测或断面分析预测），然而，当前的分析尽管可以用于未来的预测，但是，过去预测的结果似乎很难用于当前分析的解释，为什么分析和预测是割裂而非统一的？</p>
     </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://taopj.github.io/blog/post/cjk-unicode-test/">CJK Unicode Test</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2018-03-09</span>
-
-<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;1549 字</span>
-<span><i class="iconfont icon-time-sharp"></i>&nbsp;4 分钟</span>
-<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;无标签</span>
+</article>
 
 
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>The following is part of the CJK text, this page is for test use only.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://taopj.github.io/blog/post/wtf-article/">纯简体中文测试文章</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2017-04-01</span>
-
-<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;11542 字</span>
-<span><i class="iconfont icon-time-sharp"></i>&nbsp;24 分钟</span>
-<span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;无标签</span>
 
 
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>本文内容无实际意义，由狗屁不通文章生成器自动生成，不代表作者本人观点。</p>
-<p>可是，即使是这样，一段代码写一天的出现仍然代表了一定的意义。一段代码写一天，到底应该如何实现。马克思在不经意间这样说过，一切节省，归根到底都归结为时间的节省。这不禁令我深思。马克思曾经说过，一切节省，归根到底都归结为时间的节省。</p>
-    </div>
-</div>
-<div class="pagination"><div class="pag-first">
-    <a href="/blog/post/"><i class="iconfont icon-caret-back-circle-sharp"></i></a>
-  </div><div class="pag-previous">
-    <a href="/blog/post/page/4/"><i class="iconfont icon-chevron-back-circle-sharp"></i></a>
-  </div><div class="pag-item">
-    <a href="/blog/post/">1</a>
-  </div><div class="pag-item">
-    <a href="/blog/post/page/2/">2</a>
-  </div><div class="pag-item">
-    <a href="/blog/post/page/3/">3</a>
-  </div><div class="pag-item">
-    <a href="/blog/post/page/4/">4</a>
-  </div><div class="pag-item pag-current">
-    <a href="/blog/post/page/5/">5</a>
-  </div></div>
             </div>
             <aside class="col-12 col-md-3 float-left sidebar">
     
@@ -296,9 +230,8 @@ lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
             
         </ul>
     </div>
-    
-    
-    
+    <div class="sidebar-item sidebar-toc">
+        <h3>目录</h3><nav id="TableOfContents"></nav></div>
 </aside>
 
         </div>
@@ -393,7 +326,7 @@ lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
     
     <div class="sidebar-item sidebar-toc">
         <h3>目录</h3>
-        
+        <nav id="TableOfContents"></nav>
     </div>
     
     
