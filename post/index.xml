@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>负荷预测的3个基本问题</title>
       <link>https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/</link>
-      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/</guid>
-      <description>&lt;p&gt;有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升陷入了一个瓶颈，多数文献集中于某个地区的短期负荷预测准确率提升方法，而且大多不可重复。我认为目前电力负荷预测还是有些基本性的问题没有解决，这些问题也是电力负荷预测准确率&amp;ndash;尤其是中长期（多年）预测准确率难以提升的根本原因。&lt;/p&gt;</description>
+      <description>&lt;p&gt;有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升（或偏差率下降）陷入了一个瓶颈。&lt;/p&gt;</description>
     </item>
     
     <item>

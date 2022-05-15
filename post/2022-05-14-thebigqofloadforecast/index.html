@@ -37,10 +37,10 @@
 <meta property="og:title" content="负荷预测的3个基本问题" />
 <meta name="twitter:title" content="负荷预测的3个基本问题" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/" /><meta property="og:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升陷入了一个瓶颈，多数文献集中于某个地区的短期负荷预测准确率提升方法，而且大多不可重复。我认为目前电力负荷预测还是有些基本性的问题没有解决，这些问题也是电力负荷预测准确率&ndash;尤其是中长期（多年）预测准确率难以提升的根本原因。" />
-<meta name="twitter:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升陷入了一个瓶颈，多数文献集中于某个地区的短期负荷预测准确率提升方法，而且大多不可重复。我认为目前电力负荷预测还是有些基本性的问题没有解决，这些问题也是电力负荷预测准确率&ndash;尤其是中长期（多年）预测准确率难以提升的根本原因。" /><meta property="og:image" content="https://taopj.github.io/img/og.png" />
+<meta property="og:url" content="https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/" /><meta property="og:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升（或偏差率下降）陷入了一个瓶颈。" />
+<meta name="twitter:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升（或偏差率下降）陷入了一个瓶颈。" /><meta property="og:image" content="https://taopj.github.io/img/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://taopj.github.io/img/og.png" /><meta property="article:published_time" content="2022-05-14T00:00:00+00:00" /><meta property="article:modified_time" content="2022-05-14T00:00:00+00:00" />
+<meta name="twitter:image" content="https://taopj.github.io/img/og.png" /><meta property="article:published_time" content="2022-05-15T00:00:00+00:00" /><meta property="article:modified_time" content="2022-05-15T00:00:00+00:00" />
 
 
 <style>
@@ -109,9 +109,9 @@
         <a href="https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/">负荷预测的3个基本问题</a>
     </h2>
     <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2022-05-14</span>
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2022-05-15</span>
 
-<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;543 字</span>
+<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;647 字</span>
 <span><i class="iconfont icon-time-sharp"></i>&nbsp;2 分钟</span>
 <span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/blog/tags/%E7%A0%94%E7%A9%B6">研究</a>&nbsp;</span>
 
@@ -119,13 +119,19 @@
     </div>
     
     <div class="post-content markdown-body">
-        <p>有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升陷入了一个瓶颈，多数文献集中于某个地区的短期负荷预测准确率提升方法，而且大多不可重复。我认为目前电力负荷预测还是有些基本性的问题没有解决，这些问题也是电力负荷预测准确率&ndash;尤其是中长期（多年）预测准确率难以提升的根本原因。</p>
-<h1 id="问题1负荷和电量的预测方法">问题1、负荷和电量的预测方法</h1>
-<p>对一个足够大的地区而言，如果我们假定一段时间内负荷是一个可导函数，则电量显然是负荷的积分，或者说负荷是电量的导数，也就是说负荷和电量是一回事，那么我们为什么需要用不同的预测方法对电量和负荷进行预测？</p>
-<h1 id="问题2负荷与经济的关系">问题2、负荷与经济的关系</h1>
-<p>毋庸置疑，电力与经济是相关的。同时，研究表明电力是经济的格兰杰因，或者说电力是经济的先行指数。但许多预测人员更倾向于用经济变量（如GDP）的预测来作为电力负荷预测的输入（自变量），这一做法不是与现有研究结论矛盾吗？</p>
-<h1 id="问题3分析和预测的割裂">问题3、分析和预测的割裂</h1>
+        <p>有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升（或偏差率下降）陷入了一个瓶颈。</p>
+<h1 id="问题">问题</h1>
+<p>数据科学快速发展的今天，电力负荷预测准确率&ndash;尤其是中长期（多年）预测准确率依旧提升困难，根本原因是一些基本问题没有解决。</p>
+<h2 id="q1负荷和电量的预测">Q1、负荷和电量的预测</h2>
+<p>对一个足够大的地区而言，如果我们假定一段时间内负荷是一个可导函数，则电量是负荷的积分，负荷是电量的导数，负荷和电量在物理、数学上是密切相关的。然而具体预测的时候，我们总是用负荷数据预测负荷、电量数据预测电量，两者毫不相关，而且对负荷电量往往会采用不同的数学方法和模型。这一做法与负荷电量的相关性不是矛盾吗？</p>
+<h2 id="q2负荷与经济的关系">Q2、负荷与经济的关系</h2>
+<p>电力与经济是相关的。研究表明电力是经济的格兰杰因，或者更加广为人知的说法是“电力是经济的先行指数”。但许多预测人员更倾向于用经济变量（如GDP）的预测来作为电力负荷预测的输入，希望通过经济的预测提升电力预测的准确性，这一做法与现有研究结论不是矛盾吗？</p>
+<h2 id="q3分析和预测的割裂">Q3、分析和预测的割裂</h2>
 <p>电力负荷分析多采用实际数据的同比、环比、占比等比较，而预测则更多采用数学方法（包括时序、分层、断面）。当前的分析可以用于未来的预测，但是，过去的预测似乎很难用于当前分析。为什么分析和预测是割裂开来的？</p>
+<h1 id="结论">结论</h1>
+<p>解决这些问题必须从头梳理电力负荷预测理论，<strong>构建一个全新的负荷预测理论框架体系</strong>。</p>
+<h1 id="番外">番外</h1>
+<p>连续第3天单人单管核酸+早晚抗原，快结束了吧…………</p>
     </div>
 </article>
 
@@ -231,7 +237,13 @@
         </ul>
     </div>
     <div class="sidebar-item sidebar-toc">
-        <h3>目录</h3><nav id="TableOfContents"></nav></div>
+        <h3>目录</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#q1负荷和电量的预测">Q1、负荷和电量的预测</a></li>
+    <li><a href="#q2负荷与经济的关系">Q2、负荷与经济的关系</a></li>
+    <li><a href="#q3分析和预测的割裂">Q3、分析和预测的割裂</a></li>
+  </ul>
+</nav></div>
 </aside>
 
         </div>
@@ -326,7 +338,13 @@
     
     <div class="sidebar-item sidebar-toc">
         <h3>目录</h3>
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#q1负荷和电量的预测">Q1、负荷和电量的预测</a></li>
+    <li><a href="#q2负荷与经济的关系">Q2、负荷与经济的关系</a></li>
+    <li><a href="#q3分析和预测的割裂">Q3、分析和预测的割裂</a></li>
+  </ul>
+</nav>
     </div>
     
     
