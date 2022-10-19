@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>季节调整 on Taopj@sh.cn&#39;s Blog</title>
-    <link>http://10.130.13.18:8081/categories/%E5%AD%A3%E8%8A%82%E8%B0%83%E6%95%B4/</link>
+    <link>https://taopj.github.io/blog/categories/%E5%AD%A3%E8%8A%82%E8%B0%83%E6%95%B4/</link>
     <description>Recent content in 季节调整 on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://10.130.13.18:8081/categories/%E5%AD%A3%E8%8A%82%E8%B0%83%E6%95%B4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/categories/%E5%AD%A3%E8%8A%82%E8%B0%83%E6%95%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>季节调整历史</title>
-      <link>http://10.130.13.18:8081/post/2021-06-27-historyofseasonaladjustment/</link>
+      <link>https://taopj.github.io/blog/post/2021-06-27-historyofseasonaladjustment/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-06-27-historyofseasonaladjustment/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-06-27-historyofseasonaladjustment/</guid>
       <description>季节调整理论研究已经有超过百年的历史了，在经济社会中的成熟应用也有超过50年的历史，然而，真正开</description>
     </item>
     
     <item>
       <title>时间序列分析的基本概念</title>
-      <link>http://10.130.13.18:8081/post/2021-06-12-timeseriesanalysisthebasics/</link>
+      <link>https://taopj.github.io/blog/post/2021-06-12-timeseriesanalysisthebasics/</link>
       <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-06-12-timeseriesanalysisthebasics/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-06-12-timeseriesanalysisthebasics/</guid>
       <description>这是一篇来自澳大利亚统计局 (https://www.abs.gov.au/) 的关于时间序列的一些基本概念的文章。 尝试用中英对照看看。 原文在此–《</description>
     </item>
     
     <item>
       <title>关于时间序列的7本好书</title>
-      <link>http://10.130.13.18:8081/post/2021-05-19-great7booksaboutts/</link>
+      <link>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-05-19-great7booksaboutts/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</guid>
       <description>关于时间系列分析的 7 本好书 摘自：https://www.tableau.com/learn/ar</description>
     </item>
     
     <item>
       <title>假日政策历史回顾</title>
-      <link>http://10.130.13.18:8081/post/2021-05-19-cnholidayhistory/</link>
+      <link>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-05-19-cnholidayhistory/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</guid>
       <description>季节调整程序（X13-Arima-AS）需要假日数据，因此，收集了一些建国以来中国假日变化情况历</description>
     </item>
     
     <item>
       <title>梅沙尖</title>
-      <link>http://10.130.13.18:8081/post/2021-03-28-meishajian/</link>
+      <link>https://taopj.github.io/blog/post/2021-03-28-meishajian/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-03-28-meishajian/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-03-28-meishajian/</guid>
       <description>梅沙尖 2021年3月28日，深圳读书的儿子告诉我们一个人去了梅沙尖爬山。起初并不在意，想来就是一</description>
     </item>
     

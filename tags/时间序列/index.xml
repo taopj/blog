@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>时间序列 on Taopj@sh.cn&#39;s Blog</title>
-    <link>http://10.130.13.18:8081/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/</link>
+    <link>https://taopj.github.io/blog/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/</link>
     <description>Recent content in 时间序列 on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 12 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://10.130.13.18:8081/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>时间序列分析的基本概念</title>
-      <link>http://10.130.13.18:8081/post/2021-06-12-timeseriesanalysisthebasics/</link>
+      <link>https://taopj.github.io/blog/post/2021-06-12-timeseriesanalysisthebasics/</link>
       <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-06-12-timeseriesanalysisthebasics/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-06-12-timeseriesanalysisthebasics/</guid>
       <description>这是一篇来自澳大利亚统计局 (https://www.abs.gov.au/) 的关于时间序列的一些基本概念的文章。 尝试用中英对照看看。 原文在此–《</description>
     </item>
     
     <item>
       <title>关于时间序列的7本好书</title>
-      <link>http://10.130.13.18:8081/post/2021-05-19-great7booksaboutts/</link>
+      <link>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-05-19-great7booksaboutts/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</guid>
       <description>关于时间系列分析的 7 本好书 摘自：https://www.tableau.com/learn/ar</description>
     </item>
     

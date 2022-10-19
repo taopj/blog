@@ -2,125 +2,125 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taopj@sh.cn&#39;s Blog</title>
-    <link>http://10.130.13.18:8081/</link>
+    <link>https://taopj.github.io/blog/</link>
     <description>Recent content on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://10.130.13.18:8081/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>负荷预测的3个基本问题</title>
-      <link>http://10.130.13.18:8081/post/2022-05-14-thebigqofloadforecast/</link>
+      <link>https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/</link>
       <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2022-05-14-thebigqofloadforecast/</guid>
-      <description>&lt;p&gt;有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升（或偏差率下降）陷入了一个瓶颈。&lt;/p&gt;</description>
+      <guid>https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/</guid>
+      <description>&lt;p&gt;有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于提升负荷预测准确率。但显然较长一段时间来，尤其数据科学快速发展的今天，负荷预测-尤其是中长期（多年）预测-的准确率提升（或偏差率下降）陷入了一个瓶颈，一些基本问题没有解决。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MTLF完成V30更新</title>
-      <link>http://10.130.13.18:8081/post/2022-04-07-finishmtlfv30/</link>
+      <link>https://taopj.github.io/blog/post/2022-04-07-finishmtlfv30/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2022-04-07-finishmtlfv30/</guid>
+      <guid>https://taopj.github.io/blog/post/2022-04-07-finishmtlfv30/</guid>
       <description>2022年3月26日~5月6日，因新冠封控，家里电脑日夜运行超过500小时，完成了预测方法比较、</description>
     </item>
     
     <item>
       <title>预测方法评估</title>
-      <link>http://10.130.13.18:8081/post/2022-03-20-updatedat20220320/</link>
+      <link>https://taopj.github.io/blog/post/2022-03-20-updatedat20220320/</link>
       <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2022-03-20-updatedat20220320/</guid>
+      <guid>https://taopj.github.io/blog/post/2022-03-20-updatedat20220320/</guid>
       <description>对从2010年开始的各年初10年电量预测和各月5年预测偏差进行回顾，与基准方法（Arima、ET</description>
     </item>
     
     <item>
       <title>开始空调负荷理论研究</title>
-      <link>http://10.130.13.18:8081/post/2021-08-06-weather-sensitive-load/</link>
+      <link>https://taopj.github.io/blog/post/2021-08-06-weather-sensitive-load/</link>
       <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-08-06-weather-sensitive-load/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-08-06-weather-sensitive-load/</guid>
       <description>** 没有气象因素参与的负荷分析预测都是耍流氓！** &amp;ndash; 题记20210806 尽管3月底前后大部份的编程</description>
     </item>
     
     <item>
       <title>季节调整历史</title>
-      <link>http://10.130.13.18:8081/post/2021-06-27-historyofseasonaladjustment/</link>
+      <link>https://taopj.github.io/blog/post/2021-06-27-historyofseasonaladjustment/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-06-27-historyofseasonaladjustment/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-06-27-historyofseasonaladjustment/</guid>
       <description>季节调整理论研究已经有超过百年的历史了，在经济社会中的成熟应用也有超过50年的历史，然而，真正开</description>
     </item>
     
     <item>
       <title>更新本站theme</title>
-      <link>http://10.130.13.18:8081/post/2021-06-16-update-hugo-theme/</link>
+      <link>https://taopj.github.io/blog/post/2021-06-16-update-hugo-theme/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-06-16-update-hugo-theme/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-06-16-update-hugo-theme/</guid>
       <description>更新本站theme，用了hugo-theme-Fuji V2.60。同时增加了categories</description>
     </item>
     
     <item>
       <title>时间序列分析的基本概念</title>
-      <link>http://10.130.13.18:8081/post/2021-06-12-timeseriesanalysisthebasics/</link>
+      <link>https://taopj.github.io/blog/post/2021-06-12-timeseriesanalysisthebasics/</link>
       <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-06-12-timeseriesanalysisthebasics/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-06-12-timeseriesanalysisthebasics/</guid>
       <description>这是一篇来自澳大利亚统计局 (https://www.abs.gov.au/) 的关于时间序列的一些基本概念的文章。 尝试用中英对照看看。 原文在此–《</description>
     </item>
     
     <item>
       <title>关于时间序列的7本好书</title>
-      <link>http://10.130.13.18:8081/post/2021-05-19-great7booksaboutts/</link>
+      <link>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-05-19-great7booksaboutts/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-05-19-great7booksaboutts/</guid>
       <description>关于时间系列分析的 7 本好书 摘自：https://www.tableau.com/learn/ar</description>
     </item>
     
     <item>
       <title>假日政策历史回顾</title>
-      <link>http://10.130.13.18:8081/post/2021-05-19-cnholidayhistory/</link>
+      <link>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-05-19-cnholidayhistory/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-05-19-cnholidayhistory/</guid>
       <description>季节调整程序（X13-Arima-AS）需要假日数据，因此，收集了一些建国以来中国假日变化情况历</description>
     </item>
     
     <item>
       <title>开始使用Github Desktop</title>
-      <link>http://10.130.13.18:8081/post/2021-05-19-start-use-github-desktop/</link>
+      <link>https://taopj.github.io/blog/post/2021-05-19-start-use-github-desktop/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-05-19-start-use-github-desktop/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-05-19-start-use-github-desktop/</guid>
       <description>笔记本上安装了Github。 所以 开始使用Github写我的blog。 主要是 记录 负荷预测、季节调整</description>
     </item>
     
     <item>
       <title>梅沙尖</title>
-      <link>http://10.130.13.18:8081/post/2021-03-28-meishajian/</link>
+      <link>https://taopj.github.io/blog/post/2021-03-28-meishajian/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-03-28-meishajian/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-03-28-meishajian/</guid>
       <description>梅沙尖 2021年3月28日，深圳读书的儿子告诉我们一个人去了梅沙尖爬山。起初并不在意，想来就是一</description>
     </item>
     
     <item>
       <title>完成概率负荷预测所有理论</title>
-      <link>http://10.130.13.18:8081/post/2021-03-10-completefctthero/</link>
+      <link>https://taopj.github.io/blog/post/2021-03-10-completefctthero/</link>
       <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-03-10-completefctthero/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-03-10-completefctthero/</guid>
       <description>完成了概率负荷预测的所有理论，和技术实现。</description>
     </item>
     
     <item>
       <title>In-post APlayer Test</title>
-      <link>http://10.130.13.18:8081/post/aplayer-test/</link>
+      <link>https://taopj.github.io/blog/post/aplayer-test/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0800</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/aplayer-test/</guid>
+      <guid>https://taopj.github.io/blog/post/aplayer-test/</guid>
       <description>&lt;div class=&#34;post-player-wrapper&#34;&gt;
   &lt;div
     class=&#34;post-aplayer&#34;
@@ -137,19 +137,19 @@
     
     <item>
       <title>Hello R Markdown</title>
-      <link>http://10.130.13.18:8081/post/index.en/</link>
+      <link>https://taopj.github.io/blog/post/index.en/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/index.en/</guid>
+      <guid>https://taopj.github.io/blog/post/index.en/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com. You can embed an R code chunk like this: summary(cars) ## speed dist ## Min. : 4.0</description>
     </item>
     
     <item>
       <title>启动失败再次安装</title>
-      <link>http://10.130.13.18:8081/post/2020-10-24-%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%E5%86%8D%E6%AC%A1%E5%AE%89%E8%A3%85/</link>
+      <link>https://taopj.github.io/blog/post/2020-10-24-%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%E5%86%8D%E6%AC%A1%E5%AE%89%E8%A3%85/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2020-10-24-%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%E5%86%8D%E6%AC%A1%E5%AE%89%E8%A3%85/</guid>
+      <guid>https://taopj.github.io/blog/post/2020-10-24-%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%E5%86%8D%E6%AC%A1%E5%AE%89%E8%A3%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;启动服务、增加post用Addins菜单。&lt;/strong&gt;（好久不用容易忘）&lt;/p&gt;
 &lt;p&gt;前几天对所有项目目录进行了整理，调整了blogs的目录位置。然后……&lt;/p&gt;
 &lt;p&gt;启动失败，只能重新来过，以下是重装过程。&lt;/p&gt;</description>
@@ -157,38 +157,38 @@
     
     <item>
       <title>完成Github Desktop安装进行测试</title>
-      <link>http://10.130.13.18:8081/post/2020-09-06-%E5%AE%8C%E6%88%90github-desktop%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E6%B5%8B%E8%AF%95/</link>
+      <link>https://taopj.github.io/blog/post/2020-09-06-%E5%AE%8C%E6%88%90github-desktop%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2020-09-06-%E5%AE%8C%E6%88%90github-desktop%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://taopj.github.io/blog/post/2020-09-06-%E5%AE%8C%E6%88%90github-desktop%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E6%B5%8B%E8%AF%95/</guid>
       <description>安装了Git，Github。 用Github 克隆了网站到本地。 增加本页，serve site，git</description>
     </item>
     
     <item>
       <title>修改界面主题</title>
-      <link>http://10.130.13.18:8081/post/2020-08-29-%E4%BF%AE%E6%94%B9theme/</link>
+      <link>https://taopj.github.io/blog/post/2020-08-29-%E4%BF%AE%E6%94%B9theme/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2020-08-29-%E4%BF%AE%E6%94%B9theme/</guid>
+      <guid>https://taopj.github.io/blog/post/2020-08-29-%E4%BF%AE%E6%94%B9theme/</guid>
       <description>&lt;p&gt;折腾了两天Hugo的&lt;strong&gt;界面主题（theme）&lt;/strong&gt;，总算选定了这个&lt;a href=&#34;https://github.com/amzrk2/hugo-theme-fuji/&#34; target=&#34;_blank&#34;&gt;amzrk2/hugo-theme-fuji&lt;/a&gt; 。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>开篇（安装blogdown）</title>
-      <link>http://10.130.13.18:8081/post/2020-08-27-%E5%BC%80%E7%AF%87/</link>
+      <link>https://taopj.github.io/blog/post/2020-08-27-%E5%BC%80%E7%AF%87/</link>
       <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2020-08-27-%E5%BC%80%E7%AF%87/</guid>
+      <guid>https://taopj.github.io/blog/post/2020-08-27-%E5%BC%80%E7%AF%87/</guid>
       <description>&lt;p&gt;第一次成功运行blogdown，生成了一下这个第一篇blog。
 庆祝一下在Rstudio中手动安装成功hugo，并生成了缺省界面的blog网站。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Markdown Syntax</title>
-      <link>http://10.130.13.18:8081/post/markdown-syntax/</link>
+      <link>https://taopj.github.io/blog/post/markdown-syntax/</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/markdown-syntax/</guid>
+      <guid>https://taopj.github.io/blog/post/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
 &lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;</description>
@@ -196,19 +196,19 @@
     
     <item>
       <title>Taopj的第一个Blog</title>
-      <link>http://10.130.13.18:8081/about/</link>
+      <link>https://taopj.github.io/blog/about/</link>
       <pubDate>Sat, 11 Apr 2020 19:15:32 +0800</pubDate>
       
-      <guid>http://10.130.13.18:8081/about/</guid>
+      <guid>https://taopj.github.io/blog/about/</guid>
       <description>关于本站 本站用于记录我在季节调整、负荷预测和R的研究。 本站用Rstudio编写，并基于Hugo构</description>
     </item>
     
     <item>
       <title>Math Typesetting</title>
-      <link>http://10.130.13.18:8081/post/math-typesetting/</link>
+      <link>https://taopj.github.io/blog/post/math-typesetting/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/math-typesetting/</guid>
+      <guid>https://taopj.github.io/blog/post/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
 &lt;p&gt;In this example we will be using &lt;a href=&#34;https://katex.org/&#34; target=&#34;_blank&#34;&gt;KaTeX&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -228,10 +228,10 @@
     
     <item>
       <title>Placeholder Text</title>
-      <link>http://10.130.13.18:8081/post/placeholder-text/</link>
+      <link>https://taopj.github.io/blog/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/placeholder-text/</guid>
+      <guid>https://taopj.github.io/blog/post/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
 pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
 subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
@@ -241,10 +241,10 @@ lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;<
     
     <item>
       <title>Emoji Support</title>
-      <link>http://10.130.13.18:8081/post/emoji-support/</link>
+      <link>https://taopj.github.io/blog/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/emoji-support/</guid>
+      <guid>https://taopj.github.io/blog/post/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34; target=&#34;_blank&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34; target=&#34;_blank&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
@@ -253,19 +253,19 @@ lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;<
     
     <item>
       <title>CJK Unicode Test</title>
-      <link>http://10.130.13.18:8081/post/cjk-unicode-test/</link>
+      <link>https://taopj.github.io/blog/post/cjk-unicode-test/</link>
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/cjk-unicode-test/</guid>
+      <guid>https://taopj.github.io/blog/post/cjk-unicode-test/</guid>
       <description>&lt;p&gt;The following is part of the CJK text, this page is for test use only.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>纯简体中文测试文章</title>
-      <link>http://10.130.13.18:8081/post/wtf-article/</link>
+      <link>https://taopj.github.io/blog/post/wtf-article/</link>
       <pubDate>Sat, 01 Apr 2017 00:00:00 +0800</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/wtf-article/</guid>
+      <guid>https://taopj.github.io/blog/post/wtf-article/</guid>
       <description>&lt;p&gt;本文内容无实际意义，由狗屁不通文章生成器自动生成，不代表作者本人观点。&lt;/p&gt;
 &lt;p&gt;可是，即使是这样，一段代码写一天的出现仍然代表了一定的意义。一段代码写一天，到底应该如何实现。马克思在不经意间这样说过，一切节省，归根到底都归结为时间的节省。这不禁令我深思。马克思曾经说过，一切节省，归根到底都归结为时间的节省。&lt;/p&gt;</description>
     </item>

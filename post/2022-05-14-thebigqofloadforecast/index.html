@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<meta name="generator" content="Hugo 0.101.0" />
+<meta name="generator" content="Hugo 0.104.3" />
 
 
 
@@ -37,10 +37,10 @@
 <meta property="og:title" content="负荷预测的3个基本问题" />
 <meta name="twitter:title" content="负荷预测的3个基本问题" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://10.130.13.18:8081/post/2022-05-14-thebigqofloadforecast/" /><meta property="og:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升（或偏差率下降）陷入了一个瓶颈。" />
-<meta name="twitter:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升（或偏差率下降）陷入了一个瓶颈。" /><meta property="og:image" content="http://10.130.13.18:8081/img/og.png" />
+<meta property="og:url" content="https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/" /><meta property="og:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于提升负荷预测准确率。但显然较长一段时间来，尤其数据科学快速发展的今天，负荷预测-尤其是中长期（多年）预测-的准确率提升（或偏差率下降）陷入了一个瓶颈，一些基本问题没有解决。" />
+<meta name="twitter:description" content="有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于提升负荷预测准确率。但显然较长一段时间来，尤其数据科学快速发展的今天，负荷预测-尤其是中长期（多年）预测-的准确率提升（或偏差率下降）陷入了一个瓶颈，一些基本问题没有解决。" /><meta property="og:image" content="https://taopj.github.io/img/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://10.130.13.18:8081/img/og.png" /><meta property="article:published_time" content="2022-05-15T00:00:00+00:00" /><meta property="article:modified_time" content="2022-05-15T00:00:00+00:00" />
+<meta name="twitter:image" content="https://taopj.github.io/img/og.png" /><meta property="article:published_time" content="2022-05-15T00:00:00+00:00" /><meta property="article:modified_time" content="2022-05-15T00:00:00+00:00" />
 
 
 <style>
@@ -58,7 +58,7 @@
 
 
 
-<link rel="stylesheet" href="http://10.130.13.18:8081/assets/css/fuji.min.css" />
+<link rel="stylesheet" href="https://taopj.github.io/blog/assets/css/fuji.min.css" />
 
 
 
@@ -90,7 +90,7 @@
     <header>
     <div class="container-lg clearfix">
         <div class="col-12 header">
-            <a class="title-main" href="http://10.130.13.18:8081/">Taopj@sh.cn&#39;s Blog</a>
+            <a class="title-main" href="https://taopj.github.io/blog/">Taopj@sh.cn&#39;s Blog</a>
             
             <span class="title-sub">负荷预测、季节调整和R.</span>
             
@@ -106,12 +106,12 @@
 <article>
     
     <h2 class="post-item post-title">
-        <a href="http://10.130.13.18:8081/post/2022-05-14-thebigqofloadforecast/">负荷预测的3个基本问题</a>
+        <a href="https://taopj.github.io/blog/post/2022-05-14-thebigqofloadforecast/">负荷预测的3个基本问题</a>
     </h2>
     <div class="post-item post-meta">
         <span><i class="iconfont icon-today-sharp"></i>&nbsp;2022-05-15</span>
 
-<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;647 字</span>
+<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;780 字</span>
 <span><i class="iconfont icon-time-sharp"></i>&nbsp;2 分钟</span>
 <span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/tags/%E7%A0%94%E7%A9%B6">研究</a>&nbsp;</span>
 
@@ -119,17 +119,15 @@
     </div>
     
     <div class="post-content markdown-body">
-        <p>有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于解决电力负荷预测问题，提升负荷预测的准确率。但显然较长一段时间来，负荷预测的准确率提升（或偏差率下降）陷入了一个瓶颈。</p>
-<h1 id="问题">问题</h1>
-<p>数据科学快速发展的今天，电力负荷预测准确率&ndash;尤其是中长期（多年）预测准确率依旧提升困难，根本原因是一些基本问题没有解决。</p>
+        <p>有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于提升负荷预测准确率。但显然较长一段时间来，尤其数据科学快速发展的今天，负荷预测-尤其是中长期（多年）预测-的准确率提升（或偏差率下降）陷入了一个瓶颈，一些基本问题没有解决。</p>
 <h2 id="q1负荷和电量的预测">Q1、负荷和电量的预测</h2>
-<p>对一个足够大的地区而言，如果我们假定一段时间内负荷是一个可导函数，则电量是负荷的积分，负荷是电量的导数，负荷和电量在物理、数学上是密切相关的。然而具体预测的时候，我们总是用负荷数据预测负荷、电量数据预测电量，两者毫不相关，而且对负荷电量往往会采用不同的数学方法和模型。这一做法与负荷电量的相关性不是矛盾吗？</p>
-<h2 id="q2负荷与经济的关系">Q2、负荷与经济的关系</h2>
-<p>电力与经济是相关的。研究表明电力是经济的格兰杰因，或者更加广为人知的说法是“电力是经济的先行指数”。但许多预测人员更倾向于用经济变量（如GDP）的预测来作为电力负荷预测的输入，希望通过经济的预测提升电力预测的准确性，这一做法与现有研究结论不是矛盾吗？</p>
+<p>对一个足够大的地区而言，如果我们假定一段时间内负荷是一个可导函数，则电量是负荷的积分，负荷是电量的导数，负荷和电量在物理、数学上是密切相关的。然而具体预测的时候，国内总是用负荷数据预测负荷、电量数据预测电量，两者毫不相关，而且对负荷电量往往会采用不同的数学方法和模型。这一做法与负荷电量的本质相关性不是矛盾吗？国外多采用24点负荷预测后累加形成电量，暂不论消耗的计算资源多少，这种方法是不是有改进的空间？</p>
+<h2 id="q2电力与经济的关系">Q2、电力与经济的关系</h2>
+<p>电力与经济毋庸置疑是相关的。研究表明电力是经济的格兰杰因，或者更加通常的说法是“电力是经济的先行指数”。但现实是，预测人员更倾向于用社会经济变量（如GNP、人口数据）的预测来作为电力负荷预测的输入，希望通过社会经济数据的预测提升电力预测的准确性，这一思路显然与电力经济的因果关系是矛盾的，且这一方法的可靠性也很难验证，用经济预测电量是否有一些约束条件？</p>
 <h2 id="q3分析和预测的割裂">Q3、分析和预测的割裂</h2>
-<p>电力负荷分析多采用实际数据的同比、环比、占比等比较，而预测则更多采用数学方法（包括时序、分层、断面）。当前的分析可以用于未来的预测，但是，过去的预测似乎很难用于当前分析。为什么分析和预测是割裂开来的？</p>
+<p>电力负荷分析多采用实际数据的同比、环比、占比等比较，而现代的负荷预测则更多采用数学方法（包括时序、分层、断面）。当前的分析可以用于未来的预测，但是，过去的预测似乎很难用于当前分析。为什么分析和预测是如此割裂，能否统一？</p>
 <h1 id="结论">结论</h1>
-<p>解决这些问题必须从头梳理电力负荷预测理论，<strong>构建一个全新的负荷预测理论框架体系</strong>。</p>
+<p>解决这些问题的核心是提高预测准确率。必须从头梳理1977年 R.L. Sullivan 的电力负荷预测理论&ndash;即气象敏感负荷的分解理论，引入现代统计理论和工具，重新构建一个负荷预测理论框架体系，进而可以更新一下电力规划体系。</p>
 <h1 id="番外">番外</h1>
 <p>连续第3天单人单管核酸+早晚抗原，快结束了吧…………</p>
     </div>
@@ -146,23 +144,23 @@
         <ul>
             
             <li>
-                <a href="/">本站首页</a>
+                <a href="/blog/">本站首页</a>
             </li>
             
             <li>
-                <a href="/search/">站内查找</a>
+                <a href="/blog/search/">站内查找</a>
             </li>
             
             <li>
-                <a href="/archives/">档案历史</a>
+                <a href="/blog/archives/">档案历史</a>
             </li>
             
             <li>
-                <a href="/index.xml">RSS</a>
+                <a href="/blog/index.xml">RSS</a>
             </li>
             
             <li>
-                <a href="/about/">关于本站</a>
+                <a href="/blog/about/">关于本站</a>
             </li>
             
         </ul>
@@ -173,31 +171,31 @@
         <div>
             
             <span>
-                <a href="/tags/github/">Github</a>
+                <a href="/blog/tags/github/">Github</a>
             </span>
             
             <span>
-                <a href="/tags/hugo/">Hugo</a>
+                <a href="/blog/tags/hugo/">Hugo</a>
             </span>
             
             <span>
-                <a href="/tags/%E5%8F%82%E8%80%83%E4%B9%A6/">参考书</a>
+                <a href="/blog/tags/%E5%8F%82%E8%80%83%E4%B9%A6/">参考书</a>
             </span>
             
             <span>
-                <a href="/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/">时间序列</a>
+                <a href="/blog/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/">时间序列</a>
             </span>
             
             <span>
-                <a href="/tags/%E7%A0%94%E7%A9%B6/">研究</a>
+                <a href="/blog/tags/%E7%A0%94%E7%A9%B6/">研究</a>
             </span>
             
             <span>
-                <a href="/tags/%E8%AF%91%E6%96%87/">译文</a>
+                <a href="/blog/tags/%E8%AF%91%E6%96%87/">译文</a>
             </span>
             
             <span>
-                <a href="/tags/%E9%87%8C%E7%A8%8B%E7%A2%91/">里程碑</a>
+                <a href="/blog/tags/%E9%87%8C%E7%A8%8B%E7%A2%91/">里程碑</a>
             </span>
             
         </div>
@@ -208,19 +206,19 @@
         <div>
             
             <span>
-                <a href="/categories/%E5%AD%A3%E8%8A%82%E8%B0%83%E6%95%B4/">季节调整</a>
+                <a href="/blog/categories/%E5%AD%A3%E8%8A%82%E8%B0%83%E6%95%B4/">季节调整</a>
             </span>
             
             <span>
-                <a href="/categories/%E6%A8%A1%E6%9D%BF%E8%87%AA%E5%B8%A6/">模板自带</a>
+                <a href="/blog/categories/%E6%A8%A1%E6%9D%BF%E8%87%AA%E5%B8%A6/">模板自带</a>
             </span>
             
             <span>
-                <a href="/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/">网站维护</a>
+                <a href="/blog/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/">网站维护</a>
             </span>
             
             <span>
-                <a href="/categories/%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B/">负荷预测</a>
+                <a href="/blog/categories/%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B/">负荷预测</a>
             </span>
             
         </div>
@@ -231,7 +229,7 @@
         <ul>
             
             <li>
-                <a href="http://10.130.13.18:8081/" target="_blank"><span>GitHub</span></a>
+                <a href="https://taopj.github.io/blog/" target="_blank"><span>GitHub</span></a>
             </li>
             
         </ul>
@@ -240,7 +238,7 @@
         <h3>目录</h3><nav id="TableOfContents">
   <ul>
     <li><a href="#q1负荷和电量的预测">Q1、负荷和电量的预测</a></li>
-    <li><a href="#q2负荷与经济的关系">Q2、负荷与经济的关系</a></li>
+    <li><a href="#q2电力与经济的关系">Q2、电力与经济的关系</a></li>
     <li><a href="#q3分析和预测的割裂">Q3、分析和预测的割裂</a></li>
   </ul>
 </nav></div>
@@ -266,23 +264,23 @@
         <ul>
             
             <li>
-                <a href="/">本站首页</a>
+                <a href="/blog/">本站首页</a>
             </li>
             
             <li>
-                <a href="/search/">站内查找</a>
+                <a href="/blog/search/">站内查找</a>
             </li>
             
             <li>
-                <a href="/archives/">档案历史</a>
+                <a href="/blog/archives/">档案历史</a>
             </li>
             
             <li>
-                <a href="/index.xml">RSS</a>
+                <a href="/blog/index.xml">RSS</a>
             </li>
             
             <li>
-                <a href="/about/">关于本站</a>
+                <a href="/blog/about/">关于本站</a>
             </li>
             
         </ul>
@@ -293,7 +291,7 @@
         <ul>
             
             <li>
-                <a href="http://10.130.13.18:8081/" target="_blank"><span>GitHub</span></a>
+                <a href="https://taopj.github.io/blog/" target="_blank"><span>GitHub</span></a>
             </li>
             
         </ul>
@@ -304,31 +302,31 @@
         <div>
             
             <span>
-                <a href="/tags/github/">Github</a>
+                <a href="/blog/tags/github/">Github</a>
             </span>
             
             <span>
-                <a href="/tags/hugo/">Hugo</a>
+                <a href="/blog/tags/hugo/">Hugo</a>
             </span>
             
             <span>
-                <a href="/tags/%E5%8F%82%E8%80%83%E4%B9%A6/">参考书</a>
+                <a href="/blog/tags/%E5%8F%82%E8%80%83%E4%B9%A6/">参考书</a>
             </span>
             
             <span>
-                <a href="/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/">时间序列</a>
+                <a href="/blog/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/">时间序列</a>
             </span>
             
             <span>
-                <a href="/tags/%E7%A0%94%E7%A9%B6/">研究</a>
+                <a href="/blog/tags/%E7%A0%94%E7%A9%B6/">研究</a>
             </span>
             
             <span>
-                <a href="/tags/%E8%AF%91%E6%96%87/">译文</a>
+                <a href="/blog/tags/%E8%AF%91%E6%96%87/">译文</a>
             </span>
             
             <span>
-                <a href="/tags/%E9%87%8C%E7%A8%8B%E7%A2%91/">里程碑</a>
+                <a href="/blog/tags/%E9%87%8C%E7%A8%8B%E7%A2%91/">里程碑</a>
             </span>
             
         </div>
@@ -341,7 +339,7 @@
         <nav id="TableOfContents">
   <ul>
     <li><a href="#q1负荷和电量的预测">Q1、负荷和电量的预测</a></li>
-    <li><a href="#q2负荷与经济的关系">Q2、负荷与经济的关系</a></li>
+    <li><a href="#q2电力与经济的关系">Q2、电力与经济的关系</a></li>
     <li><a href="#q3分析和预测的割裂">Q3、分析和预测的割裂</a></li>
   </ul>
 </nav>
@@ -357,7 +355,7 @@
         <div class="col-12 footer">
             
             <span>&copy; 2020-2022
-                <a href="http://10.130.13.18:8081/">Taopj@sh.cn</a>
+                <a href="https://taopj.github.io/blog/">Taopj@sh.cn</a>
                 
                 
                 | 基于 <a href="https://gohugo.io/"
@@ -380,7 +378,7 @@
 
 
 
-<script defer src="/assets/js/fuji.min.js"></script>
+<script defer src="/blog/assets/js/fuji.min.js"></script>
 
 
 

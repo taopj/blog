@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on Taopj@sh.cn&#39;s Blog</title>
-    <link>http://10.130.13.18:8081/tags/github/</link>
+    <link>https://taopj.github.io/blog/tags/github/</link>
     <description>Recent content in Github on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://10.130.13.18:8081/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://taopj.github.io/blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>开始使用Github Desktop</title>
-      <link>http://10.130.13.18:8081/post/2021-05-19-start-use-github-desktop/</link>
+      <link>https://taopj.github.io/blog/post/2021-05-19-start-use-github-desktop/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2021-05-19-start-use-github-desktop/</guid>
+      <guid>https://taopj.github.io/blog/post/2021-05-19-start-use-github-desktop/</guid>
       <description>笔记本上安装了Github。 所以 开始使用Github写我的blog。 主要是 记录 负荷预测、季节调整</description>
     </item>
     
     <item>
       <title>完成Github Desktop安装进行测试</title>
-      <link>http://10.130.13.18:8081/post/2020-09-06-%E5%AE%8C%E6%88%90github-desktop%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E6%B5%8B%E8%AF%95/</link>
+      <link>https://taopj.github.io/blog/post/2020-09-06-%E5%AE%8C%E6%88%90github-desktop%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://10.130.13.18:8081/post/2020-09-06-%E5%AE%8C%E6%88%90github-desktop%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://taopj.github.io/blog/post/2020-09-06-%E5%AE%8C%E6%88%90github-desktop%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E6%B5%8B%E8%AF%95/</guid>
       <description>安装了Git，Github。 用Github 克隆了网站到本地。 增加本页，serve site，git</description>
     </item>
     

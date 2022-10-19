@@ -1,20 +1,20 @@
-// This file is part of Eigen, a lightweight C++ template library
-// for linear algebra.
-//
-// Copyright (C) 2008 Gael Guennebaud <gael.guennebaud@inria.fr>
-// Copyright (C) 2007-2009 Benoit Jacob <jacob.benoit.1@gmail.com>
-//
-// This Source Code Form is subject to the terms of the Mozilla
-// Public License v. 2.0. If a copy of the MPL was not distributed
-// with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+---
+title: MTLF完成V30更新
+author: Taopj
+date: '2022-05-06'
+categories:
+  - 负荷预测
+tags:
+  - 里程碑
+slug: index.zh-hans
+---
 
-#ifndef EIGEN_DIAGONALPRODUCT_H
-#define EIGEN_DIAGONALPRODUCT_H
+2022年3月26日~5月6日，因新冠封控，家里电脑日夜运行超过500小时，完成了预测方法比较、MTLF_V30（组合预测）版本更新，并完成基于这一计算的《2022年疫情对上海全年用电影响及预判》报告。
 
-namespace Eigen { 
+- 当年年初电量预测平均偏差小于2.5%，4月之后预测平均偏差小于2%。
 
-/** \returns the diagonal matrix product of \c *this by the diagonal matrix \a diagonal.
-  */
-template<typename Derived>
-template<typename DiagonalDerived>
-inline const Product<D
+- 5年电量预测平均偏差小于4%。
+
+- 10年电量预测平均偏差小于10%（数据量太少还需进一步验证，应该比此值小）。
+
+再次认为，可以写文章了:)
