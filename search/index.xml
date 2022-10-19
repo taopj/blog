@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Search on Taopj@sh.cn&#39;s Blog</title>
-    <link>https://taopj.github.io/blog/search/</link>
+    <link>http://10.130.13.18:8081/search/</link>
     <description>Recent content in Search on Taopj@sh.cn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://taopj.github.io/blog/search/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language><atom:link href="http://10.130.13.18:8081/search/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
