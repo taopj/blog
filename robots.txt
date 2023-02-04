@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://taopj.github.io/sitemap.xml
