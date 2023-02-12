@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "Taopj",
     "section": "",
-    "text": "本站用于记录我在季节调整、负荷预测和R的研究。\n2020-04-11 浦江之畔"
+    "text": "本站用于记录我在R语言、负荷预测和季节调整的研究。\n2020-04-11 于 浦江之畔"
   },
   {
     "objectID": "index.html",
@@ -298,6 +298,6 @@
     "href": "posts/20230201-UpdateToQuarto/index.html#quarto应用初步感受",
     "title": "更新到Quarto",
     "section": "Quarto应用初步感受",
-    "text": "Quarto应用初步感受\n\n文件内容和展示完全分离，初步展示了markdown的广泛应用前景；\n写文章、建站逻辑更加清晰，各种展现格式的设定更加统一，编写更加方便；\nVsCode可能会最终取代Rstudio；\n目前blog网站页面模板美观性比Hugo还是有差距。"
+    "text": "Quarto应用初步感受\n\n文件内容和展示完全分离，初步展示了markdown的广泛应用前景；\n写文章、建站逻辑更加清晰，各种展现格式的设定更加统一，编写更加方便；\nVsCode可能会最终取代Rstudio；\n目前blog网站页面模板美观性比Hugo还是有差距，但文件也小很多。"
   }
 ]
