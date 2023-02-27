@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Taopj@sh.cn’s Blog - 时间序列变量符号命名规则</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/tau3.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交"
+  }
+}</script>
+
+  <script src="../../MathJax/es5/tex-chtml.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images\tau3.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Taopj@sh.cn’s Blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">关于</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">时间序列变量符号命名规则</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">研究</div>
+                <div class="quarto-category">时间序列</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">发布日期</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">2023年2月26日</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">更新日期</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">2023年2月27日</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#修订记录" id="toc-修订记录" class="nav-link active" data-scroll-target="#修订记录">修订记录</a></li>
+  <li><a href="#问题" id="toc-问题" class="nav-link" data-scroll-target="#问题">问题</a></li>
+  <li><a href="#命名原则" id="toc-命名原则" class="nav-link" data-scroll-target="#命名原则">命名原则</a></li>
+  <li><a href="#命名结构" id="toc-命名结构" class="nav-link" data-scroll-target="#命名结构">命名结构</a></li>
+  <li><a href="#变量名称符号举例" id="toc-变量名称符号举例" class="nav-link" data-scroll-target="#变量名称符号举例">变量名称符号举例</a></li>
+  <li><a href="#计算函数" id="toc-计算函数" class="nav-link" data-scroll-target="#计算函数">计算函数</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>为便于电力负荷时间序列研究，编制负荷预测时间序列变量符号命名规则。</p>
+<!--more-->
+<section id="修订记录" class="level2">
+<h2 class="anchored" data-anchor-id="修订记录">修订记录</h2>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">日期</th>
+<th style="text-align: left;">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2023年2月26日</td>
+<td style="text-align: left;">开始写文章，发现还是需要先统一一下时间序列变量符号命名规则，在V1版基础上进行全面梳理更新，形成V2</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2021年9月26日</td>
+<td style="text-align: left;">V1-“0.4信息及约定”</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="问题" class="level2">
+<h2 class="anchored" data-anchor-id="问题">问题</h2>
+<p>在电力负荷时间序列研究过程中发现，写文章时变量符号使用存在一些问题：</p>
+<ol type="1">
+<li>时间序列中同一物理量名称由于需要表达不同时点或时间段的值需要不同的变量符号进行指代，因此在描述过程中变量符号比较多，文章编写时常会陷于没有符号可用的境地；</li>
+<li>变量符号的取用在直观上往往难以表达其实际意义<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>，这对于理解变量含义会形成困扰，进而对阅读理解文章形成障碍。</li>
+</ol>
+<p>为解决上述问题，需要对变量符号的命名进行一些约定。</p>
+</section>
+<section id="命名原则" class="level2">
+<h2 class="anchored" data-anchor-id="命名原则">命名原则</h2>
+<ol type="1">
+<li><p>变量符号应可自述其意义，包括变量（物理量或指标量）的名称、变量所指的时间特性、变量所指的分类特性；</p></li>
+<li><p>变量符号应符合读取习惯，并有利于Markdown编写。</p></li>
+</ol>
+</section>
+<section id="命名结构" class="level2">
+<h2 class="anchored" data-anchor-id="命名结构">命名结构</h2>
+<p>除非特别说明，电力负荷预测时间序列变量符号由主命名和上下标修饰符组成，一般具有如下结构形式：</p>
+<p><span class="math display">\[
+{Ck}^{iS}_{Tt} \tag{1}
+\]</span></p>
+<p>其中：</p>
+<ul>
+<li><p><span class="math inline">\({Ck}\)</span>为变量主命名，使用1~2个字符表示，其中，第一个字符采用大写英文或希腊字母表示变量（物理量或指标量）的主要名称，如<span class="math inline">\({E}\)</span>表示电量、<span class="math inline">\({P}\)</span>表示负荷、<span class="math inline">\({D}\)</span>表示日最大峰谷差、<span class="math inline">\({\Psi}\)</span>表示波动率等。第二个字符采用小写英文字母或数字表示变量分类，如可用<span class="math inline">\({Er}\)</span>表示居民用电量，<span class="math inline">\({Pd}\)</span>表示统调负荷等；</p></li>
+<li><p>上标<span class="math inline">\(^{iS}\)</span>为子类修饰符，使用1~2个英文字母或数字表示变量子类，其中：第1个字符称为物理子类符，采用1个小写英文字母或数字表示主参数的某一物理子类，如<span class="math inline">\({Ec}^{2}、{Ec}^{r}\)</span>可分别表示第二产业和居民的全社会用电量；第2个字符称为统计识别符，表示该参数的某一统计结果，且规定用大写字母”A、X、N”作为专用统计识别符号，分别表示”平均、最大、最小”；如<span class="math inline">\(Pd^X_{M}\)</span>表示月统调最大负荷、<span class="math inline">\(Ec^{rA}_{Ym}\)</span>表示年平均月居民用电量。</p></li>
+<li><p>下标<span class="math inline">\(_{Tt}\)</span>为时间修饰符，使用1~2个字符表示，使用一个大写英文字母加一个小写英文字母表示变量的时间分类特性：第1个字符采用大写英文字母，表示参数所处时间段，<span class="math inline">\(T \in (D，W，M，Q，Y，etc.)\)</span>，分别表示日、周、月、季、年等时间间隔，直接使用<span class="math inline">\(T\)</span>时表示任一时间段；第2个字符采用小写字符，表示参数所在时间点，<span class="math inline">\(t \in (h，d，w，m，q，etc.)\)</span>，分别表示整点时、日、周、月、季等，直接使用<span class="math inline">\(t\)</span>时表示任一时间点。大写字母省略时，表示所有时点数据集合，如<span class="math inline">\(P_h\)</span>表示整点负荷、<span class="math inline">\(E_m\)</span>表示月电量数据集<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>；小写字母省略时，表示时间段内的所有数据集，如<span class="math inline">\(D_M\)</span>表示月内各日最大峰谷差的集合<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>；大小写字母同时使用时，第2个小写字母指代的时点应包含在第1个字母所指代的区间内。如<span class="math inline">\(P_{Mh}\)</span>表示月内的整点小时负荷集合、<span class="math inline">\(E_{Yd}\)</span>表示年内的日电量集合。</p></li>
+</ul>
+</section>
+<section id="变量名称符号举例" class="level2">
+<h2 class="anchored" data-anchor-id="变量名称符号举例">变量名称符号举例</h2>
+<p>负荷预测研究中的常用符号举例如下所示。</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">符号</th>
+<th style="text-align: left;">变量名称</th>
+<th style="text-align: center;">符号</th>
+<th style="text-align: left;">变量名称</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\({E}\)</span></td>
+<td style="text-align: left;">电量</td>
+<td style="text-align: center;"><span class="math inline">\({P}\)</span></td>
+<td style="text-align: left;">负荷</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\({Ed}\)</span></td>
+<td style="text-align: left;">统调用电量</td>
+<td style="text-align: center;"><span class="math inline">\({Pd}\)</span></td>
+<td style="text-align: left;">统调用电负荷</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\({Ec}\)</span></td>
+<td style="text-align: left;">全社会用电量</td>
+<td style="text-align: center;"><span class="math inline">\({D}\)</span></td>
+<td style="text-align: left;">统调用电峰谷差</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\({Es}\)</span></td>
+<td style="text-align: left;">售电量</td>
+<td style="text-align: center;"><span class="math inline">\({\Psi p}\)</span></td>
+<td style="text-align: left;">负荷波动率</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="计算函数" class="level2">
+<h2 class="anchored" data-anchor-id="计算函数">计算函数</h2>
+<p>为简化对时间序列数据集<span class="math inline">\({Ck}^{iS}_{Tt}\)</span>计算操作的描述，采用一些基本函数作为数学式的元素，基本形式为：</p>
+<p><span class="math display">\[FUN\{{Ck}^{iS}_{Tt}\}_{T}\]</span></p>
+<p>其基本意义是指在<span class="math inline">\(T\)</span>时间段内，对<span class="math inline">\({Ck}^{iS}_{Tt}\)</span>序列进行<span class="math inline">\(FUN\{\}\)</span>函数运算；其中下标<span class="math inline">\(\{\}_T \in (D，W，M，Q，Y，etc.)\)</span>表示按日、周、月、季、年等求取结果，若无此下标则指对所有数据计算。基本函数包括求最大值<span class="math inline">\(MAX\{\}_T\)</span>、求最小值<span class="math inline">\(MIN\{\}_T\)</span>和求平均值<span class="math inline">\(MEAN\{\}_T\)</span>。</p>
+<p>如<span class="math inline">\(MAX\{{Pd}_{h}\}_M\)</span>，是指求日统调整点负荷的月内最大值，即求月最大整点负荷<span class="math inline">\({Pd}^X_{Mh}\)</span>。</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">尾注</h2>
+
+<ol>
+<li id="fn1"><p>典型情况如国内采用的负荷特性指标，<span class="math inline">\(\gamma、\delta、\rho、\sigma、\beta、\epsilon\)</span>等。我们从变量符号很难理解和区分这些符号的意义。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>只采用小写字母下标时，对于时段变量指的是时段末的累计值，如<span class="math inline">\(E_m\)</span>表达的是月末时点的当月累积值。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>仅采用大写字母下标时，主变量名称应该是有时点含义的，如<span class="math inline">\(D\)</span>表示的是日最大峰谷差，其变量主命名隐含了一天一个数据的意思。<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "已复制");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "已复制");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
