@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Taopj@sh.cn’s Blog - 时间序列变量符号编制规则</title>
+<title>Taopj@sh.cn’s Blog - 典型负荷日研究</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,8 +60,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="../../MathJax/es5/tex-chtml.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -101,11 +99,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">时间序列变量符号编制规则</h1>
+      <h1 class="title">典型负荷日研究</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">框架研究</div>
                 <div class="quarto-category">基础</div>
-                <div class="quarto-category">时间序列</div>
+                <div class="quarto-category">负荷特性</div>
               </div>
                   </div>
   </div>
@@ -117,14 +115,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">发布日期</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2023年2月26日</p>
+        <p class="date">2023年3月25日</p>
       </div>
     </div>
     
       <div>
       <div class="quarto-title-meta-heading">更新日期</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">2023年3月11日</p>
+        <p class="date-modified">2023年3月26日</p>
       </div>
     </div>
       
@@ -140,11 +138,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#修订记录" id="toc-修订记录" class="nav-link active" data-scroll-target="#修订记录">修订记录</a></li>
-  <li><a href="#时间序列变量符号使用存在的问题" id="toc-时间序列变量符号使用存在的问题" class="nav-link" data-scroll-target="#时间序列变量符号使用存在的问题">时间序列变量符号使用存在的问题</a></li>
-  <li><a href="#变量符号编制原则" id="toc-变量符号编制原则" class="nav-link" data-scroll-target="#变量符号编制原则">变量符号编制原则</a></li>
-  <li><a href="#变量符号结构" id="toc-变量符号结构" class="nav-link" data-scroll-target="#变量符号结构">变量符号结构</a></li>
-  <li><a href="#变量符号示例" id="toc-变量符号示例" class="nav-link" data-scroll-target="#变量符号示例">变量符号示例</a></li>
-  <li><a href="#变量计算函数" id="toc-变量计算函数" class="nav-link" data-scroll-target="#变量计算函数">变量计算函数</a></li>
+  <li><a href="#典型负荷日选取面临的问题" id="toc-典型负荷日选取面临的问题" class="nav-link" data-scroll-target="#典型负荷日选取面临的问题">典型负荷日选取面临的问题</a></li>
+  <li><a href="#典型负荷日的定义" id="toc-典型负荷日的定义" class="nav-link" data-scroll-target="#典型负荷日的定义">典型负荷日的定义</a></li>
+  <li><a href="#典型负荷日选取的方法和步骤" id="toc-典型负荷日选取的方法和步骤" class="nav-link" data-scroll-target="#典型负荷日选取的方法和步骤">典型负荷日选取的方法和步骤</a></li>
   </ul>
 </nav>
     </div>
@@ -154,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>为便于电力负荷时间序列研究，编写了这份负荷预测时间序列变量符号命名规则，后续根据负荷预测框架编制过程中的需要更新。这份规则应该会成为框架的“信息及约定”部分的主要内容之一。</p>
+<p>一个人在家，研究了一天负荷特性问题（就是画了几条曲线而已），有些想不下去了。发现历史上在程序的备注中写过一些关于典型负荷日选取方法的研究，有点散乱，当作换换脑子，整理形成一个思路版。这份文档的完整版（以后再说）应该会成为框架基础部分的应用内容之一。</p>
 <!--more-->
 <section id="修订记录" class="level2">
 <h2 class="anchored" data-anchor-id="修订记录">修订记录</h2>
@@ -171,118 +167,40 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">2023年3月11日</td>
-<td style="text-align: left;">V2.2 修订，Blog发布版</td>
+<td style="text-align: right;">2023-03-25 22:14:16</td>
+<td style="text-align: left;">研究负荷特性程序段，又翻到了典型负荷日选取问题，思路整理，完成定义，Blog发布</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">2023年3月8日</td>
-<td style="text-align: left;">V2.1.2 小修订，下标大写明确用法</td>
+<td style="text-align: right;">2022年7月12~15日</td>
+<td style="text-align: left;">当时好像是华东提出了四季典型日负荷和风电出力的匹配问题，然后在程序段中加入计算105%、110%、115%最小负荷及小于这些值的小时数计算。再然后想到了典型负荷日选取的根本症结所在</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">2023年3月2日</td>
-<td style="text-align: left;">V2.1.1 文字修订</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">2023年2月28日</td>
-<td style="text-align: left;">V2.1 修订，Blog发布版</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">2023年2月26日</td>
-<td style="text-align: left;">开始写文章，发现还是需要先统一一下时间序列变量符号命名规则，在V1版基础上进行全面梳理更新，形成V2</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">2021年9月26日</td>
-<td style="text-align: left;">V1-“0.4信息及约定”</td>
+<td style="text-align: right;">2020年1月4~28日</td>
+<td style="text-align: left;">应该是在负荷特性计算程序段中插入的一些关于国网选取典型日方法的备注，其后一直关注的是选取方法修订和完善</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="时间序列变量符号使用存在的问题" class="level2">
-<h2 class="anchored" data-anchor-id="时间序列变量符号使用存在的问题">时间序列变量符号使用存在的问题</h2>
-<p>在电力负荷时间序列研究过程中发现，写文章时变量符号使用存在一些问题：</p>
-<ol type="1">
-<li>时间序列中同一物理量名称由于需要表达不同时点或时间段的值需要不同的变量符号进行指代，因此在描述过程中变量符号比较多，文章编写时常会陷于没有符号可用的境地；</li>
-<li>变量符号的取用在直观上往往难以表达其实际意义<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>，这对于理解变量含义会形成困扰，进而对阅读理解文章形成障碍。</li>
-</ol>
-<p>为解决上述问题，需要对变量符号的编制规则进行一些约定。</p>
+<section id="典型负荷日选取面临的问题" class="level2">
+<h2 class="anchored" data-anchor-id="典型负荷日选取面临的问题">典型负荷日选取面临的问题</h2>
+<p>负荷预测工作中经常会讨论如何选取典型负荷日，目前典型负荷日的选取没有统一规定，经常采用的方法主要包括3种： 1. 对于月典型负荷日，选取日负荷率与月平均日负荷率最接近、且负荷曲线无异常畸变的日负荷曲线； 2. 最大负荷日负荷曲线； 3. 每月某一固定工作日（如第3周的周三工作日）。</p>
+<p>国网发展部也给出了春秋季报告中推荐的计算方法，即上述方法1，并主要应用于采暖、降温负荷的计算<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。但目前典型负荷日选取是否剔除节假日仍存在较大争议，这就引发了一个疑问–典型负荷日的“典型”两个字究竟应该如何从数学上进行描述，或者说如何用数学式子确定某一天是“典型”负荷日。</p>
+<p>在进行采暖、降温负荷计算，以及风电、光伏出力对年最大、最小负荷日的支撑能力问题研究过程中觉悟到，对“典型”的定义才是典型负荷日选取问题的关键，而且这也恰恰是典型负荷日选取计算原则难以统一的根本原因。</p>
 </section>
-<section id="变量符号编制原则" class="level2">
-<h2 class="anchored" data-anchor-id="变量符号编制原则">变量符号编制原则</h2>
-<ol type="1">
-<li><p>变量符号应可自述其意义，包括变量（物理量或指标量）的名称、变量所指的时间特性、变量所指的分类特性等；</p></li>
-<li><p>变量符号应符合读取习惯，并有利于Markdown编写。</p></li>
-</ol>
+<section id="典型负荷日的定义" class="level2">
+<h2 class="anchored" data-anchor-id="典型负荷日的定义">典型负荷日的定义</h2>
+<p>事实上很难对典型负荷日进行定义，因为这是由其应用需求或目的所决定的。一般对电网企业而言，典型负荷日大概有以下几方面的应用需求： 1. 系统理论线损计算； 2. 计算峰谷时段，以安排发电计划； 3. 计算采暖、降温负荷；计算新能源出力对用电负荷的支撑能力等； 以及发电企业或电力用户的其他应用需求。从这些问题的表述上就可以知道，典型负荷日对发电企业、电力用户或电网企业内部不同专业而言其应用的需求和目的是完全不同的。</p>
+<!-- 因此，只能尝试进行如下定义：（此处作者省去若干字）
+典型负荷日是发电企业、电网企业或电力用户为分析、解决或预判某一特定电力系统问题，同时又需要减少对系统内设备数据需求以简化计算提升问题分析效率，而选择的过去一段时间内最能够表征该段时间系统总负荷基本特性的实际负荷发生日。 【此段和下两段备注，网页应该不显示，但html文件中还是有的，就当作彩蛋吧。2023-03-26 07:41:15】-->
+<p>正因如此，典型负荷日选取计算的原则应根据特定问题的应用需求和目标来制定，无法强行统一，但是其基本数学表达应该是一致的（计算条件可以不同）。</p>
 </section>
-<section id="变量符号结构" class="level2">
-<h2 class="anchored" data-anchor-id="变量符号结构">变量符号结构</h2>
-<p>除非特别说明，电力负荷预测时间序列变量符号由主命名和上下标修饰符组成，一般具有如下结构形式：</p>
-<p><span class="math display">\[
-{Ck}^{iS}_{Tt} \tag{1}
-\]</span></p>
-<p>其中：</p>
-<ul>
-<li><p><span class="math inline">\({Ck}\)</span>为变量主命名，使用1~2个字符表示，其中，第一个字符采用大写英文或希腊字母表示变量（物理量或指标量）的主要名称，如<span class="math inline">\({E}\)</span>表示电量、<span class="math inline">\({P}\)</span>表示负荷、<span class="math inline">\({V}\)</span>表示日最大峰谷差、<span class="math inline">\({\Psi}\)</span>表示波动率等。第二个字符采用小写英文字母或数字表示变量分类，如可用<span class="math inline">\({Ec}\)</span>表示全社会用电量，<span class="math inline">\({Vd}\)</span>表示统调日最大峰谷差等；</p></li>
-<li><p>上标<span class="math inline">\(^{iS}\)</span>为子类修饰符，使用1~2个英文字母或数字表示变量子类，其中：第1个字符称为物理子类符，采用1个小写英文字母或数字表示主变量的某一物理子类，如<span class="math inline">\({Ec}^{2}、{Ec}^{r}\)</span>可分别表示第二产业和居民的全社会用电量；第2个字符称为统计识别符，表示该变量的某一统计结果，且规定用大写字母”A、X、N”作为专用统计识别符号，分别表示”平均、最大、最小”；如<span class="math inline">\(Pd^X\)</span>表示统调最大负荷、<span class="math inline">\(Ec^{rA}\)</span>表示居民月平均用电量。</p></li>
-<li><p>下标<span class="math inline">\(_{Tt}\)</span>为时间修饰符，使用1~2个字符表示，使用一个大写英文字母加一个小写英文字母表示变量的时间分类特性：第1个字符采用大写英文字母，表示变量所处时间段，<span class="math inline">\(T \in (D，W，M，Q，Y，etc.)\)</span>，分别表示日、周、月、季、年等时间间隔，直接使用<span class="math inline">\(T\)</span>时表示任一时间段；第2个字符采用小写字符，表示变量所在时间点，<span class="math inline">\(t \in (h，d，w，m，q，etc.)\)</span>，分别表示整点时、日、周、月、季等，直接使用<span class="math inline">\(t\)</span>时表示任一时间点。只采用小写字母下标时，表示所有时点数据集合，如<span class="math inline">\(P_h\)</span>表示整点负荷、<span class="math inline">\(E_m\)</span>表示月电量数据集<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>；仅采用大写字母下标时，表示时间段内的所有数据集，如<span class="math inline">\(V_M\)</span>表示月内各日最大峰谷差的集合<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>，通常与上标大写字母合用，表示对该段时间求取的基本统计值，如<span class="math inline">\(Pd^X_M\)</span>表示月统调最大负荷；大小写字母同时使用时，第2个小写字母指代的时点应包含在第1个字母所指代的区间内。如<span class="math inline">\(P_{Mh}\)</span>表示月内的整点小时负荷集合、<span class="math inline">\(E_{Yd}\)</span>表示年内的日电量集合。</p></li>
-</ul>
-</section>
-<section id="变量符号示例" class="level2">
-<h2 class="anchored" data-anchor-id="变量符号示例">变量符号示例</h2>
-<p>负荷预测研究中的常用符号举例如下所示。</p>
-<table class="table">
-<colgroup>
-<col style="width: 13%">
-<col style="width: 18%">
-<col style="width: 13%">
-<col style="width: 20%">
-<col style="width: 13%">
-<col style="width: 21%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">符号</th>
-<th style="text-align: left;">变量名称</th>
-<th style="text-align: center;">符号</th>
-<th style="text-align: left;">变量名称</th>
-<th style="text-align: center;">符号</th>
-<th style="text-align: left;">变量名称</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><span class="math inline">\({P}\)</span></td>
-<td style="text-align: left;">负荷</td>
-<td style="text-align: center;"><span class="math inline">\({V}\)</span></td>
-<td style="text-align: left;">日最大峰谷差</td>
-<td style="text-align: center;"><span class="math inline">\({E}\)</span></td>
-<td style="text-align: left;">电量</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><span class="math inline">\({Pd}\)</span></td>
-<td style="text-align: left;">统调用电负荷</td>
-<td style="text-align: center;"><span class="math inline">\({Vd}\)</span></td>
-<td style="text-align: left;">统调日最大峰谷差</td>
-<td style="text-align: center;"><span class="math inline">\({Ed}\)</span></td>
-<td style="text-align: left;">统调用电量</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><span class="math inline">\({Pc}\)</span></td>
-<td style="text-align: left;">全社会用电负荷</td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><span class="math inline">\({Ec}\)</span></td>
-<td style="text-align: left;">全社会用电量</td>
-</tr>
-</tbody>
-</table>
-<!-- | ${\Psi p}$  |负荷波动率  |${\Psi v}$ | 日峰谷差波动率 |${\Psi e}$ | 日电量波动率 | -->
-</section>
-<section id="变量计算函数" class="level2">
-<h2 class="anchored" data-anchor-id="变量计算函数">变量计算函数</h2>
-<p>为简化对时间序列数据集<span class="math inline">\({Ck}^{iS}_{Tt}\)</span>计算操作的描述，采用一些基本统计函数作为数学式的元素，基本形式为：</p>
-<p><span class="math display">\[FUN\{{Ck}^{iS}_{Tt}\}_{T}\]</span></p>
-<p>其基本意义是指在<span class="math inline">\(T\)</span>时间段内，对<span class="math inline">\({Ck}^{iS}_{Tt}\)</span>序列进行<span class="math inline">\(FUN\{\}\)</span>函数运算；其中下标<span class="math inline">\(\{\}_T \in (D，W，M，Q，Y，etc.)\)</span>表示按日、周、月、季、年等求取结果，若无此下标则指对所有数据计算。基本函数包括求最大值<span class="math inline">\(MAX\{\}_T\)</span>、求最小值<span class="math inline">\(MIN\{\}_T\)</span>和求平均值<span class="math inline">\(MEAN\{\}_T\)</span>等。</p>
-<p>如<span class="math inline">\(MAX\{{Pd}_{h}\}_M\)</span>，是指求日统调整点负荷的月内最大值，即求月统调最大整点负荷<span class="math inline">\({Pd}^X_{Mh}\)</span>。</p>
+<section id="典型负荷日选取的方法和步骤" class="level2">
+<h2 class="anchored" data-anchor-id="典型负荷日选取的方法和步骤">典型负荷日选取的方法和步骤</h2>
+<p>典型负荷日的选择实际包括了两个问题，一是在所研究时间段内，该日负荷时点特性（负荷特性曲线）是否具有典型性；二是该日电量或平均负荷是否具有典型性。 方法及步骤包括： 1. 根据应用需求确定计算时间段，以及是否需要区分工作日和休息日； 2. 计算时间段内的平均日负荷特性曲线（日负荷特性曲线的平均值）； 3. 计算时间段内的日平均电量； 4. 根据应用需求确定： a. 计算选择负荷特性最接近平均日负荷特性曲线（负荷特性偏差最小）的一天作为典型日；或者 b. 同时考虑负荷特性偏差最小和电量偏差最小（加权最小）的一天作为典型日。</p>
+<!-- 需要注意，日负荷特性曲线的平均值和日平均电量中所指的“平均”也应根据应用需求确定是采用算数平均（mean）值还是中位（median）值。 -->
+<!-- 编译此文用的上午下载的1.3.287版Quarto，结果显示 "A new release of Deno is available: 1.28.2 -> 1.32.1 Run `deno upgrade` to install it."，然后去Quarto网站一看，又升级到1.3.290版了。决定明天下载新版Quarto后render一下再发布。
+
+似乎官网改了测试版，下载又很慢。2023-03-26 07:59:15  -->
 
 
 </section>
@@ -291,9 +209,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">尾注</h2>
 
 <ol>
-<li id="fn1"><p>典型情况如国内采用的负荷特性指标，<span class="math inline">\(\gamma、\delta、\rho、\sigma、\beta、\epsilon\)</span> 等。实际上从变量符号很难理解和区分这些符号的意义。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>只采用小写字母下标时，对于时段变量指的是时段末的累计值，如<span class="math inline">\(E_m\)</span>表达的是月末时点的当月累积值。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>仅采用大写字母下标时，主变量名称应该是有时点含义的，如<span class="math inline">\(D_Y\)</span>表示的是年内日最大峰谷差数据集，其变量主命名隐含了一天一个数据的意思;<span class="math inline">\(E_T\)</span>表示<span class="math inline">\(T\)</span>时段内的电量，仅用于公式描述。<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>尽管实际上我有了更科学的计算方法（我的预测框架的副产品之一），但实际报告中还是采用了国网的计算方法，毕竟是工作报告，还是应该采用统一、标准的方法。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
