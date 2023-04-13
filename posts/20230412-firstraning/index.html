@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Taopj@sh.cn’s Blog - 典型负荷日研究</title>
+<title>Taopj@sh.cn’s Blog - 第一次正式的负荷预测培训</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -99,11 +99,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">典型负荷日研究</h1>
+      <h1 class="title">第一次正式的负荷预测培训</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">框架研究</div>
+                <div class="quarto-category">培训</div>
                 <div class="quarto-category">基础</div>
-                <div class="quarto-category">负荷特性</div>
+                <div class="quarto-category">负荷预测</div>
               </div>
                   </div>
   </div>
@@ -115,14 +115,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">发布日期</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2023年3月25日</p>
+        <p class="date">2023年4月13日</p>
       </div>
     </div>
     
       <div>
       <div class="quarto-title-meta-heading">更新日期</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">2023年3月26日</p>
+        <p class="date-modified">2023年4月13日</p>
       </div>
     </div>
       
@@ -138,9 +138,15 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#修订记录" id="toc-修订记录" class="nav-link active" data-scroll-target="#修订记录">修订记录</a></li>
-  <li><a href="#典型负荷日选取面临的问题" id="toc-典型负荷日选取面临的问题" class="nav-link" data-scroll-target="#典型负荷日选取面临的问题">典型负荷日选取面临的问题</a></li>
-  <li><a href="#典型负荷日的定义" id="toc-典型负荷日的定义" class="nav-link" data-scroll-target="#典型负荷日的定义">典型负荷日的定义</a></li>
-  <li><a href="#典型负荷日选取的方法和步骤" id="toc-典型负荷日选取的方法和步骤" class="nav-link" data-scroll-target="#典型负荷日选取的方法和步骤">典型负荷日选取的方法和步骤</a></li>
+  <li><a href="#过程" id="toc-过程" class="nav-link" data-scroll-target="#过程">过程</a></li>
+  <li><a href="#概念部分" id="toc-概念部分" class="nav-link" data-scroll-target="#概念部分">概念部分</a>
+  <ul class="collapse">
+  <li><a href="#电量关系" id="toc-电量关系" class="nav-link" data-scroll-target="#电量关系">电量关系</a></li>
+  <li><a href="#预测流程" id="toc-预测流程" class="nav-link" data-scroll-target="#预测流程">预测流程</a></li>
+  </ul></li>
+  <li><a href="#预测方法部分" id="toc-预测方法部分" class="nav-link" data-scroll-target="#预测方法部分">预测方法部分</a></li>
+  <li><a href="#实例部分" id="toc-实例部分" class="nav-link" data-scroll-target="#实例部分">实例部分</a></li>
+  <li><a href="#后记" id="toc-后记" class="nav-link" data-scroll-target="#后记">后记</a></li>
   </ul>
 </nav>
     </div>
@@ -150,15 +156,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>一个人在家，研究了一天负荷特性问题（就是画了几条曲线而已），有些想不下去了。发现历史上在程序的备注中写过一些关于典型负荷日选取方法的研究，有点散乱，当作换换脑子，整理形成一个思路版。这份文档的完整版（以后再说）应该会成为框架基础部分的应用内容之一。</p>
+<p>去年底就开始准备培训材料，原先准备给负荷预测人员进行一个专业培训，结果提前5天收到培训通知，第一次的培训就是普及性培训，补充了点关于电量概念的材料，4小时的PPT2小时讲完。也算是开了个头。</p>
 <!--more-->
 <section id="修订记录" class="level2">
 <h2 class="anchored" data-anchor-id="修订记录">修订记录</h2>
 <table class="table">
-<colgroup>
-<col style="width: 30%">
-<col style="width: 69%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: right;">日期</th>
@@ -167,40 +169,60 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">2023-03-25 22:14:16</td>
-<td style="text-align: left;">研究负荷特性程序段，又翻到了典型负荷日选取问题，思路整理，完成定义，Blog发布</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">2022年7月12~15日</td>
-<td style="text-align: left;">当时好像是华东提出了四季典型日负荷和风电出力的匹配问题，然后在程序段中加入计算105%、110%、115%最小负荷及小于这些值的小时数计算。再然后想到了典型负荷日选取的根本症结所在</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">2020年1月4~28日</td>
-<td style="text-align: left;">应该是在负荷特性计算程序段中插入的一些关于国网选取典型日方法的备注，其后一直关注的是选取方法修订和完善</td>
+<td style="text-align: right;">2023-04-13 19:01:10</td>
+<td style="text-align: left;">补写一个blog，开始了培训工作</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="典型负荷日选取面临的问题" class="level2">
-<h2 class="anchored" data-anchor-id="典型负荷日选取面临的问题">典型负荷日选取面临的问题</h2>
-<p>负荷预测工作中经常会讨论如何选取典型负荷日，目前典型负荷日的选取没有统一规定，经常采用的方法主要包括3种： 1. 对于月典型负荷日，选取日负荷率与月平均日负荷率最接近、且负荷曲线无异常畸变的日负荷曲线； 2. 最大负荷日负荷曲线； 3. 每月某一固定工作日（如第3周的周三工作日）。</p>
-<p>国网发展部也给出了春秋季报告中推荐的计算方法，即上述方法1，并主要应用于采暖、降温负荷的计算<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。但目前典型负荷日选取是否剔除节假日仍存在较大争议，这就引发了一个疑问–典型负荷日的“典型”两个字究竟应该如何从数学上进行描述，或者说如何用数学式子确定某一天是“典型”负荷日。</p>
-<p>在进行采暖、降温负荷计算，以及风电、光伏出力对年最大、最小负荷日的支撑能力问题研究过程中觉悟到，对“典型”的定义才是典型负荷日选取问题的关键，而且这也恰恰是典型负荷日选取计算原则难以统一的根本原因。</p>
+<section id="过程" class="level2">
+<h2 class="anchored" data-anchor-id="过程">过程</h2>
+<p>上周四（2023年4月6日），收到计划处要求，开展一个国网调考的培训，希望我讲讲电量预测的基本知识。答应下来，用了周六、周日两天在原来准备的负荷预测入门PPT的基础上加了关于电量的内容，其他也来不及删改了，怕逻辑打乱。4月12日上午在培训中心A503教室（找了半天）开讲，尽管辛辛苦苦做的63页ppt只讲了2个小时，但我的《负荷预测技术与艺术》系列讲座也算是开张了<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。</p>
+<p>讲座主要将了3块内容：电量分类和预测的概念、预测方法和Excel实例。这里就放两张图片记录一下。</p>
 </section>
-<section id="典型负荷日的定义" class="level2">
-<h2 class="anchored" data-anchor-id="典型负荷日的定义">典型负荷日的定义</h2>
-<p>事实上很难对典型负荷日进行定义，因为这是由其应用需求或目的所决定的。一般对电网企业而言，典型负荷日大概有以下几方面的应用需求： 1. 系统理论线损计算； 2. 计算峰谷时段，以安排发电计划； 3. 计算采暖、降温负荷；计算新能源出力对用电负荷的支撑能力等； 以及发电企业或电力用户的其他应用需求。从这些问题的表述上就可以知道，典型负荷日对发电企业、电力用户或电网企业内部不同专业而言其应用的需求和目的是完全不同的。</p>
-<!-- 因此，只能尝试进行如下定义：（此处作者省去若干字）
-典型负荷日是发电企业、电网企业或电力用户为分析、解决或预判某一特定电力系统问题，同时又需要减少对系统内设备数据需求以简化计算提升问题分析效率，而选择的过去一段时间内最能够表征该段时间系统总负荷基本特性的实际负荷发生日。 【此段和下两段备注，网页应该不显示，但html文件中还是有的，就当作彩蛋吧。2023-03-26 07:41:15】-->
-<p>正因如此，典型负荷日选取计算的原则应根据特定问题的应用需求和目标来制定，无法强行统一，但是其基本数学表达应该是一致的（计算条件可以不同）。</p>
+<section id="概念部分" class="level2">
+<h2 class="anchored" data-anchor-id="概念部分">概念部分</h2>
+<section id="电量关系" class="level3">
+<h3 class="anchored" data-anchor-id="电量关系">电量关系</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">电量的关系</figcaption><p></p>
+<p><img src="Ectypes_20230408.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
 </section>
-<section id="典型负荷日选取的方法和步骤" class="level2">
-<h2 class="anchored" data-anchor-id="典型负荷日选取的方法和步骤">典型负荷日选取的方法和步骤</h2>
-<p>典型负荷日的选择实际包括了两个问题，一是在所研究时间段内，该日负荷时点特性（负荷特性曲线）是否具有典型性；二是该日电量或平均负荷是否具有典型性。 方法及步骤包括： 1. 根据应用需求确定计算时间段，以及是否需要区分工作日和休息日； 2. 计算时间段内的平均日负荷特性曲线（日负荷特性曲线的平均值）； 3. 计算时间段内的日平均电量； 4. 根据应用需求确定： a. 计算选择负荷特性最接近平均日负荷特性曲线（负荷特性偏差最小）的一天作为典型日；或者 b. 同时考虑负荷特性偏差最小和电量偏差最小（加权最小）的一天作为典型日。</p>
-<!-- 需要注意，日负荷特性曲线的平均值和日平均电量中所指的“平均”也应根据应用需求确定是采用算数平均（mean）值还是中位（median）值。 -->
-<!-- 编译此文用的上午下载的1.3.287版Quarto，结果显示 "A new release of Deno is available: 1.28.2 -> 1.32.1 Run `deno upgrade` to install it."，然后去Quarto网站一看，又升级到1.3.290版了。决定明天下载新版Quarto后render一下再发布。
-
-似乎官网改了测试版，下载又很慢。2023-03-26 07:59:15  -->
+<section id="预测流程" class="level3">
+<h3 class="anchored" data-anchor-id="预测流程">预测流程</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">预测的流程</figcaption><p></p>
+<p><img src="Forecastprocess.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="预测方法部分" class="level2">
+<h2 class="anchored" data-anchor-id="预测方法部分">预测方法部分</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">预测的方法</figcaption><p></p>
+<p><img src="Modernforecasttypes.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="实例部分" class="level2">
+<h2 class="anchored" data-anchor-id="实例部分">实例部分</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">用表格软件进行预测</figcaption><p></p>
+<p><img src="WPS01.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="后记" class="level2">
+<h2 class="anchored" data-anchor-id="后记">后记</h2>
+<p>尽管时间所限，感觉讲的不是很透彻，基本的概念应该还是讲清楚了。同时，也发现需要对传统预测方法也整理一个分类图。记得下一次讲课还是需要带自己的笔记本，培训中心的机子居然不能用演讲者视图，写的备注都没用，吐槽一下。</p>
+<p>再次感叹一下，Quarto还是阔以的。</p>
 
 
 </section>
@@ -209,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">尾注</h2>
 
 <ol>
-<li id="fn1"><p>尽管实际上我有了更科学的计算方法（我的预测框架的副产品之一），但实际报告中还是采用了国网的计算方法，毕竟是工作报告，还是应该采用统一、标准的方法。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>2016年给蒙东公司的讲课应该是第一次负荷预测培训，这里的第一次是指在公司里的第一次，当然也是自己觉得可以讲负荷预测后的第一次。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
