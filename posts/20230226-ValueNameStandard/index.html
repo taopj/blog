@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.290">
+<meta name="generator" content="quarto-1.6.6">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Taopj@sh.cn’s Blog - 时间序列变量符号编制规则</title>
+<title>时间序列变量符号编制规则 – Taopj@sh.cn’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -46,7 +46,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "没有结果",
     "search-matching-documents-text": "匹配的文档",
@@ -55,13 +61,42 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "更多匹配结果",
     "search-more-matches-text": "更多匹配结果",
     "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "取消",
-    "search-submit-button-title": "提交"
+    "search-submit-button-title": "提交",
+    "search-label": "Search"
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="../../MathJax/es5/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -69,10 +104,10 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../images\tau3.png" alt="" class="navbar-logo">
     </a>
@@ -81,19 +116,19 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">关于</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">关于</span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -149,7 +184,8 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
 
 
 
@@ -158,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 <!--more-->
 <section id="修订记录" class="level2">
 <h2 class="anchored" data-anchor-id="修订记录">修订记录</h2>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 69%">
@@ -197,14 +233,14 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="时间序列变量符号使用存在的问题" class="level2">
+<section id="时间序列变量符号使用存在的问题" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="时间序列变量符号使用存在的问题">时间序列变量符号使用存在的问题</h2>
 <p>在电力负荷时间序列研究过程中发现，写文章时变量符号使用存在一些问题：</p>
 <ol type="1">
 <li>时间序列中同一物理量名称由于需要表达不同时点或时间段的值需要不同的变量符号进行指代，因此在描述过程中变量符号比较多，文章编写时常会陷于没有符号可用的境地；</li>
 <li>变量符号的取用在直观上往往难以表达其实际意义<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>，这对于理解变量含义会形成困扰，进而对阅读理解文章形成障碍。</li>
 </ol>
-<p>为解决上述问题，需要对变量符号的编制规则进行一些约定。</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;典型情况如国内采用的负荷特性指标，<span class="math inline">\(\gamma、\delta、\rho、\sigma、\beta、\epsilon\)</span> 等。实际上从变量符号很难理解和区分这些符号的意义。</p></div></div><p>为解决上述问题，需要对变量符号的编制规则进行一些约定。</p>
 </section>
 <section id="变量符号编制原则" class="level2">
 <h2 class="anchored" data-anchor-id="变量符号编制原则">变量符号编制原则</h2>
@@ -213,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>变量符号应符合读取习惯，并有利于Markdown编写。</p></li>
 </ol>
 </section>
-<section id="变量符号结构" class="level2">
+<section id="变量符号结构" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="变量符号结构">变量符号结构</h2>
 <p>除非特别说明，电力负荷预测时间序列变量符号由主命名和上下标修饰符组成，一般具有如下结构形式：</p>
 <p><span class="math display">\[
@@ -225,11 +261,11 @@ ul.task-list li input[type="checkbox"] {
 <li><p>上标<span class="math inline">\(^{iS}\)</span>为子类修饰符，使用1~2个英文字母或数字表示变量子类，其中：第1个字符称为物理子类符，采用1个小写英文字母或数字表示主变量的某一物理子类，如<span class="math inline">\({Ec}^{2}、{Ec}^{r}\)</span>可分别表示第二产业和居民的全社会用电量；第2个字符称为统计识别符，表示该变量的某一统计结果，且规定用大写字母”A、X、N”作为专用统计识别符号，分别表示”平均、最大、最小”；如<span class="math inline">\(Pd^X\)</span>表示统调最大负荷、<span class="math inline">\(Ec^{rA}\)</span>表示居民月平均用电量。</p></li>
 <li><p>下标<span class="math inline">\(_{Tt}\)</span>为时间修饰符，使用1~2个字符表示，使用一个大写英文字母加一个小写英文字母表示变量的时间分类特性：第1个字符采用大写英文字母，表示变量所处时间段，<span class="math inline">\(T \in (D，W，M，Q，Y，etc.)\)</span>，分别表示日、周、月、季、年等时间间隔，直接使用<span class="math inline">\(T\)</span>时表示任一时间段；第2个字符采用小写字符，表示变量所在时间点，<span class="math inline">\(t \in (h，d，w，m，q，etc.)\)</span>，分别表示整点时、日、周、月、季等，直接使用<span class="math inline">\(t\)</span>时表示任一时间点。只采用小写字母下标时，表示所有时点数据集合，如<span class="math inline">\(P_h\)</span>表示整点负荷、<span class="math inline">\(E_m\)</span>表示月电量数据集<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>；仅采用大写字母下标时，表示时间段内的所有数据集，如<span class="math inline">\(V_M\)</span>表示月内各日最大峰谷差的集合<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>，通常与上标大写字母合用，表示对该段时间求取的基本统计值，如<span class="math inline">\(Pd^X_M\)</span>表示月统调最大负荷；大小写字母同时使用时，第2个小写字母指代的时点应包含在第1个字母所指代的区间内。如<span class="math inline">\(P_{Mh}\)</span>表示月内的整点小时负荷集合、<span class="math inline">\(E_{Yd}\)</span>表示年内的日电量集合。</p></li>
 </ul>
-</section>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;只采用小写字母下标时，对于时段变量指的是时段末的累计值，如<span class="math inline">\(E_m\)</span>表达的是月末时点的当月累积值。</p></div><div id="fn3"><p><sup>3</sup>&nbsp;仅采用大写字母下标时，主变量名称应该是有时点含义的，如<span class="math inline">\(D_Y\)</span>表示的是年内日最大峰谷差数据集，其变量主命名隐含了一天一个数据的意思;<span class="math inline">\(E_T\)</span>表示<span class="math inline">\(T\)</span>时段内的电量，仅用于公式描述。</p></div></div></section>
 <section id="变量符号示例" class="level2">
 <h2 class="anchored" data-anchor-id="变量符号示例">变量符号示例</h2>
 <p>负荷预测研究中的常用符号举例如下所示。</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 13%">
 <col style="width: 18%">
@@ -288,14 +324,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">尾注</h2>
-
-<ol>
-<li id="fn1"><p>典型情况如国内采用的负荷特性指标，<span class="math inline">\(\gamma、\delta、\rho、\sigma、\beta、\epsilon\)</span> 等。实际上从变量符号很难理解和区分这些符号的意义。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>只采用小写字母下标时，对于时段变量指的是时段末的累计值，如<span class="math inline">\(E_m\)</span>表达的是月末时点的当月累积值。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>仅采用大写字母下标时，主变量名称应该是有时点含义的，如<span class="math inline">\(D_Y\)</span>表示的是年内日最大峰谷差数据集，其变量主命名隐含了一天一个数据的意思;<span class="math inline">\(E_T\)</span>表示<span class="math inline">\(T\)</span>时段内的电量，仅用于公式描述。<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -331,18 +360,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -374,11 +392,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -388,8 +445,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -401,7 +467,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -445,6 +634,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -470,6 +660,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -530,6 +746,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

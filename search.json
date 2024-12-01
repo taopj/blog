@@ -1,136 +1,157 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Taopj",
+    "objectID": "posts/20230630-Loadcharactristics/index.html",
+    "href": "posts/20230630-Loadcharactristics/index.html",
+    "title": "负荷特性",
     "section": "",
-    "text": "本站用于记录我在R语言、负荷预测和季节调整的研究。\n2020-04-11 于 浦江之畔"
+    "text": "6月20日给《电力需求侧管理》投稿–电力负荷特性的描述：负荷波动率（A description of electrical load characteristics：Load Volatility），其中一小段讨论了负荷特性的定义、研究目的和内容，这里先记录发布一下。"
   },
   {
-    "objectID": "about.html#taopj的第一个blog",
-    "href": "about.html#taopj的第一个blog",
-    "title": "Taopj",
-    "section": "",
-    "text": "本站用于记录我在R语言、负荷预测和季节调整的研究。\n2020-04-11 于 浦江之畔"
+    "objectID": "posts/20230630-Loadcharactristics/index.html#定义",
+    "href": "posts/20230630-Loadcharactristics/index.html#定义",
+    "title": "负荷特性",
+    "section": "定义",
+    "text": "定义\n对负荷特性的描述包括总量、结构和波动三个方面，以及横、纵向两个维度。用电总量一般通过前后比较来描述增长，用横向比较确定所处状态；用电结构多通过截面数据的比值进行描述；而用电波动的描述多采用指标（如日负荷率、峰谷差率等）计算来获得。从广义上说，负荷特性是指对负荷总量、结构和波动特征的描述，就本文而言，负荷特性1专指对负荷波动的定量可比描述。\n1 这里实际给出了负荷特性的定义。居然没有在历史文献中查到负荷特性的定义-是看书少吗？"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tao的文章",
-    "section": "",
-    "text": "负荷特性\n\n\n\n\n\n\n\n\n\n\n\n\n2023年6月20日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n第一次正式的负荷预测培训\n\n\n\n\n\n\n\n\n\n\n\n\n2023年4月13日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n典型负荷日研究\n\n\n\n\n\n\n\n\n\n\n\n\n2023年3月25日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n时间序列变量符号编制规则\n\n\n\n\n\n\n\n\n\n\n\n\n2023年2月26日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n更新到Quarto\n\n\n\n\n\n\n\n\n\n\n\n\n2023年2月1日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n无语的研究\n\n\n\n\n\n\n\n\n\n\n\n\n2022年10月23日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n负荷预测的3个基本问题\n\n\n\n\n\n\n\n\n\n\n\n\n2022年5月15日\n\n\n1 分钟\n\n\n\n\n\n\n\n\nMTLF完成V30更新\n\n\n\n\n\n\n\n\n\n\n\n\n2022年5月6日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n预测方法评估\n\n\n\n\n\n\n\n\n\n\n\n\n2022年3月20日\n\n\n7 分钟\n\n\n\n\n\n\n\n\n开始空调负荷理论研究\n\n\n\n\n\n\n\n\n\n\n\n\n2021年8月6日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n季节调整历史\n\n\n\n\n\n\n\n\n\n\n\n\n2021年6月27日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n更新本站theme\n\n\n\n\n\n\n\n\n\n\n\n\n2021年6月16日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n时间序列分析的基本概念\n\n\n\n\n\n\n\n\n\n\n\n\n2021年6月12日\n\n\n13 分钟\n\n\n\n\n\n\n\n\n假日政策历史回顾\n\n\n\n\n\n\n\n\n\n\n\n\n2021年5月19日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n关于时间序列的7本好书\n\n\n\n\n\n\n\n\n\n\n\n\n2021年5月19日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n开始使用Github Desktop\n\n\n\n\n\n\n\n\n\n\n\n\n2021年5月19日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n梅沙尖\n\n\n\n\n\n\n\n\n\n\n\n\n2021年3月28日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n完成概率负荷预测所有理论\n\n\n\n\n\n\n\n\n\n\n\n\n2021年3月10日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n启动失败再次安装\n\n\n\n\n\n\n\n\n\n\n\n\n2020年10月24日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n完成Github Desktop安装进行测试\n\n\n\n\n\n\n\n\n\n\n\n\n2020年9月6日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n修改界面主题\n\n\n\n\n\n\n\n\n\n\n\n\n2020年8月29日\n\n\n1 分钟\n\n\n\n\n\n\n\n\n开篇（Hugo-blogdown）\n\n\n\n\n\n\n\n\n\n\n\n\n2020年8月27日\n\n\n1 分钟\n\n\n\n\n\n\n无匹配项"
+    "objectID": "posts/20230630-Loadcharactristics/index.html#研究目的和内容",
+    "href": "posts/20230630-Loadcharactristics/index.html#研究目的和内容",
+    "title": "负荷特性",
+    "section": "研究目的和内容",
+    "text": "研究目的和内容\n由于对应的生产、生活状况及其用电方式不同，不同负荷具有各自的波动特性。对这些波动特性进行研究主要有两个目的：\n\n解释现状，分析负荷在时间、空间、行业、产业间的不同特性，以期得到总量和分量之间、负荷和其他经济社会气象因素之间的相关关系，并进而解释当前负荷发展超出（或不及）预期状态的原因；\n预测未来，推测负荷在未来年份的平均特性或趋势变化情况及在某些条件（经济、气象、政策等）发生超预期变化时可能的负荷波动范围及概率，进而通过电力系统规划或政策调整来与之相适应。\n\n如果说负荷分析预测研究集中在对总体平均状态或趋势的判断，那么负荷特性研究则是对当前或未来偏离这一平均状态或趋势的定量分析。所以，负荷特性研究不仅是用电分析的重要手段，更是负荷预测不可或缺的核心内容，它以负荷平均状态或趋势作为基准，目标是研究负荷波动的范围及概率。"
   },
   {
-    "objectID": "MathJax/CONTRIBUTING.html",
-    "href": "MathJax/CONTRIBUTING.html",
-    "title": "Contributing to MathJax",
-    "section": "",
-    "text": "You are interested in giving us a hand? That’s awesome! We’ve put together some brief guidelines that should help you get started quickly and easily.\nThere are lots and lots of ways to get involved, this document covers:\n\nreporting an issue\n\nbug reports\nfeature requests\nchange requests\n\nworking on MathJax core\n\nkey branches and tags\nsubmitting pull requests\ntesting and quality assurance\nwriting documentation\ntranslation\n\nConduct\n\n\n\nIf you’re about to raise an issue because you think you’ve found a problem with MathJax, or you’d like to make a request for a new feature in the codebase, or any other reason, please read this first.\nThe MathJax issue tracker is the preferred channel for bug reports, feature requests, change requests, and submitting pull requests, but please respect the following restrictions:\n\nPlease search for existing issues. Help us keep duplicate issues to a minimum by checking to see if someone has already reported your problem or requested your idea.\nPlease do not use the issue tracker for personal support requests (use the MathJax User Group).\nPlease be civil. Keep the discussion on topic and respect the opinions of others. See also our Conduct Guidelines\n\n\n\nA bug is a demonstrable problem that is caused by the code in the repository. Good bug reports are extremely helpful — thank you!\nGuidelines for bug reports:\n\nUse the GitHub issue search — check if the issue has already been reported.\nCheck if the issue has been fixed — look for closed issues in the current milestone or try to reproduce it using the latest develop branch. Please note that you will need to compile MathJax and make the components in order to test MathJax from the source repository.\nShare a live sample of the problem — without a live page it is usually impossible to debug problems; see also the Bug Report Template below.\nIsolate the problem — a live sample is a starting point but if you want to speed things up, create a reduced test case. Be specific about your setup (browser, OS versions, etc). Use services like jsbin, CodePen, or jsFiddle to make collaboration on minimal test cases easier for everyone.\nInclude a screenshot/cast as a last resort — Is your issue about a layout or design feature or bug that is hard to reproduce or isolate? Then please provide a screenshot or screencast. Tools like LICEcap or SauceLabs allow you to quickly and easily record a screencasts. If you make it an animated gif, you can embed it directly into your GitHub issue.\nUse the Bug Report Template below or click this link to start creating a bug report with the template automatically.\n\nA good bug report shouldn’t leave others needing to request more information from you. Be sure to include the details of your environment.\n\nTemplate Example (click to use):\nShort and descriptive example bug report title\n\n### Issue Summary\n\nA summary of the issue and the browser/OS environment in which it occurs. If\nsuitable, include the steps required to reproduce the bug.\n\n### Steps to Reproduce\n\n1. This is the first step\n2. This is the second step\n3. Further steps, etc.\n\nAny other information you want to share that is relevant to the issue\nbeing reported. Especially, why do you consider this to be a bug? What\ndo you expect to happen instead?\n\n### Technical details:\n\n* MathJax Version: 2.3 (latest commit: f3aaf3a2a3e964df2770dc4aaaa9c87ce5f47e2c)\n* Client OS: Mac OS X 10.8.4\n* Browser: Chrome 29.0.1547.57\n\n\n\nFeature requests are welcome. Before you submit one, be sure to have:\n\nUsed the GitHub search to check that the feature hasn’t already been requested.\nTake a moment to think about whether your idea fits with the scope and aims of the project, or if it might better fit being a custom extension.\nRemember, it’s up to you to make a strong case to convince the project’s leaders of the merits of this feature. Please provide as much detail and context as possible, this means explaining the use case and why it is likely to be common.\n\n\n\n\nChange requests cover both architectural and functional changes to how MathJax works. If you have an idea for a new or different dependency, a refactor, or an improvement to a feature, etc., please be sure to:\n\nUse the GitHub search to check that someone else didn’t get there first.\nTake a moment to think about the best way to make a case for, and explain what you’re thinking. Are you sure this shouldn’t really be a bug report or a feature request? Is it really one idea or is it many? What’s the context? What problem are you solving? Why is what you are suggesting better than what’s already there?\n\n\n\n\n\nYou want to contribute code? We describe how below. First, note that the MathJax source code is in the https://github.com/mathjax/MathJax-src repository, not the https://github.com/mathjax/MathJax repository, which contains the packaged component files for distribution on CDNs and the mathjax npm package (the source code is included in the mathjax-full npm package).\n\n\nMathJax uses several permanent branches in the MathJax source repository:\n\ndevelop is the development branch. All work on the next release happens here so you should generally branch off develop if you are going to submit a pull request. Do NOT use this branch for a production site.\nmaster contains the latest release of MathJax. This branch may be used in production. Do NOT use this branch to work on MathJax’s source.\n\nThese branches reflect version 3 of MathJax, which is substantially different from the version 2 codebase. Version 2 will continue to be maintained while web sites transition to version 3, with work being done using the following branches in the MathJax distribution repository:\n\nlegacy-v2-develop is the development branch for changes to the legacy version 2 code. Any pull requests for version 2 should be branched from here. Do NOT use this branch for a production site.\nlegacy-v2 is the branch that contains any updates to version 2 following the release of version 3. Do NOT use this branch to work on MathJax’s source.\n\nIn addition to these branches, MathJax uses tags to identify the various versions. These can be checked out to obtain the specified release; for example, git checkout 2.7.5 would get you the files for version 2.7.5 of MathJax.\nNote that version 3 is written in Typescript, and so must be compiled to obtain usable javascript files, and that the components need to be built once that is done. See the documentation for details. For version 2, the source javascript files are not compressed until a release is made, so you should use the copies in the unpacked directory during development.\n\n\n\nPull requests are welcome. If you’re looking to submit a PR for something that doesn’t have an open issue, please consider raising an issue that your PR can close, especially if you’re fixing a bug. This makes it more likely that there will be enough information available for your PR to be properly tested and merged.\n\n\nIf you’re not completely clear on how to submit/update/do Pull Requests, please check out our source control policies. For more insights, check the excellent in depth Git Workflow guide from Ghost, in particular\n\nGhost Workflow guide: commit messages\n\n\n\n\n\nIf you’re looking to get involved with the code base and don’t know where to start, checking out and testing a pull request is one of the most useful things you could do.\nThese are some excellent instructions on configuring your GitHub repository to allow you to checkout pull requests in the same way as branches.\n\n\n\nMathJax’s main documentation can be found at docs.mathjax.org. The source of the docs is hosted in the mathjax/MathJax-docs repo here on GitHub.\nThe documentation is generated using Sphinx-doc and hosted on Read the docs. You can clone the repo and submit pull requests following the pull-request guidelines.\n\n\n\nIf you wish to add or update translations of MathJax, please do it on TranslateWiki.net (and while you’re there you can help other open source projects, too).\nFor bug reports and other questions that don’t fit on TranslateWiki.net, head over to the mathjax/mathjax-i18n repository.\nThe translation files currently are for version 2, as localization hasn’t been added to version 3 yet.\n\n\n\n\nAs a NumFOCUS fiscally sponsored project, MathJax is governed by the NumFOCUS code of conduct, which we summarize as follows:\nWe are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic.\nPlease be kind and courteous. There’s no need to be mean or rude. Respect that people have differences of opinion and that every design or implementation choice carries a trade-off and numerous costs. There is seldom a right answer, merely an optimal answer given a set of values and circumstances.\nPlease keep unstructured critique to a minimum. If you have solid ideas you want to experiment with, make a fork and see how it works.\nWe will exclude you from interaction if you insult, demean or harass anyone. That is not welcome behaviour. We interpret the term “harassment” as including the definition in the Unacceptable Behavior section of the NumFOCUS code of conduct; if you have any lack of clarity about what might be included in that concept, please read that definition. In particular, we don’t tolerate behavior that excludes people in socially marginalized groups.\nPrivate harassment is also unacceptable. No matter who you are, if you feel you have been or are being harassed or made uncomfortable by a community member, please contact one of the channel ops or any of the MathJax core team immediately. Whether you’re a regular contributor or a newcomer, we care about making this community a safe place for you and we’ve got your back.\nLikewise any spamming, trolling, flaming, baiting, or other attention-stealing behaviour is not welcome.\nWe also recommend that you read discourse’s rules for further suggestions on appropriate behavior.\n\n\n\n\nWe heavily borrowed from Mozilla and Ghost – thank you!\n\nhttps://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md\nhttps://github.com/mozilla/rust/wiki/Note-development-policy\n\nhttps://github.com/jden/CONTRIBUTING.md/blob/master/CONTRIBUTING.md\nhttp://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discourse/"
+    "objectID": "posts/20230630-Loadcharactristics/index.html#结论",
+    "href": "posts/20230630-Loadcharactristics/index.html#结论",
+    "title": "负荷特性",
+    "section": "结论",
+    "text": "结论\n因此，负荷特性研究就是研究负荷偏离平均状态的程度。"
   },
   {
-    "objectID": "MathJax/CONTRIBUTING.html#reporting-an-issue",
-    "href": "MathJax/CONTRIBUTING.html#reporting-an-issue",
-    "title": "Contributing to MathJax",
+    "objectID": "posts/20230325-LoadVolatilityRes1/index.html",
+    "href": "posts/20230325-LoadVolatilityRes1/index.html",
+    "title": "典型负荷日研究",
     "section": "",
-    "text": "If you’re about to raise an issue because you think you’ve found a problem with MathJax, or you’d like to make a request for a new feature in the codebase, or any other reason, please read this first.\nThe MathJax issue tracker is the preferred channel for bug reports, feature requests, change requests, and submitting pull requests, but please respect the following restrictions:\n\nPlease search for existing issues. Help us keep duplicate issues to a minimum by checking to see if someone has already reported your problem or requested your idea.\nPlease do not use the issue tracker for personal support requests (use the MathJax User Group).\nPlease be civil. Keep the discussion on topic and respect the opinions of others. See also our Conduct Guidelines\n\n\n\nA bug is a demonstrable problem that is caused by the code in the repository. Good bug reports are extremely helpful — thank you!\nGuidelines for bug reports:\n\nUse the GitHub issue search — check if the issue has already been reported.\nCheck if the issue has been fixed — look for closed issues in the current milestone or try to reproduce it using the latest develop branch. Please note that you will need to compile MathJax and make the components in order to test MathJax from the source repository.\nShare a live sample of the problem — without a live page it is usually impossible to debug problems; see also the Bug Report Template below.\nIsolate the problem — a live sample is a starting point but if you want to speed things up, create a reduced test case. Be specific about your setup (browser, OS versions, etc). Use services like jsbin, CodePen, or jsFiddle to make collaboration on minimal test cases easier for everyone.\nInclude a screenshot/cast as a last resort — Is your issue about a layout or design feature or bug that is hard to reproduce or isolate? Then please provide a screenshot or screencast. Tools like LICEcap or SauceLabs allow you to quickly and easily record a screencasts. If you make it an animated gif, you can embed it directly into your GitHub issue.\nUse the Bug Report Template below or click this link to start creating a bug report with the template automatically.\n\nA good bug report shouldn’t leave others needing to request more information from you. Be sure to include the details of your environment.\n\nTemplate Example (click to use):\nShort and descriptive example bug report title\n\n### Issue Summary\n\nA summary of the issue and the browser/OS environment in which it occurs. If\nsuitable, include the steps required to reproduce the bug.\n\n### Steps to Reproduce\n\n1. This is the first step\n2. This is the second step\n3. Further steps, etc.\n\nAny other information you want to share that is relevant to the issue\nbeing reported. Especially, why do you consider this to be a bug? What\ndo you expect to happen instead?\n\n### Technical details:\n\n* MathJax Version: 2.3 (latest commit: f3aaf3a2a3e964df2770dc4aaaa9c87ce5f47e2c)\n* Client OS: Mac OS X 10.8.4\n* Browser: Chrome 29.0.1547.57\n\n\n\nFeature requests are welcome. Before you submit one, be sure to have:\n\nUsed the GitHub search to check that the feature hasn’t already been requested.\nTake a moment to think about whether your idea fits with the scope and aims of the project, or if it might better fit being a custom extension.\nRemember, it’s up to you to make a strong case to convince the project’s leaders of the merits of this feature. Please provide as much detail and context as possible, this means explaining the use case and why it is likely to be common.\n\n\n\n\nChange requests cover both architectural and functional changes to how MathJax works. If you have an idea for a new or different dependency, a refactor, or an improvement to a feature, etc., please be sure to:\n\nUse the GitHub search to check that someone else didn’t get there first.\nTake a moment to think about the best way to make a case for, and explain what you’re thinking. Are you sure this shouldn’t really be a bug report or a feature request? Is it really one idea or is it many? What’s the context? What problem are you solving? Why is what you are suggesting better than what’s already there?"
+    "text": "一个人在家，研究了一天负荷特性问题（就是画了几条曲线而已），有些想不下去了。发现历史上在程序的备注中写过一些关于典型负荷日选取方法的研究，有点散乱，当作换换脑子，整理形成一个思路版。这份文档的完整版（以后再说）应该会成为框架基础部分的应用内容之一。"
   },
   {
-    "objectID": "MathJax/CONTRIBUTING.html#working-on-mathjax-core",
-    "href": "MathJax/CONTRIBUTING.html#working-on-mathjax-core",
-    "title": "Contributing to MathJax",
-    "section": "",
-    "text": "You want to contribute code? We describe how below. First, note that the MathJax source code is in the https://github.com/mathjax/MathJax-src repository, not the https://github.com/mathjax/MathJax repository, which contains the packaged component files for distribution on CDNs and the mathjax npm package (the source code is included in the mathjax-full npm package).\n\n\nMathJax uses several permanent branches in the MathJax source repository:\n\ndevelop is the development branch. All work on the next release happens here so you should generally branch off develop if you are going to submit a pull request. Do NOT use this branch for a production site.\nmaster contains the latest release of MathJax. This branch may be used in production. Do NOT use this branch to work on MathJax’s source.\n\nThese branches reflect version 3 of MathJax, which is substantially different from the version 2 codebase. Version 2 will continue to be maintained while web sites transition to version 3, with work being done using the following branches in the MathJax distribution repository:\n\nlegacy-v2-develop is the development branch for changes to the legacy version 2 code. Any pull requests for version 2 should be branched from here. Do NOT use this branch for a production site.\nlegacy-v2 is the branch that contains any updates to version 2 following the release of version 3. Do NOT use this branch to work on MathJax’s source.\n\nIn addition to these branches, MathJax uses tags to identify the various versions. These can be checked out to obtain the specified release; for example, git checkout 2.7.5 would get you the files for version 2.7.5 of MathJax.\nNote that version 3 is written in Typescript, and so must be compiled to obtain usable javascript files, and that the components need to be built once that is done. See the documentation for details. For version 2, the source javascript files are not compressed until a release is made, so you should use the copies in the unpacked directory during development.\n\n\n\nPull requests are welcome. If you’re looking to submit a PR for something that doesn’t have an open issue, please consider raising an issue that your PR can close, especially if you’re fixing a bug. This makes it more likely that there will be enough information available for your PR to be properly tested and merged.\n\n\nIf you’re not completely clear on how to submit/update/do Pull Requests, please check out our source control policies. For more insights, check the excellent in depth Git Workflow guide from Ghost, in particular\n\nGhost Workflow guide: commit messages\n\n\n\n\n\nIf you’re looking to get involved with the code base and don’t know where to start, checking out and testing a pull request is one of the most useful things you could do.\nThese are some excellent instructions on configuring your GitHub repository to allow you to checkout pull requests in the same way as branches.\n\n\n\nMathJax’s main documentation can be found at docs.mathjax.org. The source of the docs is hosted in the mathjax/MathJax-docs repo here on GitHub.\nThe documentation is generated using Sphinx-doc and hosted on Read the docs. You can clone the repo and submit pull requests following the pull-request guidelines.\n\n\n\nIf you wish to add or update translations of MathJax, please do it on TranslateWiki.net (and while you’re there you can help other open source projects, too).\nFor bug reports and other questions that don’t fit on TranslateWiki.net, head over to the mathjax/mathjax-i18n repository.\nThe translation files currently are for version 2, as localization hasn’t been added to version 3 yet."
+    "objectID": "posts/20230325-LoadVolatilityRes1/index.html#修订记录",
+    "href": "posts/20230325-LoadVolatilityRes1/index.html#修订记录",
+    "title": "典型负荷日研究",
+    "section": "修订记录",
+    "text": "修订记录\n\n\n\n\n\n\n\n日期\n内容\n\n\n\n\n2023-03-25 22:14:16\n研究负荷特性程序段，又翻到了典型负荷日选取问题，思路整理，完成定义，Blog发布\n\n\n2022年7月12~15日\n当时好像是华东提出了四季典型日负荷和风电出力的匹配问题，然后在程序段中加入计算105%、110%、115%最小负荷及小于这些值的小时数计算。再然后想到了典型负荷日选取的根本症结所在\n\n\n2020年1月4~28日\n应该是在负荷特性计算程序段中插入的一些关于国网选取典型日方法的备注，其后一直关注的是选取方法修订和完善"
   },
   {
-    "objectID": "MathJax/CONTRIBUTING.html#conduct",
-    "href": "MathJax/CONTRIBUTING.html#conduct",
-    "title": "Contributing to MathJax",
-    "section": "",
-    "text": "As a NumFOCUS fiscally sponsored project, MathJax is governed by the NumFOCUS code of conduct, which we summarize as follows:\nWe are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic.\nPlease be kind and courteous. There’s no need to be mean or rude. Respect that people have differences of opinion and that every design or implementation choice carries a trade-off and numerous costs. There is seldom a right answer, merely an optimal answer given a set of values and circumstances.\nPlease keep unstructured critique to a minimum. If you have solid ideas you want to experiment with, make a fork and see how it works.\nWe will exclude you from interaction if you insult, demean or harass anyone. That is not welcome behaviour. We interpret the term “harassment” as including the definition in the Unacceptable Behavior section of the NumFOCUS code of conduct; if you have any lack of clarity about what might be included in that concept, please read that definition. In particular, we don’t tolerate behavior that excludes people in socially marginalized groups.\nPrivate harassment is also unacceptable. No matter who you are, if you feel you have been or are being harassed or made uncomfortable by a community member, please contact one of the channel ops or any of the MathJax core team immediately. Whether you’re a regular contributor or a newcomer, we care about making this community a safe place for you and we’ve got your back.\nLikewise any spamming, trolling, flaming, baiting, or other attention-stealing behaviour is not welcome.\nWe also recommend that you read discourse’s rules for further suggestions on appropriate behavior."
+    "objectID": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日选取面临的问题",
+    "href": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日选取面临的问题",
+    "title": "典型负荷日研究",
+    "section": "典型负荷日选取面临的问题",
+    "text": "典型负荷日选取面临的问题\n负荷预测工作中经常会讨论如何选取典型负荷日，目前典型负荷日的选取没有统一规定，经常采用的方法主要包括3种： 1. 对于月典型负荷日，选取日负荷率与月平均日负荷率最接近、且负荷曲线无异常畸变的日负荷曲线； 2. 最大负荷日负荷曲线； 3. 每月某一固定工作日（如第3周的周三工作日）。\n国网发展部也给出了春秋季报告中推荐的计算方法，即上述方法1，并主要应用于采暖、降温负荷的计算1。但目前典型负荷日选取是否剔除节假日仍存在较大争议，这就引发了一个疑问–典型负荷日的“典型”两个字究竟应该如何从数学上进行描述，或者说如何用数学式子确定某一天是“典型”负荷日。\n1 尽管实际上我有了更科学的计算方法（我的预测框架的副产品之一），但实际报告中还是采用了国网的计算方法，毕竟是工作报告，还是应该采用统一、标准的方法。在进行采暖、降温负荷计算，以及风电、光伏出力对年最大、最小负荷日的支撑能力问题研究过程中觉悟到，对“典型”的定义才是典型负荷日选取问题的关键，而且这也恰恰是典型负荷日选取计算原则难以统一的根本原因。"
   },
   {
-    "objectID": "MathJax/CONTRIBUTING.html#references",
-    "href": "MathJax/CONTRIBUTING.html#references",
-    "title": "Contributing to MathJax",
-    "section": "",
-    "text": "We heavily borrowed from Mozilla and Ghost – thank you!\n\nhttps://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md\nhttps://github.com/mozilla/rust/wiki/Note-development-policy\n\nhttps://github.com/jden/CONTRIBUTING.md/blob/master/CONTRIBUTING.md\nhttp://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discourse/"
+    "objectID": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日的定义",
+    "href": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日的定义",
+    "title": "典型负荷日研究",
+    "section": "典型负荷日的定义",
+    "text": "典型负荷日的定义\n事实上很难对典型负荷日进行定义，因为这是由其应用需求或目的所决定的。一般对电网企业而言，典型负荷日大概有以下几方面的应用需求： 1. 系统理论线损计算； 2. 计算峰谷时段，以安排发电计划； 3. 计算采暖、降温负荷；计算新能源出力对用电负荷的支撑能力等； 以及发电企业或电力用户的其他应用需求。从这些问题的表述上就可以知道，典型负荷日对发电企业、电力用户或电网企业内部不同专业而言其应用的需求和目的是完全不同的。\n\n正因如此，典型负荷日选取计算的原则应根据特定问题的应用需求和目标来制定，无法强行统一，但是其基本数学表达应该是一致的（计算条件可以不同）。"
   },
   {
-    "objectID": "posts/20200827-startblog/index.html",
-    "href": "posts/20200827-startblog/index.html",
-    "title": "开篇（Hugo-blogdown）",
-    "section": "",
-    "text": "第一次成功运行blogdown，生成了一下这个第一篇blog。 庆祝一下在Rstudio中手动安装成功hugo，并生成了缺省界面的blog网站。\n\n安装顺序是这样的：\n\n安装blogdown包。\n\n安装hugo。\n\n\n\nhugo网站下载hugo_extended_0.74.3_Windows-64bit.zip；\n\n解压缩包，然后发现就一个exe文件+license+readme.md，一共3个文件；\n\n复制到 C:，目录更名为hugo_0.74.3；\n\n把上述路径加入到windows系统的环境变量的Path值中；\n\n重启Rstudio；\n\n输入blogdown::new_site()，系统自动下载一些yihui的东西；\n\n结束。\n\n\n\n启动。\n重新启动Rstudio；打开project；Addins菜单下点serve site；ok启动成功。\n\n再点Addins菜单下的New Post，生成了这个界面。\nSo easy！可以开始了。\n2023-1-31 采用Quarto重新建站，逐个导入历史文件。"
+    "objectID": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日选取的方法和步骤",
+    "href": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日选取的方法和步骤",
+    "title": "典型负荷日研究",
+    "section": "典型负荷日选取的方法和步骤",
+    "text": "典型负荷日选取的方法和步骤\n典型负荷日的选择实际包括了两个问题，一是在所研究时间段内，该日负荷时点特性（负荷特性曲线）是否具有典型性；二是该日电量或平均负荷是否具有典型性。 方法及步骤包括： 1. 根据应用需求确定计算时间段，以及是否需要区分工作日和休息日； 2. 计算时间段内的平均日负荷特性曲线（日负荷特性曲线的平均值）； 3. 计算时间段内的日平均电量； 4. 根据应用需求确定： a. 计算选择负荷特性最接近平均日负荷特性曲线（负荷特性偏差最小）的一天作为典型日；或者 b. 同时考虑负荷特性偏差最小和电量偏差最小（加权最小）的一天作为典型日。"
   },
   {
-    "objectID": "posts/20200829-modblogtheme/index.html",
-    "href": "posts/20200829-modblogtheme/index.html",
-    "title": "修改界面主题",
+    "objectID": "posts/20230201-UpdateToQuarto/index.html",
+    "href": "posts/20230201-UpdateToQuarto/index.html",
+    "title": "更新到Quarto",
     "section": "",
-    "text": "折腾了两天Hugo的界面主题（theme），总算选定了这个amzrk2/hugo-theme-fuji 。\n\n另外两个目录的界面主题用作参考。\n界面主题可直接在Hugo网站上选择。\n接下去研究一下Github建站。\n\\[\n\\begin{matrix}\n  a & b \\\\\\\\ c & d\n\\end{matrix}\n\\]\n\\[\nE=mC^2\n\\]"
+    "text": "2022年11月Rstudio正式发布了Quarto（GitHub上的第一个版本是2021年9月30日的0.2.180），下载安装的第一个版本是1.2.258。"
   },
   {
-    "objectID": "posts/20200906-installGithub/index.html",
-    "href": "posts/20200906-installGithub/index.html",
-    "title": "完成Github Desktop安装进行测试",
-    "section": "",
-    "text": "安装了Git，Github。\n\n用Github 克隆了网站到本地。\n增加本页，serve site，git 测试更新到网站。"
+    "objectID": "posts/20230201-UpdateToQuarto/index.html#首次应用quarto记录",
+    "href": "posts/20230201-UpdateToQuarto/index.html#首次应用quarto记录",
+    "title": "更新到Quarto",
+    "section": "首次应用Quarto记录",
+    "text": "首次应用Quarto记录\n\n\n\n\n\n\n\n日期\n内容\n\n\n\n\n2023年2月1日\n完成了blog的内网更新\n\n\n2023年1月29日\n完成了负荷预测V30内网网站的更新，版本号改为V30Q\n\n\n2023年1月20日\n生成了第一份Quarto培训PPT–ArTexOfLoadForecasting-1-GettingStarted\n\n\n2022年11月13日\n生成了第一份Quarto报告–ForecastingResult_2Years_Rpt.docx"
   },
   {
-    "objectID": "posts/20201024-reinstallHugo/index.html",
-    "href": "posts/20201024-reinstallHugo/index.html",
-    "title": "启动失败再次安装",
-    "section": "",
-    "text": "启动服务、增加post用Addins菜单。（好久不用容易忘）\n前几天对所有项目目录进行了整理，调整了blogs的目录位置。然后……\n启动失败，只能重新来过，以下是重装过程。\n\n\n周六早晨\n\n打开 blogdown书和我的第一篇安装文章。\n检查已安装的Hugo版本，blogdown::hugo_version() [1] ‘0.74.3’，升级Hugo，blogdown::update_hugo() ，发现安装位置不是我想要的。\n直接从 github 的 gohugoio/hugo 下载 hugo_extended_0.76.5_Windows-64bit.zip，修改安装位置的文件路径名，hugo_0743→hugo，修改系统path。\n新建一个目录，然后按第一篇文章步骤安装。\n新建project，新建站点时采用blogdown::new_site(theme = 'amzrk2/hugo-theme-fuji')直接用fuji界面。\n老的content目录中文件导入新目录，新的content目录中不要的文件删除。\n修改根目录中index.Rmd和config.toml两个文件。\nOK。\n\n\n\n周六下午\n\n吃完午饭又启动不了了（在Rstudio中）。\nbing：It took more than 30 seconds to launch the server. There may be something wrong. The process has been killed. If the site needs more time to be built and launched, set options(blogdown.server.timeout) to a larger value. 发现有人有相同问题\n在cmd中，到blog本地路径运行：hugo server 可以启动，且Rstudio中更新可在浏览器中实时反馈。\n查询搜索，似乎与R（V4.03）和Rstudio（V1.4.953）版本更新有关。\npublic目录下没有文件！？文件到哪里去了？\n改回R（V4.02）未解决问题。\n改回Rstudio（V1.3.1093）未解决问题。\n待续……，先放着吧。\n\n\n\n另外\n\n要好好学习一下github ，把blog上传到github上去，不要每次都用COPY。"
+    "objectID": "posts/20230201-UpdateToQuarto/index.html#quarto应用初步感受",
+    "href": "posts/20230201-UpdateToQuarto/index.html#quarto应用初步感受",
+    "title": "更新到Quarto",
+    "section": "Quarto应用初步感受",
+    "text": "Quarto应用初步感受\n\n文件内容和展示完全分离，初步展示了markdown的广泛应用前景；\n写文章、建站逻辑更加清晰，各种展现格式的设定更加统一，编写更加方便；\nVsCode可能会最终取代Rstudio；\n目前blog网站页面模板美观性比Hugo还是有差距，但文件也小很多。"
   },
   {
-    "objectID": "posts/20210310-completefctthero/index.html",
-    "href": "posts/20210310-completefctthero/index.html",
-    "title": "完成概率负荷预测所有理论",
+    "objectID": "posts/20220514-thebigqofloadforecast/index.html",
+    "href": "posts/20220514-thebigqofloadforecast/index.html",
+    "title": "负荷预测的3个基本问题",
     "section": "",
-    "text": "完成了概率负荷预测的所有理论，和技术实现。"
+    "text": "有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于提升负荷预测准确率。但显然较长一段时间来，尤其数据科学快速发展的今天，负荷预测-尤其是中长期（多年）预测-的准确率提升（或偏差率下降）陷入了一个瓶颈，一些基本问题没有解决。"
   },
   {
-    "objectID": "posts/20210328-meishajian/index.html",
-    "href": "posts/20210328-meishajian/index.html",
-    "title": "梅沙尖",
-    "section": "",
-    "text": "2021年3月28日，深圳读书的儿子告诉我们一个人去了梅沙尖爬山。起初并不在意，想来就是一个小山丘吧，看到他在朋友圈发的略显冷清照片，更加印证了自己的想法。晚上视频时看着他略显疲倦的神色，告诉我们爬了3个多小时的山，才提起了我的兴趣。于是百度加大众点评，才知道，“梅沙尖海拔753米，是深圳的第三高峰，远望如巨大的尖锥从群山中拔起，登山顶瞭望，山水相间，大小梅沙美景、三洲田风景区一览无余”。\n儿子发的照片中有一张是仰拍梅沙尖顶的、一张应该是在梅沙尖顶瞭望风景的、还有一张是在山路上的“自助售水点“的，都看不见人影，至于风景，在电脑手机上看照片中似乎也很难体会到心旷神怡的感觉，只是觉得“自助售水点“还真是有点“高级”的。\n \n好吧，\n– 这就是一座少有人去领略风景的小山丘1。\n2021年3月28日，我在上海的家里完成了中期电力负荷预测的理论计算工作，想来以后可以用这一套理论和程序快速进行中期负荷预测了，喝了杯自己手冲的咖啡，晚上又喝了一杯瀚克硕的黑啤酒，也算是庆祝了一下。回想这几年，我一直致力于如何提升中长期预测准确率的工作。自2016年1月研究logistic回归方程开始，到2016年11月开始研究季节调整、春节移动假日效应，再从2017年底开始系统研究气象电量响应以来，我的中长期负荷预测研究已经历时5年多了，包括春节、国庆、周末等各种假日，以及去北京、深圳的旅途中。当然，这期间，我也幸运地碰到了“自助售水点“ – R和X-13A-S。\n在经历了最初一年多的“无用功”之后，我突然明白了中长期负荷分析和预测的关键所在–气象。2021年再次查阅了Tao Hong、PJM以及NREL的文章。\n原来，\n– 我登上了一座尚无人去领略风景的“梅沙尖”。"
+    "objectID": "posts/20220514-thebigqofloadforecast/index.html#q1负荷和电量的预测",
+    "href": "posts/20220514-thebigqofloadforecast/index.html#q1负荷和电量的预测",
+    "title": "负荷预测的3个基本问题",
+    "section": "Q1、负荷和电量的预测",
+    "text": "Q1、负荷和电量的预测\n对一个足够大的地区而言，如果我们假定一段时间内负荷是一个可导函数，则电量是负荷的积分，负荷是电量的导数，负荷和电量在物理、数学上是密切相关的。然而具体预测的时候，国内总是用负荷数据预测负荷、电量数据预测电量，两者毫不相关，而且对负荷电量往往会采用不同的数学方法和模型。这一做法与负荷电量的本质相关性不是矛盾吗？国外多采用24点负荷预测后累加形成电量，暂不论消耗的计算资源多少，这种方法是不是有改进的空间？"
   },
   {
-    "objectID": "posts/20210328-meishajian/index.html#梅沙尖",
-    "href": "posts/20210328-meishajian/index.html#梅沙尖",
-    "title": "梅沙尖",
-    "section": "",
-    "text": "2021年3月28日，深圳读书的儿子告诉我们一个人去了梅沙尖爬山。起初并不在意，想来就是一个小山丘吧，看到他在朋友圈发的略显冷清照片，更加印证了自己的想法。晚上视频时看着他略显疲倦的神色，告诉我们爬了3个多小时的山，才提起了我的兴趣。于是百度加大众点评，才知道，“梅沙尖海拔753米，是深圳的第三高峰，远望如巨大的尖锥从群山中拔起，登山顶瞭望，山水相间，大小梅沙美景、三洲田风景区一览无余”。\n儿子发的照片中有一张是仰拍梅沙尖顶的、一张应该是在梅沙尖顶瞭望风景的、还有一张是在山路上的“自助售水点“的，都看不见人影，至于风景，在电脑手机上看照片中似乎也很难体会到心旷神怡的感觉，只是觉得“自助售水点“还真是有点“高级”的。\n \n好吧，\n– 这就是一座少有人去领略风景的小山丘1。\n2021年3月28日，我在上海的家里完成了中期电力负荷预测的理论计算工作，想来以后可以用这一套理论和程序快速进行中期负荷预测了，喝了杯自己手冲的咖啡，晚上又喝了一杯瀚克硕的黑啤酒，也算是庆祝了一下。回想这几年，我一直致力于如何提升中长期预测准确率的工作。自2016年1月研究logistic回归方程开始，到2016年11月开始研究季节调整、春节移动假日效应，再从2017年底开始系统研究气象电量响应以来，我的中长期负荷预测研究已经历时5年多了，包括春节、国庆、周末等各种假日，以及去北京、深圳的旅途中。当然，这期间，我也幸运地碰到了“自助售水点“ – R和X-13A-S。\n在经历了最初一年多的“无用功”之后，我突然明白了中长期负荷分析和预测的关键所在–气象。2021年再次查阅了Tao Hong、PJM以及NREL的文章。\n原来，\n– 我登上了一座尚无人去领略风景的“梅沙尖”。"
+    "objectID": "posts/20220514-thebigqofloadforecast/index.html#q2电力与经济的关系",
+    "href": "posts/20220514-thebigqofloadforecast/index.html#q2电力与经济的关系",
+    "title": "负荷预测的3个基本问题",
+    "section": "Q2、电力与经济的关系",
+    "text": "Q2、电力与经济的关系\n电力与经济毋庸置疑是相关的。研究表明电力是经济的格兰杰因，或者更加通常的说法是“电力是经济的先行指数”。但现实是，预测人员更倾向于用社会经济变量（如GNP、人口数据）的预测来作为电力负荷预测的输入，希望通过社会经济数据的预测提升电力预测的准确性，这一思路显然与电力经济的因果关系是矛盾的，且这一方法的可靠性也很难验证，用经济预测电量是否有一些约束条件？"
   },
   {
-    "objectID": "posts/20210328-meishajian/index.html#footnotes",
-    "href": "posts/20210328-meishajian/index.html#footnotes",
-    "title": "梅沙尖",
-    "section": "尾注",
-    "text": "尾注\n\n\n第一次在blogdown中成功插入图片，参考了Alison Hill的文章↩︎"
+    "objectID": "posts/20220514-thebigqofloadforecast/index.html#q3分析和预测的割裂",
+    "href": "posts/20220514-thebigqofloadforecast/index.html#q3分析和预测的割裂",
+    "title": "负荷预测的3个基本问题",
+    "section": "Q3、分析和预测的割裂",
+    "text": "Q3、分析和预测的割裂\n电力负荷分析多采用实际数据的同比、环比、占比等比较，而现代的负荷预测则更多采用数学方法（包括时序、分层、断面）。当前的分析可以用于未来的预测，但是，过去的预测似乎很难用于当前分析。为什么分析和预测是如此割裂，能否统一？"
   },
   {
-    "objectID": "posts/20210519-CNHolidayHistory/index.html",
-    "href": "posts/20210519-CNHolidayHistory/index.html",
-    "title": "假日政策历史回顾",
+    "objectID": "posts/20220320-MethodCpr/index.html",
+    "href": "posts/20220320-MethodCpr/index.html",
+    "title": "预测方法评估",
     "section": "",
-    "text": "季节调整程序（X13-Arima-AS）需要假日数据，因此，收集了一些建国以来中国假日变化情况历史资料，在此列出。\n\n\n工作时间的规定\n一个笼统的说法“1995年5月1日前6天工作制，之后改为每周5天工作制。”\n\n《国务院关于职工工作时间的规定》（中华人民共和国国务院令第146号），1994年2月3日签发（李鹏），自1994年3月1日起施行。（1994年1月24日国务院第15次常务会议通过） &gt; - 第三条 国家实行职工每日工作8小时、平均每周工作40小时的工时制度。 &gt; - 第九条 本规定自1994年3月1日起施行。1994年3月1日施行有困难的，可以适当延期，但是最迟不得超过1994年5月1日。\n《国务院关于修改〈国务院关于职工工作时间的规定〉的决定》(国务院第174号令，1995年3月25日) &gt; - 第三条 职工每日工作8小时、每周工作40小时。 &gt; - 第九条 本规定自1995年5月1日起施行。该日施行有困难的企业、事业单位，可以适当延期，但是事业单位最迟应当自1996年1月1日起施行，企业最迟应当自1997年5月1日起施行。\n\n\n\n放假时间的规定\n\n1949年12月23日 《全国年节及纪念日放假办法》（政务院） 全年共7天法定节假日：元旦一天；春节三天；五一国际劳动节一天；国庆两天。 &gt; 为统一全国之年节及纪念日放假起见，规定下列各项办法： 甲、属于全体者 一、新年放假一日 一月一日 二、春节放假三日 夏历正月初一日、初二日、初三日 三、劳动节放假一日 五月一日 四、国庆纪念日放假二日 十月一日、二日 乙、属于部分人民之节日，为了便于部分人民的群众活动，得放假半天，或只其中一部分人放假，其他一部分人得推代表参加庆祝。 一、妇女节（限于妇女）三月八日 二、青年节（限于中等学校以上的学生）五月四日 三、儿童节 六月一日 四、人民解放军建军纪念日（限于军队及军事机关）八月一日 丙、其他 一、凡属少数民族习惯之假日，由各少数民族集居地区之地方人民政府，斟酌各该民族习惯，规定放假日期。 二、其他各种纪念节日如：二七纪念、五卅纪念、七七抗战纪念、八一五抗战胜利纪念、九一八纪念、护士节、教师节、记者节等，均不必放假。（注解：1951年8月13日政务院通告将“八一五抗战胜利纪念日”改为每年九月三日。） 丁、凡属于全体之假日，如适逢星期日，应在次日补假。凡属于部分人民之假日，如适逢星期日，则不补假。\n1999年9月18日《国务院关于修改〈全国年节及纪念日放假办法〉的决定》第一次修订（国务院令第270号） 国定假10天，自发布之日起施行： &gt; (一)新年,放假1天(1月1日)； (二)春节,放假3天(农历正月初一、初二、初三)； (三)劳动节,放假3天(5月l日、2日、3日)； (四)国庆节,放假3天(10月1日、2日、3日)。 第六条　全体公民放假的假日，如果适逢星期六、星期日，应当在工作日补假。\n2007年12月14日《国务院关于修改〈全国年节及纪念日放假办法〉的决定》第二次修订（国务院令第513号） 国定假11天，自2008年1月1日起施行： &gt; （一）新年，放假1天（1月1日）； （二）春节，放假3天（农历除夕、正月初一、初二）； （三）清明节，放假1天（农历清明当日）； （四）劳动节，放假1天（5月1日）； （五）端午节，放假1天（农历端午当日）； （六）中秋节，放假1天（农历中秋当日）； （七）国庆节，放假3天（10月1日、2日、3日）。 第六条　全体公民放假的假日，如果适逢星期六、星期日，应当在工作日补假。\n2013年12月11日《国务院关于修改〈全国年节及纪念日放假办法〉的决定》第三次修订（国务院令第644号） 国定假11天，自2014年1月1日起施行： &gt; 第二条　全体公民放假的节日： （一）元旦，放假1天(1月1日)； （二）春节，放假3天(农历正月初一、初二、初三)； （三）清明节，放假1天(农历清明当日)； （四）劳动节，放假1天(5月1日)； （五）端午节，放假1天(农历端午当日)； （六）中秋节，放假1天(农历中秋当日)； （七）国庆节，放假3天(10月1日、2日、3日)。 第六条　全体公民放假的假日，如果适逢星期六、星期日，应当在工作日补假。"
+    "text": "对从2010年开始的各年初10年电量预测和各月5年预测偏差进行回顾，与基准方法（Arima、ETS、Prophet）预测进行比较。"
   },
   {
-    "objectID": "posts/20210519-great7booksaboutTS/index.html",
-    "href": "posts/20210519-great7booksaboutTS/index.html",
-    "title": "关于时间序列的7本好书",
-    "section": "",
-    "text": "关于时间系列分析的 7 本好书\n\n摘自：https://www.tableau.com/learn/articles/time-series-analysis-books\n时间系列分析是一个独特的领域，参考书大致分两类：一是时间序列分析的基本理论和基础知识的经典书籍；二是有实例和练习的学术教科类书籍。推荐以下书籍，供自学和参考。\n\n“Time Series Analysis” by James Douglas Hamilton\n“The Analysis of Time Series: An Introduction” by Chris Chatfield\n“Forecasting: Principles and Practice” by Rob J. Hyndman and George Athanasopoulos\n“Introduction to Time Series Analysis and Forecasting” by Douglas C. Montgomery, Cheryl L. Jennings, and Murat Kulahci\n“Practical Time Series Forecasting with R: A Hands-On Guide” by Galit Shmueli and Kenneth C. Lichtendahl Jr.\n“Introductory Time Series with R (Use R!)” by Paul S.P. Cowpertwait and Andrew V. Metcalfe\n“Time Series Analysis: Forecasting and Control” by George E. P. Box, Gwilym M. Jenkins, Gregory C. Reinsel, and Greta M. Ljung"
+    "objectID": "posts/20220320-MethodCpr/index.html#十年年度电量预测结果",
+    "href": "posts/20220320-MethodCpr/index.html#十年年度电量预测结果",
+    "title": "预测方法评估",
+    "section": "十年年度电量预测结果",
+    "text": "十年年度电量预测结果\n\n\n\n\n十年年度电量预测结果"
   },
   {
-    "objectID": "posts/20210519-Startusegithubdesktop/index.html",
-    "href": "posts/20210519-Startusegithubdesktop/index.html",
-    "title": "开始使用Github Desktop",
+    "objectID": "posts/20220320-MethodCpr/index.html#五年预测电量偏差",
+    "href": "posts/20220320-MethodCpr/index.html#五年预测电量偏差",
+    "title": "预测方法评估",
+    "section": "五年预测电量偏差",
+    "text": "五年预测电量偏差\n\n\n\n\n五年预测电量偏差"
+  },
+  {
+    "objectID": "posts/20220320-MethodCpr/index.html#结论",
+    "href": "posts/20220320-MethodCpr/index.html#结论",
+    "title": "预测方法评估",
+    "section": "结论",
+    "text": "结论\n\n包含气象分解的方法比基准方法预测更加准确，即基于气象分解的预测是有效的，可以显著提升预测准确率；\n已验证简单组合预测可进一步提升预测准确率。"
+  },
+  {
+    "objectID": "posts/20210627-historyofseasonaladjustment/index.html",
+    "href": "posts/20210627-historyofseasonaladjustment/index.html",
+    "title": "季节调整历史",
     "section": "",
-    "text": "笔记本上安装了Github。 所以 开始使用Github写我的blog。 主要是 记录 负荷预测、季节调整和R的开发过程。"
+    "text": "季节调整理论研究已经有超过百年的历史了，在经济社会中的成熟应用也有超过50年的历史，然而，真正开始在社会生活各方面的广泛应用也还是在计算机应用日益普及以及美国普查局和欧洲统计局大力推进1之后的事了。季节调整从“阳春白雪”开始走入寻常百姓生活只是再一次证明了从科学研究到社会应用实在是一个道阻且长的进程。"
+  },
+  {
+    "objectID": "posts/20210627-historyofseasonaladjustment/index.html#SAHistory",
+    "href": "posts/20210627-historyofseasonaladjustment/index.html#SAHistory",
+    "title": "季节调整历史",
+    "section": "季节调整的历史发展",
+    "text": "季节调整的历史发展\n将时间序列分解为未观察到的组成部分的想法早在19世纪就出现在经济学家的作品中2。当时许多研究的目的是揭示 “周期”，对其进行研究和分析使解释和预测经济危机成为可能。在这种情况下，短期的周期性成分，特别是那些与季节有关的成分是没有什么意义的。\n2 根据中国人民银行“时间序列X-12-ARIMA季节调整项目”课题组的研究，1854~1856年爱尔兰吉伯特(John Thomas Gilbert, 1829~1898 )和英国巴贝奇( Charles Babbage, 1792~1871 ) 分别在伦敦统计学会杂志上发表论文”钞票的流通”和”票据交换”对季节变动做了最初研究，这是可查到的研究经济数据季节变动的最早记录。就宏观经济时间序列而言，基于线性滤波的平滑技术，特别是移动平均数，在20世纪20年代初已经为人所知，但在实践中却很少使用。在20世纪20年代末，新的平滑过滤器的发展使非参数或 “经验”方法得到了更广泛的传播。同时，Joy A.和Thomas（1928）提出了一种基于移动平均数的方法，能够考虑到联邦储备委员会遵循的许多系列中存在的季节性波动的长期变化。逐步地，政府和统计局开始应用这种方法来获得季节性调整的时间序列。\n在第二次世界大战后的几年里，计算机科学的发展在很大程度上促进了非参数方法的传播和改进。在这方面，最著名的方法当然是X-11。1954年，Julius Shiskin在美国普查局首先开发了在计算机上运行的程序对时间序列进行季节调整，称为X-1。此后，季节调整的方法每改进一次都以X加上序号表示3，仍然由同一个团队开发。1965年,美国普查局推出了比较完整的季节调整程序X-11。由于这是第一个季节调整的自动方法，它很快被世界各地的许多统计机构采用，季节调整方法开始走向成熟并被广泛使用4。\n3 这些版本的改进都直接受到移动平均平滑技术和Macaulay作品的启发，这一改进过程中有几个较为重要的版本：1960年X-3发布，它的特点是特异项的代替方法和季节要素的计算方法有了进一步改进；1961年X-10方法发布，它考虑到了根据不规则变动和季节变动的相对大小来选择计算季节要素的移动平均项数；在这段时期，美国劳工局也推出了自己的季节调整方法即BLS法(最后也转向了X-11)。4 类似X-11风格的方法包括：澳大利亚统计局1987年提出的SEASABS方法，它是一个基于知识的季节性分析和调整工具；英格兰银行开发的GLAS方法，用于获得季节性调整的货币变量；贝尔实验室提出的SABL和STL方法。继Box和Jenkins在20世纪70年代关于ARIMA（自回归整合移动平均）模型的工作之后，X-11的一个新变体被开发出来，称为X11-ARIMA。X11-ARIMA是加拿大统计局的Dagum基于Box和Jenkins的理论提出的X-11程序的改进，并在X11-ARIMA/80中实现，1988 年更新为 X11-ARIMA/88。这个方法不仅包含了X-11的所有优点，而且还具有通过ARIMA模型在季节调整前向前或向后扩展时间序列的能力。\n在 20 世纪 90 年代末，美国普查局推出了X-12-ARIMA模型，它基本上囊括了X11-ARIMA/88的所有功能，并使用 regARIMA 模型，X-12-ARIMA 提供了有用的增强功能，包括：在季节调整之前使用来自 ARIMA 模型的预测和回溯扩展时间序列、对使用用户定义的回归量估计的影响进行调整、额外的季节性和趋势过滤器选项5、替代季节性趋势-不规则分解、调整质量和稳定性的附加诊断、广泛的时间序列建模和具有 ARIMA 错误的线性回归模型的模型选择功能。\n5 即允许用户在季节性调整之前预先调整序列以处理异常值和日历效果。20世纪末，由西班牙中央银行的Victor Gómez和Agustín Maravall研制并推出TRAMO/SEATS模型，并 于2001 年用TSW程序 实现。该模型被广泛用于欧盟成员国季度和月度数据的季节调整。TRAMO使用由带有ARIMA误差的回归变量组成的混合模型进行估计、预测和插值，而SEATS先对TRAMO生成的静止线性序列拟合一个ARIMA模型，再将时间序列分解为趋势-周期、季节和不规则成分。\n2012年7月，美国普查局与西班牙银行合作发布了X-13ARIMA-SEATS，它基本是X-12-ARIMA和TRAMO-SEATS季节调整程序的合并6。\n6 X-12-ARIMA/X-13ARIMA-SEATS和TRAMO/SEATS+两种方法都分为两个主要部分。第一部分被称为预调整。它通过一个带有ARIMA噪音的回归模型，从系列中去除各种确定性的影响。第二部分是时间序列的分解，目的是估计和去除时间序列中的季节性成分。两种方法在第一部分使用了非常相似的方法来估计处理步骤中的相同模型，但它们在分解步骤中完全不同。因此，比较分解的结果往往是困难的。此外，它们的诊断方法侧重于不同的方面，其输出的形式也完全不同。2014年，基于TSW程序，西班牙银行的 Gianluca Caporello 和 Agustin Maravall 开发了TRAMO-SEATS+ ，并得到了 Domingo Perez 和 Roberto Lopez 的编程支持（TSW+程序）。\n除了以上方法外，世界各国还开发了一些其他方法，包括：1979年欧盟委员会开发的官方季节性调整方法DAINTIES，它以移动回归方法为基础，并假定在基数为10的对数加法分解的基础上进行加法或乘法分解；Nourney提出的一种基于移动滤波应用的季节性调整方法BV4，由回归方法的近似函数导出，它最初由柏林工业大学和德国经济研究所开发，它是德国中央统计局的官方季节性调整方法；Koopman等人在伦敦政治经济学院开发的STAMP软件，采用的是STS方法；日本数学统计研究所开发了BAYSEA和DECOMP软件；Bruce和Jurke开发的MING（基于MIxture的非高斯方法）软件；Young和Benner提出的MicroCAPTAIN软件；Bell在美国人口普查局开发的基于RegComponent模型的regCMPNT软件。\n\n关于JDemetra+\n上述这些原始的季节调整程序被用户普遍认为难以操作。因此，为了让非专家更好地使用这些 季节调整 方法，2012 年开始，比利时国家银行（NBB）在欧盟统计局和欧洲中央银行的支持下与德国联邦银行合作开发用于季节调整和其他相关时间序列问题的开源、平台独立、可扩展软件 JDemetra+，创新地是按照真正的面向对象的方法用JAVA重写了X-12-ARIMA/X-13ARIMA-SEATS和TRAMO-SEATS+的原始FORTRAN代码，这使得软件可以更轻松地处理、扩展和修改。除了季节性调整外，JDemetra+ 还捆绑了在经济统计数据的生成或分析中有用的其他时间序列模型，包括例如异常值检测、临近预报、时间分解和基准测试。2015 年2月2日起，JDemetra+已被正式推荐给 ESS 和欧洲中央银行系统的成员，作为官方统计数据的季节性和日历调整软件。\n\n\n中国季节调整的发展\n我国季节调整研究和应用起步较晚。2005年中国人民银行立项了“时间序列X-12-ARIMA季节调整”科技项目，由该行调查统计司牵头，会同南开大学、中国人民大学和武汉理工大学相关专家研究了季节调整的原理和方法，并对美国普查局提供的X-12软件进行了中国本地化改造和扩展功能的实现。此后，中国人民银行开始对金融序列进行季节调整。\n2009年国家统计局决定研制中国的季节调整软件NBS-SA，并于2010年推出正式版本。它是X-13ARIMA-SEATS的中国版，核心计算部分未作改动，只是在中国工作日和交易日效应的处理方面嵌入了结合中国国情的一些节假日效应，包括春节、中秋、端午以及工作日变化等的季节效应变量。经国务院批准，国家统计局于2011年4月正式发布季节调整数据，从而结束了中国官方不公布环比数据的历史。\n\n\n结语\n季节调整是官方统计业务流程的重要组成部分。这种技术被广泛用于从时间序列中估计和去除季节性和日历相关的运动，从而产生能够清晰显示经济现象的数据。但目前还没有关于一种方法系统地优于其他方法的明确结论，因此同时使用几种类型的方法是有益的。欧洲统计局的JDemetra+和美国普查局的X-13ARIMA-SEATS程序都是朝着这个方向发展的，因为它们可以轻松实现X-12ARIMA和TRAMO-SEATS。为便于季节调整推广以及软件的应用、开发和维护，这些软件都是跨平台的且公开了源代码。"
   },
   {
     "objectID": "posts/20210612-timeseriesanalysisthebasics/index.html",
@@ -231,32 +252,137 @@
     "text": "WHAT IS A SEASONAL AND IRREGULAR (SI) CHART?\n\n\n\n\n\n\n\n原文\n中文\n\n\n\n\nOnce the trend component is estimated, it can be removed from the original data, leaving behind the combined seasonal and irregular components or SIs. A seasonal and irregular or SI chart graphically presents the SI’s for particular months or quarters in the series span.\n一旦趋势成分被估计出来，就可以从原始数据中删除，留下季节性和不规则成分或SI的组合。季节性和不规则成分或SI图表以图形方式显示了序列跨度中特定月份或季度的SI。\n\n\nThe following graph is an SI chart for a monthly series, using a multiplicative decomposition model.\n下图是一个月度系列的SI图，采用的是乘法分解模型。\n\n\nFigure 8: Seasonal and Irregular (SI) Chart - Value of Building Approvals, ACT\n图8：季节性和不规则(SI)图 – – 澳大利亚首都直辖区建筑审批的价值。\n\n\n\n\n\n\n\n\n\n\n原文\n中文\n\n\n\n\nThe points represent the SIs obtained from the time series, while the solid line shows the seasonal component. The seasonal component is calculated by smoothing the SI’s, to remove irregular influences.\n这些点代表从时间序列中获得的SI，而实线则显示季节性成分。季节性成分是通过平滑SI计算的，以消除不规则的影响。\n\n\nSI charts are useful in determining whether short-term movements are caused by seasonal or irregular influences. In the graph above, the SIs can be seen to fluctuate erratically, which indicates the time series under analysis is dominated by its irregular component.\nSI图有助于确定短期变动是由季节性还是不规则影响引起的。在上图中，可以看到SIs不规则地波动，这表明所分析的时间序列是由其不规则成分主导的。\n\n\nSI charts are also used to identify seasonal breaks, moving holiday patterns and extreme values in a time series.\nSI图表还可用于识别季节性休息、移动假日模式和时间序列中的极端值。"
   },
   {
+    "objectID": "posts/20210519-great7booksaboutTS/index.html",
+    "href": "posts/20210519-great7booksaboutTS/index.html",
+    "title": "关于时间序列的7本好书",
+    "section": "",
+    "text": "关于时间系列分析的 7 本好书\n\n摘自：https://www.tableau.com/learn/articles/time-series-analysis-books\n时间系列分析是一个独特的领域，参考书大致分两类：一是时间序列分析的基本理论和基础知识的经典书籍；二是有实例和练习的学术教科类书籍。推荐以下书籍，供自学和参考。\n\n“Time Series Analysis” by James Douglas Hamilton\n“The Analysis of Time Series: An Introduction” by Chris Chatfield\n“Forecasting: Principles and Practice” by Rob J. Hyndman and George Athanasopoulos\n“Introduction to Time Series Analysis and Forecasting” by Douglas C. Montgomery, Cheryl L. Jennings, and Murat Kulahci\n“Practical Time Series Forecasting with R: A Hands-On Guide” by Galit Shmueli and Kenneth C. Lichtendahl Jr.\n“Introductory Time Series with R (Use R!)” by Paul S.P. Cowpertwait and Andrew V. Metcalfe\n“Time Series Analysis: Forecasting and Control” by George E. P. Box, Gwilym M. Jenkins, Gregory C. Reinsel, and Greta M. Ljung"
+  },
+  {
+    "objectID": "posts/20210328-meishajian/index.html",
+    "href": "posts/20210328-meishajian/index.html",
+    "title": "梅沙尖",
+    "section": "",
+    "text": "2021年3月28日，深圳读书的儿子告诉我们一个人去了梅沙尖爬山。起初并不在意，想来就是一个小山丘吧，看到他在朋友圈发的略显冷清照片，更加印证了自己的想法。晚上视频时看着他略显疲倦的神色，告诉我们爬了3个多小时的山，才提起了我的兴趣。于是百度加大众点评，才知道，“梅沙尖海拔753米，是深圳的第三高峰，远望如巨大的尖锥从群山中拔起，登山顶瞭望，山水相间，大小梅沙美景、三洲田风景区一览无余”。\n儿子发的照片中有一张是仰拍梅沙尖顶的、一张应该是在梅沙尖顶瞭望风景的、还有一张是在山路上的“自助售水点“的，都看不见人影，至于风景，在电脑手机上看照片中似乎也很难体会到心旷神怡的感觉，只是觉得“自助售水点“还真是有点“高级”的。\n \n好吧，\n– 这就是一座少有人去领略风景的小山丘1。\n1 第一次在blogdown中成功插入图片，参考了Alison Hill的文章2021年3月28日，我在上海的家里完成了中期电力负荷预测的理论计算工作，想来以后可以用这一套理论和程序快速进行中期负荷预测了，喝了杯自己手冲的咖啡，晚上又喝了一杯瀚克硕的黑啤酒，也算是庆祝了一下。回想这几年，我一直致力于如何提升中长期预测准确率的工作。自2016年1月研究logistic回归方程开始，到2016年11月开始研究季节调整、春节移动假日效应，再从2017年底开始系统研究气象电量响应以来，我的中长期负荷预测研究已经历时5年多了，包括春节、国庆、周末等各种假日，以及去北京、深圳的旅途中。当然，这期间，我也幸运地碰到了“自助售水点“ – R和X-13A-S。\n在经历了最初一年多的“无用功”之后，我突然明白了中长期负荷分析和预测的关键所在–气象。2021年再次查阅了Tao Hong、PJM以及NREL的文章。\n原来，\n– 我登上了一座尚无人去领略风景的“梅沙尖”。"
+  },
+  {
+    "objectID": "posts/20210328-meishajian/index.html#梅沙尖",
+    "href": "posts/20210328-meishajian/index.html#梅沙尖",
+    "title": "梅沙尖",
+    "section": "",
+    "text": "2021年3月28日，深圳读书的儿子告诉我们一个人去了梅沙尖爬山。起初并不在意，想来就是一个小山丘吧，看到他在朋友圈发的略显冷清照片，更加印证了自己的想法。晚上视频时看着他略显疲倦的神色，告诉我们爬了3个多小时的山，才提起了我的兴趣。于是百度加大众点评，才知道，“梅沙尖海拔753米，是深圳的第三高峰，远望如巨大的尖锥从群山中拔起，登山顶瞭望，山水相间，大小梅沙美景、三洲田风景区一览无余”。\n儿子发的照片中有一张是仰拍梅沙尖顶的、一张应该是在梅沙尖顶瞭望风景的、还有一张是在山路上的“自助售水点“的，都看不见人影，至于风景，在电脑手机上看照片中似乎也很难体会到心旷神怡的感觉，只是觉得“自助售水点“还真是有点“高级”的。\n \n好吧，\n– 这就是一座少有人去领略风景的小山丘1。\n1 第一次在blogdown中成功插入图片，参考了Alison Hill的文章2021年3月28日，我在上海的家里完成了中期电力负荷预测的理论计算工作，想来以后可以用这一套理论和程序快速进行中期负荷预测了，喝了杯自己手冲的咖啡，晚上又喝了一杯瀚克硕的黑啤酒，也算是庆祝了一下。回想这几年，我一直致力于如何提升中长期预测准确率的工作。自2016年1月研究logistic回归方程开始，到2016年11月开始研究季节调整、春节移动假日效应，再从2017年底开始系统研究气象电量响应以来，我的中长期负荷预测研究已经历时5年多了，包括春节、国庆、周末等各种假日，以及去北京、深圳的旅途中。当然，这期间，我也幸运地碰到了“自助售水点“ – R和X-13A-S。\n在经历了最初一年多的“无用功”之后，我突然明白了中长期负荷分析和预测的关键所在–气象。2021年再次查阅了Tao Hong、PJM以及NREL的文章。\n原来，\n– 我登上了一座尚无人去领略风景的“梅沙尖”。"
+  },
+  {
+    "objectID": "posts/20201024-reinstallHugo/index.html",
+    "href": "posts/20201024-reinstallHugo/index.html",
+    "title": "启动失败再次安装",
+    "section": "",
+    "text": "启动服务、增加post用Addins菜单。（好久不用容易忘）\n前几天对所有项目目录进行了整理，调整了blogs的目录位置。然后……\n启动失败，只能重新来过，以下是重装过程。\n\n\n周六早晨\n\n打开 blogdown书和我的第一篇安装文章。\n检查已安装的Hugo版本，blogdown::hugo_version() [1] ‘0.74.3’，升级Hugo，blogdown::update_hugo() ，发现安装位置不是我想要的。\n直接从 github 的 gohugoio/hugo 下载 hugo_extended_0.76.5_Windows-64bit.zip，修改安装位置的文件路径名，hugo_0743→hugo，修改系统path。\n新建一个目录，然后按第一篇文章步骤安装。\n新建project，新建站点时采用blogdown::new_site(theme = 'amzrk2/hugo-theme-fuji')直接用fuji界面。\n老的content目录中文件导入新目录，新的content目录中不要的文件删除。\n修改根目录中index.Rmd和config.toml两个文件。\nOK。\n\n\n\n周六下午\n\n吃完午饭又启动不了了（在Rstudio中）。\nbing：It took more than 30 seconds to launch the server. There may be something wrong. The process has been killed. If the site needs more time to be built and launched, set options(blogdown.server.timeout) to a larger value. 发现有人有相同问题\n在cmd中，到blog本地路径运行：hugo server 可以启动，且Rstudio中更新可在浏览器中实时反馈。\n查询搜索，似乎与R（V4.03）和Rstudio（V1.4.953）版本更新有关。\npublic目录下没有文件！？文件到哪里去了？\n改回R（V4.02）未解决问题。\n改回Rstudio（V1.3.1093）未解决问题。\n待续……，先放着吧。\n\n\n\n另外\n\n要好好学习一下github ，把blog上传到github上去，不要每次都用COPY。"
+  },
+  {
+    "objectID": "posts/20200829-modblogtheme/index.html",
+    "href": "posts/20200829-modblogtheme/index.html",
+    "title": "修改界面主题",
+    "section": "",
+    "text": "折腾了两天Hugo的界面主题（theme），总算选定了这个amzrk2/hugo-theme-fuji 。\n\n另外两个目录的界面主题用作参考。\n界面主题可直接在Hugo网站上选择。\n接下去研究一下Github建站。\n\\[\n\\begin{matrix}\n  a & b \\\\\\\\ c & d\n\\end{matrix}\n\\]\n\\[\nE=mC^2\n\\]"
+  },
+  {
+    "objectID": "MathJax/CONTRIBUTING.html",
+    "href": "MathJax/CONTRIBUTING.html",
+    "title": "Contributing to MathJax",
+    "section": "",
+    "text": "You are interested in giving us a hand? That’s awesome! We’ve put together some brief guidelines that should help you get started quickly and easily.\nThere are lots and lots of ways to get involved, this document covers:\n\nreporting an issue\n\nbug reports\nfeature requests\nchange requests\n\nworking on MathJax core\n\nkey branches and tags\nsubmitting pull requests\ntesting and quality assurance\nwriting documentation\ntranslation\n\nConduct\n\n\n\nIf you’re about to raise an issue because you think you’ve found a problem with MathJax, or you’d like to make a request for a new feature in the codebase, or any other reason, please read this first.\nThe MathJax issue tracker is the preferred channel for bug reports, feature requests, change requests, and submitting pull requests, but please respect the following restrictions:\n\nPlease search for existing issues. Help us keep duplicate issues to a minimum by checking to see if someone has already reported your problem or requested your idea.\nPlease do not use the issue tracker for personal support requests (use the MathJax User Group).\nPlease be civil. Keep the discussion on topic and respect the opinions of others. See also our Conduct Guidelines\n\n\n\nA bug is a demonstrable problem that is caused by the code in the repository. Good bug reports are extremely helpful — thank you!\nGuidelines for bug reports:\n\nUse the GitHub issue search — check if the issue has already been reported.\nCheck if the issue has been fixed — look for closed issues in the current milestone or try to reproduce it using the latest develop branch. Please note that you will need to compile MathJax and make the components in order to test MathJax from the source repository.\nShare a live sample of the problem — without a live page it is usually impossible to debug problems; see also the Bug Report Template below.\nIsolate the problem — a live sample is a starting point but if you want to speed things up, create a reduced test case. Be specific about your setup (browser, OS versions, etc). Use services like jsbin, CodePen, or jsFiddle to make collaboration on minimal test cases easier for everyone.\nInclude a screenshot/cast as a last resort — Is your issue about a layout or design feature or bug that is hard to reproduce or isolate? Then please provide a screenshot or screencast. Tools like LICEcap or SauceLabs allow you to quickly and easily record a screencasts. If you make it an animated gif, you can embed it directly into your GitHub issue.\nUse the Bug Report Template below or click this link to start creating a bug report with the template automatically.\n\nA good bug report shouldn’t leave others needing to request more information from you. Be sure to include the details of your environment.\n\nTemplate Example (click to use):\nShort and descriptive example bug report title\n\n### Issue Summary\n\nA summary of the issue and the browser/OS environment in which it occurs. If\nsuitable, include the steps required to reproduce the bug.\n\n### Steps to Reproduce\n\n1. This is the first step\n2. This is the second step\n3. Further steps, etc.\n\nAny other information you want to share that is relevant to the issue\nbeing reported. Especially, why do you consider this to be a bug? What\ndo you expect to happen instead?\n\n### Technical details:\n\n* MathJax Version: 2.3 (latest commit: f3aaf3a2a3e964df2770dc4aaaa9c87ce5f47e2c)\n* Client OS: Mac OS X 10.8.4\n* Browser: Chrome 29.0.1547.57\n\n\n\nFeature requests are welcome. Before you submit one, be sure to have:\n\nUsed the GitHub search to check that the feature hasn’t already been requested.\nTake a moment to think about whether your idea fits with the scope and aims of the project, or if it might better fit being a custom extension.\nRemember, it’s up to you to make a strong case to convince the project’s leaders of the merits of this feature. Please provide as much detail and context as possible, this means explaining the use case and why it is likely to be common.\n\n\n\n\nChange requests cover both architectural and functional changes to how MathJax works. If you have an idea for a new or different dependency, a refactor, or an improvement to a feature, etc., please be sure to:\n\nUse the GitHub search to check that someone else didn’t get there first.\nTake a moment to think about the best way to make a case for, and explain what you’re thinking. Are you sure this shouldn’t really be a bug report or a feature request? Is it really one idea or is it many? What’s the context? What problem are you solving? Why is what you are suggesting better than what’s already there?\n\n\n\n\n\nYou want to contribute code? We describe how below. First, note that the MathJax source code is in the https://github.com/mathjax/MathJax-src repository, not the https://github.com/mathjax/MathJax repository, which contains the packaged component files for distribution on CDNs and the mathjax npm package (the source code is included in the mathjax-full npm package).\n\n\nMathJax uses several permanent branches in the MathJax source repository:\n\ndevelop is the development branch. All work on the next release happens here so you should generally branch off develop if you are going to submit a pull request. Do NOT use this branch for a production site.\nmaster contains the latest release of MathJax. This branch may be used in production. Do NOT use this branch to work on MathJax’s source.\n\nThese branches reflect version 3 of MathJax, which is substantially different from the version 2 codebase. Version 2 will continue to be maintained while web sites transition to version 3, with work being done using the following branches in the MathJax distribution repository:\n\nlegacy-v2-develop is the development branch for changes to the legacy version 2 code. Any pull requests for version 2 should be branched from here. Do NOT use this branch for a production site.\nlegacy-v2 is the branch that contains any updates to version 2 following the release of version 3. Do NOT use this branch to work on MathJax’s source.\n\nIn addition to these branches, MathJax uses tags to identify the various versions. These can be checked out to obtain the specified release; for example, git checkout 2.7.5 would get you the files for version 2.7.5 of MathJax.\nNote that version 3 is written in Typescript, and so must be compiled to obtain usable javascript files, and that the components need to be built once that is done. See the documentation for details. For version 2, the source javascript files are not compressed until a release is made, so you should use the copies in the unpacked directory during development.\n\n\n\nPull requests are welcome. If you’re looking to submit a PR for something that doesn’t have an open issue, please consider raising an issue that your PR can close, especially if you’re fixing a bug. This makes it more likely that there will be enough information available for your PR to be properly tested and merged.\n\n\nIf you’re not completely clear on how to submit/update/do Pull Requests, please check out our source control policies. For more insights, check the excellent in depth Git Workflow guide from Ghost, in particular\n\nGhost Workflow guide: commit messages\n\n\n\n\n\nIf you’re looking to get involved with the code base and don’t know where to start, checking out and testing a pull request is one of the most useful things you could do.\nThese are some excellent instructions on configuring your GitHub repository to allow you to checkout pull requests in the same way as branches.\n\n\n\nMathJax’s main documentation can be found at docs.mathjax.org. The source of the docs is hosted in the mathjax/MathJax-docs repo here on GitHub.\nThe documentation is generated using Sphinx-doc and hosted on Read the docs. You can clone the repo and submit pull requests following the pull-request guidelines.\n\n\n\nIf you wish to add or update translations of MathJax, please do it on TranslateWiki.net (and while you’re there you can help other open source projects, too).\nFor bug reports and other questions that don’t fit on TranslateWiki.net, head over to the mathjax/mathjax-i18n repository.\nThe translation files currently are for version 2, as localization hasn’t been added to version 3 yet.\n\n\n\n\nAs a NumFOCUS fiscally sponsored project, MathJax is governed by the NumFOCUS code of conduct, which we summarize as follows:\nWe are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic.\nPlease be kind and courteous. There’s no need to be mean or rude. Respect that people have differences of opinion and that every design or implementation choice carries a trade-off and numerous costs. There is seldom a right answer, merely an optimal answer given a set of values and circumstances.\nPlease keep unstructured critique to a minimum. If you have solid ideas you want to experiment with, make a fork and see how it works.\nWe will exclude you from interaction if you insult, demean or harass anyone. That is not welcome behaviour. We interpret the term “harassment” as including the definition in the Unacceptable Behavior section of the NumFOCUS code of conduct; if you have any lack of clarity about what might be included in that concept, please read that definition. In particular, we don’t tolerate behavior that excludes people in socially marginalized groups.\nPrivate harassment is also unacceptable. No matter who you are, if you feel you have been or are being harassed or made uncomfortable by a community member, please contact one of the channel ops or any of the MathJax core team immediately. Whether you’re a regular contributor or a newcomer, we care about making this community a safe place for you and we’ve got your back.\nLikewise any spamming, trolling, flaming, baiting, or other attention-stealing behaviour is not welcome.\nWe also recommend that you read discourse’s rules for further suggestions on appropriate behavior.\n\n\n\n\nWe heavily borrowed from Mozilla and Ghost – thank you!\n\nhttps://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md\nhttps://github.com/mozilla/rust/wiki/Note-development-policy\n\nhttps://github.com/jden/CONTRIBUTING.md/blob/master/CONTRIBUTING.md\nhttp://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discourse/"
+  },
+  {
+    "objectID": "MathJax/CONTRIBUTING.html#reporting-an-issue",
+    "href": "MathJax/CONTRIBUTING.html#reporting-an-issue",
+    "title": "Contributing to MathJax",
+    "section": "",
+    "text": "If you’re about to raise an issue because you think you’ve found a problem with MathJax, or you’d like to make a request for a new feature in the codebase, or any other reason, please read this first.\nThe MathJax issue tracker is the preferred channel for bug reports, feature requests, change requests, and submitting pull requests, but please respect the following restrictions:\n\nPlease search for existing issues. Help us keep duplicate issues to a minimum by checking to see if someone has already reported your problem or requested your idea.\nPlease do not use the issue tracker for personal support requests (use the MathJax User Group).\nPlease be civil. Keep the discussion on topic and respect the opinions of others. See also our Conduct Guidelines\n\n\n\nA bug is a demonstrable problem that is caused by the code in the repository. Good bug reports are extremely helpful — thank you!\nGuidelines for bug reports:\n\nUse the GitHub issue search — check if the issue has already been reported.\nCheck if the issue has been fixed — look for closed issues in the current milestone or try to reproduce it using the latest develop branch. Please note that you will need to compile MathJax and make the components in order to test MathJax from the source repository.\nShare a live sample of the problem — without a live page it is usually impossible to debug problems; see also the Bug Report Template below.\nIsolate the problem — a live sample is a starting point but if you want to speed things up, create a reduced test case. Be specific about your setup (browser, OS versions, etc). Use services like jsbin, CodePen, or jsFiddle to make collaboration on minimal test cases easier for everyone.\nInclude a screenshot/cast as a last resort — Is your issue about a layout or design feature or bug that is hard to reproduce or isolate? Then please provide a screenshot or screencast. Tools like LICEcap or SauceLabs allow you to quickly and easily record a screencasts. If you make it an animated gif, you can embed it directly into your GitHub issue.\nUse the Bug Report Template below or click this link to start creating a bug report with the template automatically.\n\nA good bug report shouldn’t leave others needing to request more information from you. Be sure to include the details of your environment.\n\nTemplate Example (click to use):\nShort and descriptive example bug report title\n\n### Issue Summary\n\nA summary of the issue and the browser/OS environment in which it occurs. If\nsuitable, include the steps required to reproduce the bug.\n\n### Steps to Reproduce\n\n1. This is the first step\n2. This is the second step\n3. Further steps, etc.\n\nAny other information you want to share that is relevant to the issue\nbeing reported. Especially, why do you consider this to be a bug? What\ndo you expect to happen instead?\n\n### Technical details:\n\n* MathJax Version: 2.3 (latest commit: f3aaf3a2a3e964df2770dc4aaaa9c87ce5f47e2c)\n* Client OS: Mac OS X 10.8.4\n* Browser: Chrome 29.0.1547.57\n\n\n\nFeature requests are welcome. Before you submit one, be sure to have:\n\nUsed the GitHub search to check that the feature hasn’t already been requested.\nTake a moment to think about whether your idea fits with the scope and aims of the project, or if it might better fit being a custom extension.\nRemember, it’s up to you to make a strong case to convince the project’s leaders of the merits of this feature. Please provide as much detail and context as possible, this means explaining the use case and why it is likely to be common.\n\n\n\n\nChange requests cover both architectural and functional changes to how MathJax works. If you have an idea for a new or different dependency, a refactor, or an improvement to a feature, etc., please be sure to:\n\nUse the GitHub search to check that someone else didn’t get there first.\nTake a moment to think about the best way to make a case for, and explain what you’re thinking. Are you sure this shouldn’t really be a bug report or a feature request? Is it really one idea or is it many? What’s the context? What problem are you solving? Why is what you are suggesting better than what’s already there?"
+  },
+  {
+    "objectID": "MathJax/CONTRIBUTING.html#working-on-mathjax-core",
+    "href": "MathJax/CONTRIBUTING.html#working-on-mathjax-core",
+    "title": "Contributing to MathJax",
+    "section": "",
+    "text": "You want to contribute code? We describe how below. First, note that the MathJax source code is in the https://github.com/mathjax/MathJax-src repository, not the https://github.com/mathjax/MathJax repository, which contains the packaged component files for distribution on CDNs and the mathjax npm package (the source code is included in the mathjax-full npm package).\n\n\nMathJax uses several permanent branches in the MathJax source repository:\n\ndevelop is the development branch. All work on the next release happens here so you should generally branch off develop if you are going to submit a pull request. Do NOT use this branch for a production site.\nmaster contains the latest release of MathJax. This branch may be used in production. Do NOT use this branch to work on MathJax’s source.\n\nThese branches reflect version 3 of MathJax, which is substantially different from the version 2 codebase. Version 2 will continue to be maintained while web sites transition to version 3, with work being done using the following branches in the MathJax distribution repository:\n\nlegacy-v2-develop is the development branch for changes to the legacy version 2 code. Any pull requests for version 2 should be branched from here. Do NOT use this branch for a production site.\nlegacy-v2 is the branch that contains any updates to version 2 following the release of version 3. Do NOT use this branch to work on MathJax’s source.\n\nIn addition to these branches, MathJax uses tags to identify the various versions. These can be checked out to obtain the specified release; for example, git checkout 2.7.5 would get you the files for version 2.7.5 of MathJax.\nNote that version 3 is written in Typescript, and so must be compiled to obtain usable javascript files, and that the components need to be built once that is done. See the documentation for details. For version 2, the source javascript files are not compressed until a release is made, so you should use the copies in the unpacked directory during development.\n\n\n\nPull requests are welcome. If you’re looking to submit a PR for something that doesn’t have an open issue, please consider raising an issue that your PR can close, especially if you’re fixing a bug. This makes it more likely that there will be enough information available for your PR to be properly tested and merged.\n\n\nIf you’re not completely clear on how to submit/update/do Pull Requests, please check out our source control policies. For more insights, check the excellent in depth Git Workflow guide from Ghost, in particular\n\nGhost Workflow guide: commit messages\n\n\n\n\n\nIf you’re looking to get involved with the code base and don’t know where to start, checking out and testing a pull request is one of the most useful things you could do.\nThese are some excellent instructions on configuring your GitHub repository to allow you to checkout pull requests in the same way as branches.\n\n\n\nMathJax’s main documentation can be found at docs.mathjax.org. The source of the docs is hosted in the mathjax/MathJax-docs repo here on GitHub.\nThe documentation is generated using Sphinx-doc and hosted on Read the docs. You can clone the repo and submit pull requests following the pull-request guidelines.\n\n\n\nIf you wish to add or update translations of MathJax, please do it on TranslateWiki.net (and while you’re there you can help other open source projects, too).\nFor bug reports and other questions that don’t fit on TranslateWiki.net, head over to the mathjax/mathjax-i18n repository.\nThe translation files currently are for version 2, as localization hasn’t been added to version 3 yet."
+  },
+  {
+    "objectID": "MathJax/CONTRIBUTING.html#conduct",
+    "href": "MathJax/CONTRIBUTING.html#conduct",
+    "title": "Contributing to MathJax",
+    "section": "",
+    "text": "As a NumFOCUS fiscally sponsored project, MathJax is governed by the NumFOCUS code of conduct, which we summarize as follows:\nWe are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic.\nPlease be kind and courteous. There’s no need to be mean or rude. Respect that people have differences of opinion and that every design or implementation choice carries a trade-off and numerous costs. There is seldom a right answer, merely an optimal answer given a set of values and circumstances.\nPlease keep unstructured critique to a minimum. If you have solid ideas you want to experiment with, make a fork and see how it works.\nWe will exclude you from interaction if you insult, demean or harass anyone. That is not welcome behaviour. We interpret the term “harassment” as including the definition in the Unacceptable Behavior section of the NumFOCUS code of conduct; if you have any lack of clarity about what might be included in that concept, please read that definition. In particular, we don’t tolerate behavior that excludes people in socially marginalized groups.\nPrivate harassment is also unacceptable. No matter who you are, if you feel you have been or are being harassed or made uncomfortable by a community member, please contact one of the channel ops or any of the MathJax core team immediately. Whether you’re a regular contributor or a newcomer, we care about making this community a safe place for you and we’ve got your back.\nLikewise any spamming, trolling, flaming, baiting, or other attention-stealing behaviour is not welcome.\nWe also recommend that you read discourse’s rules for further suggestions on appropriate behavior."
+  },
+  {
+    "objectID": "MathJax/CONTRIBUTING.html#references",
+    "href": "MathJax/CONTRIBUTING.html#references",
+    "title": "Contributing to MathJax",
+    "section": "",
+    "text": "We heavily borrowed from Mozilla and Ghost – thank you!\n\nhttps://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md\nhttps://github.com/mozilla/rust/wiki/Note-development-policy\n\nhttps://github.com/jden/CONTRIBUTING.md/blob/master/CONTRIBUTING.md\nhttp://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discourse/"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Taopj",
+    "section": "",
+    "text": "本站用于记录我在R语言、负荷预测和季节调整的研究。\n2020-04-11 于 浦江之畔"
+  },
+  {
+    "objectID": "about.html#taopj的第一个blog",
+    "href": "about.html#taopj的第一个blog",
+    "title": "Taopj",
+    "section": "",
+    "text": "本站用于记录我在R语言、负荷预测和季节调整的研究。\n2020-04-11 于 浦江之畔"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tao的文章",
+    "section": "",
+    "text": "负荷特性\n\n\n\n\n\n\n\n\n\n\n\n2023年6月20日\n\n\n1 分钟\n\n\n\n\n\n\n\n第一次正式的负荷预测培训\n\n\n\n\n\n\n\n\n\n\n\n2023年4月13日\n\n\n1 分钟\n\n\n\n\n\n\n\n典型负荷日研究\n\n\n\n\n\n\n\n\n\n\n\n2023年3月25日\n\n\n1 分钟\n\n\n\n\n\n\n\n时间序列变量符号编制规则\n\n\n\n\n\n\n\n\n\n\n\n2023年2月26日\n\n\n1 分钟\n\n\n\n\n\n\n\n更新到Quarto\n\n\n\n\n\n\n\n\n\n\n\n2023年2月1日\n\n\n1 分钟\n\n\n\n\n\n\n\n无语的研究\n\n\n\n\n\n\n\n\n\n\n\n2022年10月23日\n\n\n1 分钟\n\n\n\n\n\n\n\n负荷预测的3个基本问题\n\n\n\n\n\n\n\n\n\n\n\n2022年5月15日\n\n\n1 分钟\n\n\n\n\n\n\n\nMTLF完成V30更新\n\n\n\n\n\n\n\n\n\n\n\n2022年5月6日\n\n\n1 分钟\n\n\n\n\n\n\n\n预测方法评估\n\n\n\n\n\n\n\n\n\n\n\n2022年3月20日\n\n\n7 分钟\n\n\n\n\n\n\n\n开始空调负荷理论研究\n\n\n\n\n\n\n\n\n\n\n\n2021年8月6日\n\n\n1 分钟\n\n\n\n\n\n\n\n季节调整历史\n\n\n\n\n\n\n\n\n\n\n\n2021年6月27日\n\n\n1 分钟\n\n\n\n\n\n\n\n更新本站theme\n\n\n\n\n\n\n\n\n\n\n\n2021年6月16日\n\n\n1 分钟\n\n\n\n\n\n\n\n时间序列分析的基本概念\n\n\n\n\n\n\n\n\n\n\n\n2021年6月12日\n\n\n13 分钟\n\n\n\n\n\n\n\n假日政策历史回顾\n\n\n\n\n\n\n\n\n\n\n\n2021年5月19日\n\n\n1 分钟\n\n\n\n\n\n\n\n关于时间序列的7本好书\n\n\n\n\n\n\n\n\n\n\n\n2021年5月19日\n\n\n1 分钟\n\n\n\n\n\n\n\n开始使用Github Desktop\n\n\n\n\n\n\n\n\n\n\n\n2021年5月19日\n\n\n1 分钟\n\n\n\n\n\n\n\n梅沙尖\n\n\n\n\n\n\n\n\n\n\n\n2021年3月28日\n\n\n1 分钟\n\n\n\n\n\n\n\n完成概率负荷预测所有理论\n\n\n\n\n\n\n\n\n\n\n\n2021年3月10日\n\n\n1 分钟\n\n\n\n\n\n\n\n启动失败再次安装\n\n\n\n\n\n\n\n\n\n\n\n2020年10月24日\n\n\n1 分钟\n\n\n\n\n\n\n\n完成Github Desktop安装进行测试\n\n\n\n\n\n\n\n\n\n\n\n2020年9月6日\n\n\n1 分钟\n\n\n\n\n\n\n\n修改界面主题\n\n\n\n\n\n\n\n\n\n\n\n2020年8月29日\n\n\n1 分钟\n\n\n\n\n\n\n\n开篇（Hugo-blogdown）\n\n\n\n\n\n\n\n\n\n\n\n2020年8月27日\n\n\n1 分钟\n\n\n\n\n\n\n无匹配项"
+  },
+  {
+    "objectID": "posts/20200827-startblog/index.html",
+    "href": "posts/20200827-startblog/index.html",
+    "title": "开篇（Hugo-blogdown）",
+    "section": "",
+    "text": "第一次成功运行blogdown，生成了一下这个第一篇blog。 庆祝一下在Rstudio中手动安装成功hugo，并生成了缺省界面的blog网站。\n\n安装顺序是这样的：\n\n安装blogdown包。\n\n安装hugo。\n\n\n\nhugo网站下载hugo_extended_0.74.3_Windows-64bit.zip；\n\n解压缩包，然后发现就一个exe文件+license+readme.md，一共3个文件；\n\n复制到 C:，目录更名为hugo_0.74.3；\n\n把上述路径加入到windows系统的环境变量的Path值中；\n\n重启Rstudio；\n\n输入blogdown::new_site()，系统自动下载一些yihui的东西；\n\n结束。\n\n\n\n启动。\n重新启动Rstudio；打开project；Addins菜单下点serve site；ok启动成功。\n\n再点Addins菜单下的New Post，生成了这个界面。\nSo easy！可以开始了。\n2023-1-31 采用Quarto重新建站，逐个导入历史文件。"
+  },
+  {
+    "objectID": "posts/20200906-installGithub/index.html",
+    "href": "posts/20200906-installGithub/index.html",
+    "title": "完成Github Desktop安装进行测试",
+    "section": "",
+    "text": "安装了Git，Github。\n\n用Github 克隆了网站到本地。\n增加本页，serve site，git 测试更新到网站。"
+  },
+  {
+    "objectID": "posts/20210310-completefctthero/index.html",
+    "href": "posts/20210310-completefctthero/index.html",
+    "title": "完成概率负荷预测所有理论",
+    "section": "",
+    "text": "完成了概率负荷预测的所有理论，和技术实现。"
+  },
+  {
+    "objectID": "posts/20210519-CNHolidayHistory/index.html",
+    "href": "posts/20210519-CNHolidayHistory/index.html",
+    "title": "假日政策历史回顾",
+    "section": "",
+    "text": "季节调整程序（X13-Arima-AS）需要假日数据，因此，收集了一些建国以来中国假日变化情况历史资料，在此列出。\n\n\n工作时间的规定\n一个笼统的说法“1995年5月1日前6天工作制，之后改为每周5天工作制。”\n\n《国务院关于职工工作时间的规定》（中华人民共和国国务院令第146号），1994年2月3日签发（李鹏），自1994年3月1日起施行。（1994年1月24日国务院第15次常务会议通过） &gt; - 第三条 国家实行职工每日工作8小时、平均每周工作40小时的工时制度。 &gt; - 第九条 本规定自1994年3月1日起施行。1994年3月1日施行有困难的，可以适当延期，但是最迟不得超过1994年5月1日。\n《国务院关于修改〈国务院关于职工工作时间的规定〉的决定》(国务院第174号令，1995年3月25日) &gt; - 第三条 职工每日工作8小时、每周工作40小时。 &gt; - 第九条 本规定自1995年5月1日起施行。该日施行有困难的企业、事业单位，可以适当延期，但是事业单位最迟应当自1996年1月1日起施行，企业最迟应当自1997年5月1日起施行。\n\n\n\n放假时间的规定\n\n1949年12月23日 《全国年节及纪念日放假办法》（政务院） 全年共7天法定节假日：元旦一天；春节三天；五一国际劳动节一天；国庆两天。 &gt; 为统一全国之年节及纪念日放假起见，规定下列各项办法： 甲、属于全体者 一、新年放假一日 一月一日 二、春节放假三日 夏历正月初一日、初二日、初三日 三、劳动节放假一日 五月一日 四、国庆纪念日放假二日 十月一日、二日 乙、属于部分人民之节日，为了便于部分人民的群众活动，得放假半天，或只其中一部分人放假，其他一部分人得推代表参加庆祝。 一、妇女节（限于妇女）三月八日 二、青年节（限于中等学校以上的学生）五月四日 三、儿童节 六月一日 四、人民解放军建军纪念日（限于军队及军事机关）八月一日 丙、其他 一、凡属少数民族习惯之假日，由各少数民族集居地区之地方人民政府，斟酌各该民族习惯，规定放假日期。 二、其他各种纪念节日如：二七纪念、五卅纪念、七七抗战纪念、八一五抗战胜利纪念、九一八纪念、护士节、教师节、记者节等，均不必放假。（注解：1951年8月13日政务院通告将“八一五抗战胜利纪念日”改为每年九月三日。） 丁、凡属于全体之假日，如适逢星期日，应在次日补假。凡属于部分人民之假日，如适逢星期日，则不补假。\n1999年9月18日《国务院关于修改〈全国年节及纪念日放假办法〉的决定》第一次修订（国务院令第270号） 国定假10天，自发布之日起施行： &gt; (一)新年,放假1天(1月1日)； (二)春节,放假3天(农历正月初一、初二、初三)； (三)劳动节,放假3天(5月l日、2日、3日)； (四)国庆节,放假3天(10月1日、2日、3日)。 第六条　全体公民放假的假日，如果适逢星期六、星期日，应当在工作日补假。\n2007年12月14日《国务院关于修改〈全国年节及纪念日放假办法〉的决定》第二次修订（国务院令第513号） 国定假11天，自2008年1月1日起施行： &gt; （一）新年，放假1天（1月1日）； （二）春节，放假3天（农历除夕、正月初一、初二）； （三）清明节，放假1天（农历清明当日）； （四）劳动节，放假1天（5月1日）； （五）端午节，放假1天（农历端午当日）； （六）中秋节，放假1天（农历中秋当日）； （七）国庆节，放假3天（10月1日、2日、3日）。 第六条　全体公民放假的假日，如果适逢星期六、星期日，应当在工作日补假。\n2013年12月11日《国务院关于修改〈全国年节及纪念日放假办法〉的决定》第三次修订（国务院令第644号） 国定假11天，自2014年1月1日起施行： &gt; 第二条　全体公民放假的节日： （一）元旦，放假1天(1月1日)； （二）春节，放假3天(农历正月初一、初二、初三)； （三）清明节，放假1天(农历清明当日)； （四）劳动节，放假1天(5月1日)； （五）端午节，放假1天(农历端午当日)； （六）中秋节，放假1天(农历中秋当日)； （七）国庆节，放假3天(10月1日、2日、3日)。 第六条　全体公民放假的假日，如果适逢星期六、星期日，应当在工作日补假。"
+  },
+  {
+    "objectID": "posts/20210519-Startusegithubdesktop/index.html",
+    "href": "posts/20210519-Startusegithubdesktop/index.html",
+    "title": "开始使用Github Desktop",
+    "section": "",
+    "text": "笔记本上安装了Github。 所以 开始使用Github写我的blog。 主要是 记录 负荷预测、季节调整和R的开发过程。"
+  },
+  {
     "objectID": "posts/20210616-updatehugotheme/index.html",
     "href": "posts/20210616-updatehugotheme/index.html",
     "title": "更新本站theme",
     "section": "",
     "text": "更新本站theme，用了hugo-theme-Fuji V2.60。同时增加了categories（分类）。\n\n增加分类修改了如下文件：\n1、 修改.18n-hans.toml，项目包括：\n\n[sidebarCategories]\n[postMetaNoCategory]\n[categoriesCurrentCategory]\n\n2、 增加._default.html（参考了tag.html）\n3、 修改..html - 增加categories 段\n4、 试图修改.-meta.html增加分类标记不成功，暂缓。"
-  },
-  {
-    "objectID": "posts/20210627-historyofseasonaladjustment/index.html",
-    "href": "posts/20210627-historyofseasonaladjustment/index.html",
-    "title": "季节调整历史",
-    "section": "",
-    "text": "季节调整理论研究已经有超过百年的历史了，在经济社会中的成熟应用也有超过50年的历史，然而，真正开始在社会生活各方面的广泛应用也还是在计算机应用日益普及以及美国普查局和欧洲统计局大力推进1之后的事了。季节调整从“阳春白雪”开始走入寻常百姓生活只是再一次证明了从科学研究到社会应用实在是一个道阻且长的进程。"
-  },
-  {
-    "objectID": "posts/20210627-historyofseasonaladjustment/index.html#SAHistory",
-    "href": "posts/20210627-historyofseasonaladjustment/index.html#SAHistory",
-    "title": "季节调整历史",
-    "section": "季节调整的历史发展",
-    "text": "季节调整的历史发展\n将时间序列分解为未观察到的组成部分的想法早在19世纪就出现在经济学家的作品中2。当时许多研究的目的是揭示 “周期”，对其进行研究和分析使解释和预测经济危机成为可能。在这种情况下，短期的周期性成分，特别是那些与季节有关的成分是没有什么意义的。\n就宏观经济时间序列而言，基于线性滤波的平滑技术，特别是移动平均数，在20世纪20年代初已经为人所知，但在实践中却很少使用。在20世纪20年代末，新的平滑过滤器的发展使非参数或 “经验”方法得到了更广泛的传播。同时，Joy A.和Thomas（1928）提出了一种基于移动平均数的方法，能够考虑到联邦储备委员会遵循的许多系列中存在的季节性波动的长期变化。逐步地，政府和统计局开始应用这种方法来获得季节性调整的时间序列。\n在第二次世界大战后的几年里，计算机科学的发展在很大程度上促进了非参数方法的传播和改进。在这方面，最著名的方法当然是X-11。1954年，Julius Shiskin在美国普查局首先开发了在计算机上运行的程序对时间序列进行季节调整，称为X-1。此后，季节调整的方法每改进一次都以X加上序号表示3，仍然由同一个团队开发。1965年,美国普查局推出了比较完整的季节调整程序X-11。由于这是第一个季节调整的自动方法，它很快被世界各地的许多统计机构采用，季节调整方法开始走向成熟并被广泛使用4。\n继Box和Jenkins在20世纪70年代关于ARIMA（自回归整合移动平均）模型的工作之后，X-11的一个新变体被开发出来，称为X11-ARIMA。X11-ARIMA是加拿大统计局的Dagum基于Box和Jenkins的理论提出的X-11程序的改进，并在X11-ARIMA/80中实现，1988 年更新为 X11-ARIMA/88。这个方法不仅包含了X-11的所有优点，而且还具有通过ARIMA模型在季节调整前向前或向后扩展时间序列的能力。\n在 20 世纪 90 年代末，美国普查局推出了X-12-ARIMA模型，它基本上囊括了X11-ARIMA/88的所有功能，并使用 regARIMA 模型，X-12-ARIMA 提供了有用的增强功能，包括：在季节调整之前使用来自 ARIMA 模型的预测和回溯扩展时间序列、对使用用户定义的回归量估计的影响进行调整、额外的季节性和趋势过滤器选项5、替代季节性趋势-不规则分解、调整质量和稳定性的附加诊断、广泛的时间序列建模和具有 ARIMA 错误的线性回归模型的模型选择功能。\n20世纪末，由西班牙中央银行的Victor Gómez和Agustín Maravall研制并推出TRAMO/SEATS模型，并 于2001 年用TSW程序 实现。该模型被广泛用于欧盟成员国季度和月度数据的季节调整。TRAMO使用由带有ARIMA误差的回归变量组成的混合模型进行估计、预测和插值，而SEATS先对TRAMO生成的静止线性序列拟合一个ARIMA模型，再将时间序列分解为趋势-周期、季节和不规则成分。\n2012年7月，美国普查局与西班牙银行合作发布了X-13ARIMA-SEATS，它基本是X-12-ARIMA和TRAMO-SEATS季节调整程序的合并6。\n2014年，基于TSW程序，西班牙银行的 Gianluca Caporello 和 Agustin Maravall 开发了TRAMO-SEATS+ ，并得到了 Domingo Perez 和 Roberto Lopez 的编程支持（TSW+程序）。\n除了以上方法外，世界各国还开发了一些其他方法，包括：1979年欧盟委员会开发的官方季节性调整方法DAINTIES，它以移动回归方法为基础，并假定在基数为10的对数加法分解的基础上进行加法或乘法分解；Nourney提出的一种基于移动滤波应用的季节性调整方法BV4，由回归方法的近似函数导出，它最初由柏林工业大学和德国经济研究所开发，它是德国中央统计局的官方季节性调整方法；Koopman等人在伦敦政治经济学院开发的STAMP软件，采用的是STS方法；日本数学统计研究所开发了BAYSEA和DECOMP软件；Bruce和Jurke开发的MING（基于MIxture的非高斯方法）软件；Young和Benner提出的MicroCAPTAIN软件；Bell在美国人口普查局开发的基于RegComponent模型的regCMPNT软件。\n\n关于JDemetra+\n上述这些原始的季节调整程序被用户普遍认为难以操作。因此，为了让非专家更好地使用这些 季节调整 方法，2012 年开始，比利时国家银行（NBB）在欧盟统计局和欧洲中央银行的支持下与德国联邦银行合作开发用于季节调整和其他相关时间序列问题的开源、平台独立、可扩展软件 JDemetra+，创新地是按照真正的面向对象的方法用JAVA重写了X-12-ARIMA/X-13ARIMA-SEATS和TRAMO-SEATS+的原始FORTRAN代码，这使得软件可以更轻松地处理、扩展和修改。除了季节性调整外，JDemetra+ 还捆绑了在经济统计数据的生成或分析中有用的其他时间序列模型，包括例如异常值检测、临近预报、时间分解和基准测试。2015 年2月2日起，JDemetra+已被正式推荐给 ESS 和欧洲中央银行系统的成员，作为官方统计数据的季节性和日历调整软件。\n\n\n中国季节调整的发展\n我国季节调整研究和应用起步较晚。2005年中国人民银行立项了“时间序列X-12-ARIMA季节调整”科技项目，由该行调查统计司牵头，会同南开大学、中国人民大学和武汉理工大学相关专家研究了季节调整的原理和方法，并对美国普查局提供的X-12软件进行了中国本地化改造和扩展功能的实现。此后，中国人民银行开始对金融序列进行季节调整。\n2009年国家统计局决定研制中国的季节调整软件NBS-SA，并于2010年推出正式版本。它是X-13ARIMA-SEATS的中国版，核心计算部分未作改动，只是在中国工作日和交易日效应的处理方面嵌入了结合中国国情的一些节假日效应，包括春节、中秋、端午以及工作日变化等的季节效应变量。经国务院批准，国家统计局于2011年4月正式发布季节调整数据，从而结束了中国官方不公布环比数据的历史。\n\n\n结语\n季节调整是官方统计业务流程的重要组成部分。这种技术被广泛用于从时间序列中估计和去除季节性和日历相关的运动，从而产生能够清晰显示经济现象的数据。但目前还没有关于一种方法系统地优于其他方法的明确结论，因此同时使用几种类型的方法是有益的。欧洲统计局的JDemetra+和美国普查局的X-13ARIMA-SEATS程序都是朝着这个方向发展的，因为它们可以轻松实现X-12ARIMA和TRAMO-SEATS。为便于季节调整推广以及软件的应用、开发和维护，这些软件都是跨平台的且公开了源代码。"
-  },
-  {
-    "objectID": "posts/20210627-historyofseasonaladjustment/index.html#footnotes",
-    "href": "posts/20210627-historyofseasonaladjustment/index.html#footnotes",
-    "title": "季节调整历史",
-    "section": "尾注",
-    "text": "尾注\n\n\n这包括理论研究的汇总比较、季节调整标准框架的构建、用户友好的跨平台软件和通俗易懂的软件使用教程编制和软件源代码公开等方面的卓越工作。这些工作正在使越来越多的非专家人员参与到季节调整工作中来，并有力推动了季节调整在方法和实践中的发展。↩︎\n根据中国人民银行“时间序列X-12-ARIMA季节调整项目”课题组的研究，1854~1856年爱尔兰吉伯特(John Thomas Gilbert, 1829~1898 )和英国巴贝奇( Charles Babbage, 1792~1871 ) 分别在伦敦统计学会杂志上发表论文”钞票的流通”和”票据交换”对季节变动做了最初研究，这是可查到的研究经济数据季节变动的最早记录。↩︎\n这些版本的改进都直接受到移动平均平滑技术和Macaulay作品的启发，这一改进过程中有几个较为重要的版本：1960年X-3发布，它的特点是特异项的代替方法和季节要素的计算方法有了进一步改进；1961年X-10方法发布，它考虑到了根据不规则变动和季节变动的相对大小来选择计算季节要素的移动平均项数；在这段时期，美国劳工局也推出了自己的季节调整方法即BLS法(最后也转向了X-11)。↩︎\n类似X-11风格的方法包括：澳大利亚统计局1987年提出的SEASABS方法，它是一个基于知识的季节性分析和调整工具；英格兰银行开发的GLAS方法，用于获得季节性调整的货币变量；贝尔实验室提出的SABL和STL方法。↩︎\n即允许用户在季节性调整之前预先调整序列以处理异常值和日历效果。↩︎\nX-12-ARIMA/X-13ARIMA-SEATS和TRAMO/SEATS+两种方法都分为两个主要部分。第一部分被称为预调整。它通过一个带有ARIMA噪音的回归模型，从系列中去除各种确定性的影响。第二部分是时间序列的分解，目的是估计和去除时间序列中的季节性成分。两种方法在第一部分使用了非常相似的方法来估计处理步骤中的相同模型，但它们在分解步骤中完全不同。因此，比较分解的结果往往是困难的。此外，它们的诊断方法侧重于不同的方面，其输出的形式也完全不同。↩︎"
   },
   {
     "objectID": "posts/20210806-weathersensitiveload/index.html",
@@ -266,34 +392,6 @@
     "text": "** 没有气象因素参与的负荷分析预测都是耍流氓！** – 题记20210806\n\n尽管3月底前后大部份的编程和计算都完成了，这两个月的分析预测数据看上去也不错，但总是需要数学上论证一下的。\n所以开始空调负荷的理论研究–就是写公式嘛，就是从实践到理论的过程。\n从7月18日台风“烟花”生成，到25、26日擦过上海，26日还多休一天，到28日上海天晴。总算想清楚了一件事—什么是负荷预测中所要讨论的空调负荷。还真佩服自己，前面怎么写出程序来的。\n然而7月28日~8月6日，花了一个多礼拜，才完成了设备负荷模型的数学描述，总算开了个头。\n国内负荷预测中所讨论的空调负荷实际是气象敏感负荷的习惯说法。这一概念来源于我们的日常观察和直觉，空调设备的使用肯定是与气象条件有关的电力负荷的最大和最重要的成分，事实上长久以来，国内外文献中在建立气象敏感负荷数学模型时也是按照这一概念进行的。\n然而，当我们从气象敏感负荷名词本身或定义出发，对现实世界中用电设备进行考察，那么我们可以得到一个完全不同的概念和一个完全不同的数学模型。\n然后，一整套全新的负荷分析预测框架可以建立了。"
   },
   {
-    "objectID": "posts/20220320-MethodCpr/index.html",
-    "href": "posts/20220320-MethodCpr/index.html",
-    "title": "预测方法评估",
-    "section": "",
-    "text": "对从2010年开始的各年初10年电量预测和各月5年预测偏差进行回顾，与基准方法（Arima、ETS、Prophet）预测进行比较。"
-  },
-  {
-    "objectID": "posts/20220320-MethodCpr/index.html#十年年度电量预测结果",
-    "href": "posts/20220320-MethodCpr/index.html#十年年度电量预测结果",
-    "title": "预测方法评估",
-    "section": "十年年度电量预测结果",
-    "text": "十年年度电量预测结果\n\n\n\n\n十年年度电量预测结果"
-  },
-  {
-    "objectID": "posts/20220320-MethodCpr/index.html#五年预测电量偏差",
-    "href": "posts/20220320-MethodCpr/index.html#五年预测电量偏差",
-    "title": "预测方法评估",
-    "section": "五年预测电量偏差",
-    "text": "五年预测电量偏差\n\n\n\n\n五年预测电量偏差"
-  },
-  {
-    "objectID": "posts/20220320-MethodCpr/index.html#结论",
-    "href": "posts/20220320-MethodCpr/index.html#结论",
-    "title": "预测方法评估",
-    "section": "结论",
-    "text": "结论\n\n包含气象分解的方法比基准方法预测更加准确，即基于气象分解的预测是有效的，可以显著提升预测准确率；\n已验证简单组合预测可进一步提升预测准确率。"
-  },
-  {
     "objectID": "posts/20220407-finishmtlfv30/index.html",
     "href": "posts/20220407-finishmtlfv30/index.html",
     "title": "MTLF完成V30更新",
@@ -301,60 +399,11 @@
     "text": "2022年3月26日~5月6日，因新冠封控，家里电脑日夜运行超过500小时，完成了预测方法比较、MTLF_V30（组合预测）版本更新，并完成基于这一计算的《2022年疫情对上海全年用电影响及预判》报告。\n\n\n当年年初电量预测平均偏差小于2.5%，4月之后预测平均偏差小于2%。\n5年电量预测平均偏差小于4%。\n10年电量预测平均偏差小于10%（数据量太少还需进一步验证，应该比此值小）。\n\n再次认为，可以写文章了:)"
   },
   {
-    "objectID": "posts/20220514-thebigqofloadforecast/index.html",
-    "href": "posts/20220514-thebigqofloadforecast/index.html",
-    "title": "负荷预测的3个基本问题",
-    "section": "",
-    "text": "有许多数学方法用于电力负荷预测，而且随着数据科学的发展，还会有更多的数学手段用于提升负荷预测准确率。但显然较长一段时间来，尤其数据科学快速发展的今天，负荷预测-尤其是中长期（多年）预测-的准确率提升（或偏差率下降）陷入了一个瓶颈，一些基本问题没有解决。"
-  },
-  {
-    "objectID": "posts/20220514-thebigqofloadforecast/index.html#q1负荷和电量的预测",
-    "href": "posts/20220514-thebigqofloadforecast/index.html#q1负荷和电量的预测",
-    "title": "负荷预测的3个基本问题",
-    "section": "Q1、负荷和电量的预测",
-    "text": "Q1、负荷和电量的预测\n对一个足够大的地区而言，如果我们假定一段时间内负荷是一个可导函数，则电量是负荷的积分，负荷是电量的导数，负荷和电量在物理、数学上是密切相关的。然而具体预测的时候，国内总是用负荷数据预测负荷、电量数据预测电量，两者毫不相关，而且对负荷电量往往会采用不同的数学方法和模型。这一做法与负荷电量的本质相关性不是矛盾吗？国外多采用24点负荷预测后累加形成电量，暂不论消耗的计算资源多少，这种方法是不是有改进的空间？"
-  },
-  {
-    "objectID": "posts/20220514-thebigqofloadforecast/index.html#q2电力与经济的关系",
-    "href": "posts/20220514-thebigqofloadforecast/index.html#q2电力与经济的关系",
-    "title": "负荷预测的3个基本问题",
-    "section": "Q2、电力与经济的关系",
-    "text": "Q2、电力与经济的关系\n电力与经济毋庸置疑是相关的。研究表明电力是经济的格兰杰因，或者更加通常的说法是“电力是经济的先行指数”。但现实是，预测人员更倾向于用社会经济变量（如GNP、人口数据）的预测来作为电力负荷预测的输入，希望通过社会经济数据的预测提升电力预测的准确性，这一思路显然与电力经济的因果关系是矛盾的，且这一方法的可靠性也很难验证，用经济预测电量是否有一些约束条件？"
-  },
-  {
-    "objectID": "posts/20220514-thebigqofloadforecast/index.html#q3分析和预测的割裂",
-    "href": "posts/20220514-thebigqofloadforecast/index.html#q3分析和预测的割裂",
-    "title": "负荷预测的3个基本问题",
-    "section": "Q3、分析和预测的割裂",
-    "text": "Q3、分析和预测的割裂\n电力负荷分析多采用实际数据的同比、环比、占比等比较，而现代的负荷预测则更多采用数学方法（包括时序、分层、断面）。当前的分析可以用于未来的预测，但是，过去的预测似乎很难用于当前分析。为什么分析和预测是如此割裂，能否统一？"
-  },
-  {
     "objectID": "posts/20221023-findnewprogess/index.html",
     "href": "posts/20221023-findnewprogess/index.html",
     "title": "无语的研究",
     "section": "",
     "text": "买了台新电脑（MS Surface Laptop Go 2），下载了些文章，准备写个培训材料，顺带查些资料，然后再次无语了。\n\n感觉每次自己发现了什么新大陆，然后总会又发现有人走过这条路了，尽管似乎是不经意的走过，但的确是有人已经走过了的啊。\n感觉不爽，但无语。\n研究前还是应该多看文章…尽管墙内不大好查。\n梳理了一下近期的文章，发现MTLF又有更新的必要了，继续无语。"
-  },
-  {
-    "objectID": "posts/20230201-UpdateToQuarto/index.html",
-    "href": "posts/20230201-UpdateToQuarto/index.html",
-    "title": "更新到Quarto",
-    "section": "",
-    "text": "2022年11月Rstudio正式发布了Quarto（GitHub上的第一个版本是2021年9月30日的0.2.180），下载安装的第一个版本是1.2.258。"
-  },
-  {
-    "objectID": "posts/20230201-UpdateToQuarto/index.html#首次应用quarto记录",
-    "href": "posts/20230201-UpdateToQuarto/index.html#首次应用quarto记录",
-    "title": "更新到Quarto",
-    "section": "首次应用Quarto记录",
-    "text": "首次应用Quarto记录\n\n\n\n\n\n\n\n日期\n内容\n\n\n\n\n2023年2月1日\n完成了blog的内网更新\n\n\n2023年1月29日\n完成了负荷预测V30内网网站的更新，版本号改为V30Q\n\n\n2023年1月20日\n生成了第一份Quarto培训PPT–ArTexOfLoadForecasting-1-GettingStarted\n\n\n2022年11月13日\n生成了第一份Quarto报告–ForecastingResult_2Years_Rpt.docx"
-  },
-  {
-    "objectID": "posts/20230201-UpdateToQuarto/index.html#quarto应用初步感受",
-    "href": "posts/20230201-UpdateToQuarto/index.html#quarto应用初步感受",
-    "title": "更新到Quarto",
-    "section": "Quarto应用初步感受",
-    "text": "Quarto应用初步感受\n\n文件内容和展示完全分离，初步展示了markdown的广泛应用前景；\n写文章、建站逻辑更加清晰，各种展现格式的设定更加统一，编写更加方便；\nVsCode可能会最终取代Rstudio；\n目前blog网站页面模板美观性比Hugo还是有差距，但文件也小很多。"
   },
   {
     "objectID": "posts/20230226-ValueNameStandard/index.html",
@@ -375,7 +424,7 @@
     "href": "posts/20230226-ValueNameStandard/index.html#时间序列变量符号使用存在的问题",
     "title": "时间序列变量符号编制规则",
     "section": "时间序列变量符号使用存在的问题",
-    "text": "时间序列变量符号使用存在的问题\n在电力负荷时间序列研究过程中发现，写文章时变量符号使用存在一些问题：\n\n时间序列中同一物理量名称由于需要表达不同时点或时间段的值需要不同的变量符号进行指代，因此在描述过程中变量符号比较多，文章编写时常会陷于没有符号可用的境地；\n变量符号的取用在直观上往往难以表达其实际意义1，这对于理解变量含义会形成困扰，进而对阅读理解文章形成障碍。\n\n为解决上述问题，需要对变量符号的编制规则进行一些约定。"
+    "text": "时间序列变量符号使用存在的问题\n在电力负荷时间序列研究过程中发现，写文章时变量符号使用存在一些问题：\n\n时间序列中同一物理量名称由于需要表达不同时点或时间段的值需要不同的变量符号进行指代，因此在描述过程中变量符号比较多，文章编写时常会陷于没有符号可用的境地；\n变量符号的取用在直观上往往难以表达其实际意义1，这对于理解变量含义会形成困扰，进而对阅读理解文章形成障碍。\n\n1 典型情况如国内采用的负荷特性指标，\\(\\gamma、\\delta、\\rho、\\sigma、\\beta、\\epsilon\\) 等。实际上从变量符号很难理解和区分这些符号的意义。为解决上述问题，需要对变量符号的编制规则进行一些约定。"
   },
   {
     "objectID": "posts/20230226-ValueNameStandard/index.html#变量符号编制原则",
@@ -389,7 +438,7 @@
     "href": "posts/20230226-ValueNameStandard/index.html#变量符号结构",
     "title": "时间序列变量符号编制规则",
     "section": "变量符号结构",
-    "text": "变量符号结构\n除非特别说明，电力负荷预测时间序列变量符号由主命名和上下标修饰符组成，一般具有如下结构形式：\n\\[\n{Ck}^{iS}_{Tt} \\tag{1}\n\\]\n其中：\n\n\\({Ck}\\)为变量主命名，使用1~2个字符表示，其中，第一个字符采用大写英文或希腊字母表示变量（物理量或指标量）的主要名称，如\\({E}\\)表示电量、\\({P}\\)表示负荷、\\({V}\\)表示日最大峰谷差、\\({\\Psi}\\)表示波动率等。第二个字符采用小写英文字母或数字表示变量分类，如可用\\({Ec}\\)表示全社会用电量，\\({Vd}\\)表示统调日最大峰谷差等；\n上标\\(^{iS}\\)为子类修饰符，使用1~2个英文字母或数字表示变量子类，其中：第1个字符称为物理子类符，采用1个小写英文字母或数字表示主变量的某一物理子类，如\\({Ec}^{2}、{Ec}^{r}\\)可分别表示第二产业和居民的全社会用电量；第2个字符称为统计识别符，表示该变量的某一统计结果，且规定用大写字母”A、X、N”作为专用统计识别符号，分别表示”平均、最大、最小”；如\\(Pd^X\\)表示统调最大负荷、\\(Ec^{rA}\\)表示居民月平均用电量。\n下标\\(_{Tt}\\)为时间修饰符，使用1~2个字符表示，使用一个大写英文字母加一个小写英文字母表示变量的时间分类特性：第1个字符采用大写英文字母，表示变量所处时间段，\\(T \\in (D，W，M，Q，Y，etc.)\\)，分别表示日、周、月、季、年等时间间隔，直接使用\\(T\\)时表示任一时间段；第2个字符采用小写字符，表示变量所在时间点，\\(t \\in (h，d，w，m，q，etc.)\\)，分别表示整点时、日、周、月、季等，直接使用\\(t\\)时表示任一时间点。只采用小写字母下标时，表示所有时点数据集合，如\\(P_h\\)表示整点负荷、\\(E_m\\)表示月电量数据集2；仅采用大写字母下标时，表示时间段内的所有数据集，如\\(V_M\\)表示月内各日最大峰谷差的集合3，通常与上标大写字母合用，表示对该段时间求取的基本统计值，如\\(Pd^X_M\\)表示月统调最大负荷；大小写字母同时使用时，第2个小写字母指代的时点应包含在第1个字母所指代的区间内。如\\(P_{Mh}\\)表示月内的整点小时负荷集合、\\(E_{Yd}\\)表示年内的日电量集合。"
+    "text": "变量符号结构\n除非特别说明，电力负荷预测时间序列变量符号由主命名和上下标修饰符组成，一般具有如下结构形式：\n\\[\n{Ck}^{iS}_{Tt} \\tag{1}\n\\]\n其中：\n\n\\({Ck}\\)为变量主命名，使用1~2个字符表示，其中，第一个字符采用大写英文或希腊字母表示变量（物理量或指标量）的主要名称，如\\({E}\\)表示电量、\\({P}\\)表示负荷、\\({V}\\)表示日最大峰谷差、\\({\\Psi}\\)表示波动率等。第二个字符采用小写英文字母或数字表示变量分类，如可用\\({Ec}\\)表示全社会用电量，\\({Vd}\\)表示统调日最大峰谷差等；\n上标\\(^{iS}\\)为子类修饰符，使用1~2个英文字母或数字表示变量子类，其中：第1个字符称为物理子类符，采用1个小写英文字母或数字表示主变量的某一物理子类，如\\({Ec}^{2}、{Ec}^{r}\\)可分别表示第二产业和居民的全社会用电量；第2个字符称为统计识别符，表示该变量的某一统计结果，且规定用大写字母”A、X、N”作为专用统计识别符号，分别表示”平均、最大、最小”；如\\(Pd^X\\)表示统调最大负荷、\\(Ec^{rA}\\)表示居民月平均用电量。\n下标\\(_{Tt}\\)为时间修饰符，使用1~2个字符表示，使用一个大写英文字母加一个小写英文字母表示变量的时间分类特性：第1个字符采用大写英文字母，表示变量所处时间段，\\(T \\in (D，W，M，Q，Y，etc.)\\)，分别表示日、周、月、季、年等时间间隔，直接使用\\(T\\)时表示任一时间段；第2个字符采用小写字符，表示变量所在时间点，\\(t \\in (h，d，w，m，q，etc.)\\)，分别表示整点时、日、周、月、季等，直接使用\\(t\\)时表示任一时间点。只采用小写字母下标时，表示所有时点数据集合，如\\(P_h\\)表示整点负荷、\\(E_m\\)表示月电量数据集2；仅采用大写字母下标时，表示时间段内的所有数据集，如\\(V_M\\)表示月内各日最大峰谷差的集合3，通常与上标大写字母合用，表示对该段时间求取的基本统计值，如\\(Pd^X_M\\)表示月统调最大负荷；大小写字母同时使用时，第2个小写字母指代的时点应包含在第1个字母所指代的区间内。如\\(P_{Mh}\\)表示月内的整点小时负荷集合、\\(E_{Yd}\\)表示年内的日电量集合。\n\n2 只采用小写字母下标时，对于时段变量指的是时段末的累计值，如\\(E_m\\)表达的是月末时点的当月累积值。3 仅采用大写字母下标时，主变量名称应该是有时点含义的，如\\(D_Y\\)表示的是年内日最大峰谷差数据集，其变量主命名隐含了一天一个数据的意思;\\(E_T\\)表示\\(T\\)时段内的电量，仅用于公式描述。"
   },
   {
     "objectID": "posts/20230226-ValueNameStandard/index.html#变量符号示例",
@@ -404,55 +453,6 @@
     "title": "时间序列变量符号编制规则",
     "section": "变量计算函数",
     "text": "变量计算函数\n为简化对时间序列数据集\\({Ck}^{iS}_{Tt}\\)计算操作的描述，采用一些基本统计函数作为数学式的元素，基本形式为：\n\\[FUN\\{{Ck}^{iS}_{Tt}\\}_{T}\\]\n其基本意义是指在\\(T\\)时间段内，对\\({Ck}^{iS}_{Tt}\\)序列进行\\(FUN\\{\\}\\)函数运算；其中下标\\(\\{\\}_T \\in (D，W，M，Q，Y，etc.)\\)表示按日、周、月、季、年等求取结果，若无此下标则指对所有数据计算。基本函数包括求最大值\\(MAX\\{\\}_T\\)、求最小值\\(MIN\\{\\}_T\\)和求平均值\\(MEAN\\{\\}_T\\)等。\n如\\(MAX\\{{Pd}_{h}\\}_M\\)，是指求日统调整点负荷的月内最大值，即求月统调最大整点负荷\\({Pd}^X_{Mh}\\)。"
-  },
-  {
-    "objectID": "posts/20230226-ValueNameStandard/index.html#footnotes",
-    "href": "posts/20230226-ValueNameStandard/index.html#footnotes",
-    "title": "时间序列变量符号编制规则",
-    "section": "尾注",
-    "text": "尾注\n\n\n典型情况如国内采用的负荷特性指标，\\(\\gamma、\\delta、\\rho、\\sigma、\\beta、\\epsilon\\) 等。实际上从变量符号很难理解和区分这些符号的意义。↩︎\n只采用小写字母下标时，对于时段变量指的是时段末的累计值，如\\(E_m\\)表达的是月末时点的当月累积值。↩︎\n仅采用大写字母下标时，主变量名称应该是有时点含义的，如\\(D_Y\\)表示的是年内日最大峰谷差数据集，其变量主命名隐含了一天一个数据的意思;\\(E_T\\)表示\\(T\\)时段内的电量，仅用于公式描述。↩︎"
-  },
-  {
-    "objectID": "posts/20230325-LoadVolatilityRes1/index.html",
-    "href": "posts/20230325-LoadVolatilityRes1/index.html",
-    "title": "典型负荷日研究",
-    "section": "",
-    "text": "一个人在家，研究了一天负荷特性问题（就是画了几条曲线而已），有些想不下去了。发现历史上在程序的备注中写过一些关于典型负荷日选取方法的研究，有点散乱，当作换换脑子，整理形成一个思路版。这份文档的完整版（以后再说）应该会成为框架基础部分的应用内容之一。"
-  },
-  {
-    "objectID": "posts/20230325-LoadVolatilityRes1/index.html#修订记录",
-    "href": "posts/20230325-LoadVolatilityRes1/index.html#修订记录",
-    "title": "典型负荷日研究",
-    "section": "修订记录",
-    "text": "修订记录\n\n\n\n\n\n\n\n日期\n内容\n\n\n\n\n2023-03-25 22:14:16\n研究负荷特性程序段，又翻到了典型负荷日选取问题，思路整理，完成定义，Blog发布\n\n\n2022年7月12~15日\n当时好像是华东提出了四季典型日负荷和风电出力的匹配问题，然后在程序段中加入计算105%、110%、115%最小负荷及小于这些值的小时数计算。再然后想到了典型负荷日选取的根本症结所在\n\n\n2020年1月4~28日\n应该是在负荷特性计算程序段中插入的一些关于国网选取典型日方法的备注，其后一直关注的是选取方法修订和完善"
-  },
-  {
-    "objectID": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日选取面临的问题",
-    "href": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日选取面临的问题",
-    "title": "典型负荷日研究",
-    "section": "典型负荷日选取面临的问题",
-    "text": "典型负荷日选取面临的问题\n负荷预测工作中经常会讨论如何选取典型负荷日，目前典型负荷日的选取没有统一规定，经常采用的方法主要包括3种： 1. 对于月典型负荷日，选取日负荷率与月平均日负荷率最接近、且负荷曲线无异常畸变的日负荷曲线； 2. 最大负荷日负荷曲线； 3. 每月某一固定工作日（如第3周的周三工作日）。\n国网发展部也给出了春秋季报告中推荐的计算方法，即上述方法1，并主要应用于采暖、降温负荷的计算1。但目前典型负荷日选取是否剔除节假日仍存在较大争议，这就引发了一个疑问–典型负荷日的“典型”两个字究竟应该如何从数学上进行描述，或者说如何用数学式子确定某一天是“典型”负荷日。\n在进行采暖、降温负荷计算，以及风电、光伏出力对年最大、最小负荷日的支撑能力问题研究过程中觉悟到，对“典型”的定义才是典型负荷日选取问题的关键，而且这也恰恰是典型负荷日选取计算原则难以统一的根本原因。"
-  },
-  {
-    "objectID": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日的定义",
-    "href": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日的定义",
-    "title": "典型负荷日研究",
-    "section": "典型负荷日的定义",
-    "text": "典型负荷日的定义\n事实上很难对典型负荷日进行定义，因为这是由其应用需求或目的所决定的。一般对电网企业而言，典型负荷日大概有以下几方面的应用需求： 1. 系统理论线损计算； 2. 计算峰谷时段，以安排发电计划； 3. 计算采暖、降温负荷；计算新能源出力对用电负荷的支撑能力等； 以及发电企业或电力用户的其他应用需求。从这些问题的表述上就可以知道，典型负荷日对发电企业、电力用户或电网企业内部不同专业而言其应用的需求和目的是完全不同的。\n\n正因如此，典型负荷日选取计算的原则应根据特定问题的应用需求和目标来制定，无法强行统一，但是其基本数学表达应该是一致的（计算条件可以不同）。"
-  },
-  {
-    "objectID": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日选取的方法和步骤",
-    "href": "posts/20230325-LoadVolatilityRes1/index.html#典型负荷日选取的方法和步骤",
-    "title": "典型负荷日研究",
-    "section": "典型负荷日选取的方法和步骤",
-    "text": "典型负荷日选取的方法和步骤\n典型负荷日的选择实际包括了两个问题，一是在所研究时间段内，该日负荷时点特性（负荷特性曲线）是否具有典型性；二是该日电量或平均负荷是否具有典型性。 方法及步骤包括： 1. 根据应用需求确定计算时间段，以及是否需要区分工作日和休息日； 2. 计算时间段内的平均日负荷特性曲线（日负荷特性曲线的平均值）； 3. 计算时间段内的日平均电量； 4. 根据应用需求确定： a. 计算选择负荷特性最接近平均日负荷特性曲线（负荷特性偏差最小）的一天作为典型日；或者 b. 同时考虑负荷特性偏差最小和电量偏差最小（加权最小）的一天作为典型日。"
-  },
-  {
-    "objectID": "posts/20230325-LoadVolatilityRes1/index.html#footnotes",
-    "href": "posts/20230325-LoadVolatilityRes1/index.html#footnotes",
-    "title": "典型负荷日研究",
-    "section": "尾注",
-    "text": "尾注\n\n\n尽管实际上我有了更科学的计算方法（我的预测框架的副产品之一），但实际报告中还是采用了国网的计算方法，毕竟是工作报告，还是应该采用统一、标准的方法。↩︎"
   },
   {
     "objectID": "posts/20230412-firstraning/index.html",
@@ -473,7 +473,7 @@
     "href": "posts/20230412-firstraning/index.html#过程",
     "title": "第一次正式的负荷预测培训",
     "section": "过程",
-    "text": "过程\n上周四（2023年4月6日），收到计划处要求，开展一个国网调考的培训，希望我讲讲电量预测的基本知识。答应下来，用了周六、周日两天在原来准备的负荷预测入门PPT的基础上加了关于电量的内容，其他也来不及删改了，怕逻辑打乱。4月12日上午在培训中心A503教室（找了半天）开讲，尽管辛辛苦苦做的63页ppt只讲了2个小时，但我的《负荷预测技术与艺术》系列讲座也算是开张了1。\n讲座主要将了3块内容：电量分类和预测的概念、预测方法和Excel实例。这里就放两张图片记录一下。"
+    "text": "过程\n上周四（2023年4月6日），收到计划处要求，开展一个国网调考的培训，希望我讲讲电量预测的基本知识。答应下来，用了周六、周日两天在原来准备的负荷预测入门PPT的基础上加了关于电量的内容，其他也来不及删改了，怕逻辑打乱。4月12日上午在培训中心A503教室（找了半天）开讲，尽管辛辛苦苦做的63页ppt只讲了2个小时，但我的《负荷预测技术与艺术》系列讲座也算是开张了1。\n1 2016年给蒙东公司的讲课应该是第一次负荷预测培训，这里的第一次是指在公司里的第一次，当然也是自己觉得可以讲负荷预测后的第一次。讲座主要将了3块内容：电量分类和预测的概念、预测方法和Excel实例。这里就放两张图片记录一下。"
   },
   {
     "objectID": "posts/20230412-firstraning/index.html#概念部分",
@@ -502,54 +502,5 @@
     "title": "第一次正式的负荷预测培训",
     "section": "后记",
     "text": "后记\n尽管时间所限，感觉讲的不是很透彻，基本的概念应该还是讲清楚了。同时，也发现需要对传统预测方法也整理一个分类图。记得下一次讲课还是需要带自己的笔记本，培训中心的机子居然不能用演讲者视图，写的备注都没用，吐槽一下。\n再次感叹一下，Quarto还是阔以的。"
-  },
-  {
-    "objectID": "posts/20230412-firstraning/index.html#footnotes",
-    "href": "posts/20230412-firstraning/index.html#footnotes",
-    "title": "第一次正式的负荷预测培训",
-    "section": "尾注",
-    "text": "尾注\n\n\n2016年给蒙东公司的讲课应该是第一次负荷预测培训，这里的第一次是指在公司里的第一次，当然也是自己觉得可以讲负荷预测后的第一次。↩︎"
-  },
-  {
-    "objectID": "posts/20230630-Loadcharactristics/index.html",
-    "href": "posts/20230630-Loadcharactristics/index.html",
-    "title": "负荷特性",
-    "section": "",
-    "text": "6月20日给《电力需求侧管理》投稿–电力负荷特性的描述：负荷波动率（A description of electrical load characteristics：Load Volatility），其中一小段讨论了负荷特性的定义、研究目的和内容，这里先记录发布一下。"
-  },
-  {
-    "objectID": "posts/20230630-Loadcharactristics/index.html#负荷特性的定义",
-    "href": "posts/20230630-Loadcharactristics/index.html#负荷特性的定义",
-    "title": "负荷特性",
-    "section": "负荷特性的定义",
-    "text": "负荷特性的定义\n对负荷特性的描述包括总量、结构和波动三个方面，以及横、纵向两个维度。用电总量一般通过前后比较来描述增长，用横向比较确定所处状态；用电结构多通过截面数据的比值进行描述；而用电波动的描述多采用指标（如日负荷率、峰谷差率等）计算来获得。从广义上说，负荷特性是指对负荷总量、结构和波动特征的描述，就本文而言，负荷特性1专指对负荷波动的定量可比描述。1 这里定义了负荷特性、研究目的和内容。没有在历史文献中查到负荷特性的定义-是看书少吗？"
-  },
-  {
-    "objectID": "posts/20230630-Loadcharactristics/index.html#研究负荷特性的目的",
-    "href": "posts/20230630-Loadcharactristics/index.html#研究负荷特性的目的",
-    "title": "负荷特性",
-    "section": "研究负荷特性的目的",
-    "text": "研究负荷特性的目的\n由于对应的生产、生活状况及其用电方式不同，不同负荷具有各自的波动特性。对这些波动特性进行研究主要有两个目的，一是对现状的解释，分析负荷在时间、空间、行业、产业间的不同特性，以期得到总量和分量之间、负荷和其他经济社会气象因素之间的相关关系，并进而解释当前负荷发展超出（或不及）预期状态的原因；二是对未来的预测，推测负荷在未来年份的平均特性或趋势变化情况及在某些条件（经济、气象、政策等）发生超预期变化时可能的负荷波动范围及概率，进而通过电力系统规划或政策调整来与之相适应。如果说负荷分析预测研究集中在对总体平均状态或趋势的判断，那么负荷特性研究则是对当前或未来偏离这一平均状态或趋势的定量分析。所以，负荷特性研究不仅是用电分析的重要手段，更是负荷预测不可或缺的核心内容，它以负荷平均状态或趋势作为基准，目标是研究负荷波动的范围及概率。"
-  },
-  {
-    "objectID": "posts/20230630-Loadcharactristics/index.html#结论",
-    "href": "posts/20230630-Loadcharactristics/index.html#结论",
-    "title": "负荷特性",
-    "section": "结论",
-    "text": "结论\n因此，负荷特性研究就是研究负荷偏离平均状态的程度。"
-  },
-  {
-    "objectID": "posts/20230630-Loadcharactristics/index.html#定义",
-    "href": "posts/20230630-Loadcharactristics/index.html#定义",
-    "title": "负荷特性",
-    "section": "定义",
-    "text": "定义\n对负荷特性的描述包括总量、结构和波动三个方面，以及横、纵向两个维度。用电总量一般通过前后比较来描述增长，用横向比较确定所处状态；用电结构多通过截面数据的比值进行描述；而用电波动的描述多采用指标（如日负荷率、峰谷差率等）计算来获得。从广义上说，负荷特性是指对负荷总量、结构和波动特征的描述，就本文而言，负荷特性1专指对负荷波动的定量可比描述。1 这里实际给出了负荷特性的定义。居然没有在历史文献中查到负荷特性的定义-是看书少吗？"
-  },
-  {
-    "objectID": "posts/20230630-Loadcharactristics/index.html#研究目的和内容",
-    "href": "posts/20230630-Loadcharactristics/index.html#研究目的和内容",
-    "title": "负荷特性",
-    "section": "研究目的和内容",
-    "text": "研究目的和内容\n由于对应的生产、生活状况及其用电方式不同，不同负荷具有各自的波动特性。对这些波动特性进行研究主要有两个目的：\n\n解释现状，分析负荷在时间、空间、行业、产业间的不同特性，以期得到总量和分量之间、负荷和其他经济社会气象因素之间的相关关系，并进而解释当前负荷发展超出（或不及）预期状态的原因；\n预测未来，推测负荷在未来年份的平均特性或趋势变化情况及在某些条件（经济、气象、政策等）发生超预期变化时可能的负荷波动范围及概率，进而通过电力系统规划或政策调整来与之相适应。\n\n如果说负荷分析预测研究集中在对总体平均状态或趋势的判断，那么负荷特性研究则是对当前或未来偏离这一平均状态或趋势的定量分析。所以，负荷特性研究不仅是用电分析的重要手段，更是负荷预测不可或缺的核心内容，它以负荷平均状态或趋势作为基准，目标是研究负荷波动的范围及概率。"
   }
 ]

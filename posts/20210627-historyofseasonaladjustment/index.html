@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.290">
+<meta name="generator" content="quarto-1.6.6">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Taopj@sh.cn’s Blog - 季节调整历史</title>
+<title>季节调整历史 – Taopj@sh.cn’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -46,7 +46,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "没有结果",
     "search-matching-documents-text": "匹配的文档",
@@ -55,8 +61,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "更多匹配结果",
     "search-more-matches-text": "更多匹配结果",
     "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "取消",
-    "search-submit-button-title": "提交"
+    "search-submit-button-title": "提交",
+    "search-label": "Search"
   }
 }</script>
 
@@ -67,10 +75,10 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../images\tau3.png" alt="" class="navbar-logo">
     </a>
@@ -79,19 +87,19 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">关于</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">关于</span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -147,23 +155,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
 
 
 
 
 <p>季节调整理论研究已经有超过百年的历史了，在经济社会中的成熟应用也有超过50年的历史，然而，真正开始在社会生活各方面的广泛应用也还是在计算机应用日益普及以及<a href="https://www.census.gov">美国普查局</a>和<a href="https://ec.europa.eu/eurostat/web/main/home">欧洲统计局</a>大力推进<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>之后的事了。季节调整从“阳春白雪”开始走入寻常百姓生活只是再一次证明了从科学研究到社会应用实在是一个道阻且长的进程。</p>
 <!--more-->
-<section id="SAHistory" class="level2">
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;这包括理论研究的汇总比较、季节调整标准框架的构建、用户友好的跨平台软件和通俗易懂的软件使用教程编制和软件源代码公开等方面的卓越工作。这些工作正在使越来越多的非专家人员参与到季节调整工作中来，并有力推动了季节调整在方法和实践中的发展。</p></div></div><section id="SAHistory" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="SAHistory">季节调整的历史发展</h2>
 <p>将时间序列分解为未观察到的组成部分的想法早在19世纪就出现在经济学家的作品中<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>。当时许多研究的目的是揭示 “周期”，对其进行研究和分析使解释和预测经济危机成为可能。在这种情况下，短期的周期性成分，特别是那些与季节有关的成分是没有什么意义的。</p>
-<p>就宏观经济时间序列而言，基于线性滤波的平滑技术，特别是移动平均数，在20世纪20年代初已经为人所知，但在实践中却很少使用。在20世纪20年代末，新的平滑过滤器的发展使非参数或 “经验”方法得到了更广泛的传播。同时，Joy A.和Thomas（1928）提出了一种基于移动平均数的方法，能够考虑到联邦储备委员会遵循的许多系列中存在的季节性波动的长期变化。逐步地，政府和统计局开始应用这种方法来获得季节性调整的时间序列。</p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;根据中国人民银行“时间序列X-12-ARIMA季节调整项目”课题组的研究，1854~1856年爱尔兰吉伯特(John Thomas Gilbert, 1829~1898 )和英国巴贝奇( Charles Babbage, 1792~1871 ) 分别在伦敦统计学会杂志上发表论文”钞票的流通”和”票据交换”对季节变动做了最初研究，这是可查到的研究经济数据季节变动的最早记录。</p></div></div><p>就宏观经济时间序列而言，基于线性滤波的平滑技术，特别是移动平均数，在20世纪20年代初已经为人所知，但在实践中却很少使用。在20世纪20年代末，新的平滑过滤器的发展使非参数或 “经验”方法得到了更广泛的传播。同时，Joy A.和Thomas（1928）提出了一种基于移动平均数的方法，能够考虑到联邦储备委员会遵循的许多系列中存在的季节性波动的长期变化。逐步地，政府和统计局开始应用这种方法来获得季节性调整的时间序列。</p>
 <p>在第二次世界大战后的几年里，计算机科学的发展在很大程度上促进了非参数方法的传播和改进。在这方面，最著名的方法当然是X-11。1954年，Julius Shiskin在美国普查局首先开发了在计算机上运行的程序对时间序列进行季节调整，称为X-1。此后，季节调整的方法每改进一次都以X加上序号表示<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>，仍然由同一个团队开发。1965年,美国普查局推出了比较完整的季节调整程序X-11。由于这是第一个季节调整的自动方法，它很快被世界各地的许多统计机构采用，季节调整方法开始走向成熟并被广泛使用<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>。</p>
-<p>继Box和Jenkins在20世纪70年代关于ARIMA（自回归整合移动平均）模型的工作之后，X-11的一个新变体被开发出来，称为X11-ARIMA。X11-ARIMA是加拿大统计局的Dagum基于Box和Jenkins的理论提出的X-11程序的改进，并在X11-ARIMA/80中实现，1988 年更新为 X11-ARIMA/88。这个方法不仅包含了X-11的所有优点，而且还具有通过ARIMA模型在季节调整前向前或向后扩展时间序列的能力。</p>
+<div class="no-row-height column-margin column-container"><div id="fn3"><p><sup>3</sup>&nbsp;这些版本的改进都直接受到移动平均平滑技术和Macaulay作品的启发，这一改进过程中有几个较为重要的版本：1960年X-3发布，它的特点是特异项的代替方法和季节要素的计算方法有了进一步改进；1961年X-10方法发布，它考虑到了根据不规则变动和季节变动的相对大小来选择计算季节要素的移动平均项数；在这段时期，美国劳工局也推出了自己的季节调整方法即BLS法(最后也转向了X-11)。</p></div><div id="fn4"><p><sup>4</sup>&nbsp;类似X-11风格的方法包括：澳大利亚统计局1987年提出的SEASABS方法，它是一个基于知识的季节性分析和调整工具；英格兰银行开发的GLAS方法，用于获得季节性调整的货币变量；贝尔实验室提出的SABL和STL方法。</p></div></div><p>继Box和Jenkins在20世纪70年代关于ARIMA（自回归整合移动平均）模型的工作之后，X-11的一个新变体被开发出来，称为X11-ARIMA。X11-ARIMA是加拿大统计局的Dagum基于Box和Jenkins的理论提出的X-11程序的改进，并在X11-ARIMA/80中实现，1988 年更新为 X11-ARIMA/88。这个方法不仅包含了X-11的所有优点，而且还具有通过ARIMA模型在季节调整前向前或向后扩展时间序列的能力。</p>
 <p>在 20 世纪 90 年代末，美国普查局推出了X-12-ARIMA模型，它基本上囊括了X11-ARIMA/88的所有功能，并使用 regARIMA 模型，X-12-ARIMA 提供了有用的增强功能，包括：在季节调整之前使用来自 ARIMA 模型的预测和回溯扩展时间序列、对使用用户定义的回归量估计的影响进行调整、额外的季节性和趋势过滤器选项<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>、替代季节性趋势-不规则分解、调整质量和稳定性的附加诊断、广泛的时间序列建模和具有 ARIMA 错误的线性回归模型的模型选择功能。</p>
-<p>20世纪末，由西班牙中央银行的Victor Gómez和Agustín Maravall研制并推出TRAMO/SEATS模型，并 于2001 年用TSW程序 实现。该模型被广泛用于欧盟成员国季度和月度数据的季节调整。TRAMO使用由带有ARIMA误差的回归变量组成的混合模型进行估计、预测和插值，而SEATS先对TRAMO生成的静止线性序列拟合一个ARIMA模型，再将时间序列分解为趋势-周期、季节和不规则成分。</p>
+<div class="no-row-height column-margin column-container"><div id="fn5"><p><sup>5</sup>&nbsp;即允许用户在季节性调整之前预先调整序列以处理异常值和日历效果。</p></div></div><p>20世纪末，由西班牙中央银行的Victor Gómez和Agustín Maravall研制并推出TRAMO/SEATS模型，并 于2001 年用TSW程序 实现。该模型被广泛用于欧盟成员国季度和月度数据的季节调整。TRAMO使用由带有ARIMA误差的回归变量组成的混合模型进行估计、预测和插值，而SEATS先对TRAMO生成的静止线性序列拟合一个ARIMA模型，再将时间序列分解为趋势-周期、季节和不规则成分。</p>
 <p>2012年7月，美国普查局与西班牙银行合作发布了X-13ARIMA-SEATS，它基本是X-12-ARIMA和TRAMO-SEATS季节调整程序的合并<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>。</p>
-<p>2014年，基于TSW程序，西班牙银行的 Gianluca Caporello 和 Agustin Maravall 开发了TRAMO-SEATS+ ，并得到了 Domingo Perez 和 Roberto Lopez 的编程支持（TSW+程序）。</p>
+<div class="no-row-height column-margin column-container"><div id="fn6"><p><sup>6</sup>&nbsp;X-12-ARIMA/X-13ARIMA-SEATS和TRAMO/SEATS+两种方法都分为两个主要部分。第一部分被称为预调整。它通过一个带有ARIMA噪音的回归模型，从系列中去除各种确定性的影响。第二部分是时间序列的分解，目的是估计和去除时间序列中的季节性成分。两种方法在第一部分使用了非常相似的方法来估计处理步骤中的相同模型，但它们在分解步骤中完全不同。因此，比较分解的结果往往是困难的。此外，它们的诊断方法侧重于不同的方面，其输出的形式也完全不同。</p></div></div><p>2014年，基于TSW程序，西班牙银行的 Gianluca Caporello 和 Agustin Maravall 开发了TRAMO-SEATS+ ，并得到了 Domingo Perez 和 Roberto Lopez 的编程支持（TSW+程序）。</p>
 <p>除了以上方法外，世界各国还开发了一些其他方法，包括：1979年欧盟委员会开发的官方季节性调整方法DAINTIES，它以移动回归方法为基础，并假定在基数为10的对数加法分解的基础上进行加法或乘法分解；Nourney提出的一种基于移动滤波应用的季节性调整方法BV4，由回归方法的近似函数导出，它最初由柏林工业大学和德国经济研究所开发，它是德国中央统计局的官方季节性调整方法；Koopman等人在伦敦政治经济学院开发的STAMP软件，采用的是STS方法；日本数学统计研究所开发了BAYSEA和DECOMP软件；Bruce和Jurke开发的MING（基于MIxture的非高斯方法）软件；Young和Benner提出的MicroCAPTAIN软件；Bell在美国人口普查局开发的基于RegComponent模型的regCMPNT软件。</p>
 <section id="SAHistory-JDemetra" class="level3">
 <h3 class="anchored" data-anchor-id="SAHistory-JDemetra">关于JDemetra+</h3>
@@ -183,17 +192,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">尾注</h2>
-
-<ol>
-<li id="fn1"><p>这包括理论研究的汇总比较、季节调整标准框架的构建、用户友好的跨平台软件和通俗易懂的软件使用教程编制和软件源代码公开等方面的卓越工作。这些工作正在使越来越多的非专家人员参与到季节调整工作中来，并有力推动了季节调整在方法和实践中的发展。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>根据中国人民银行“时间序列X-12-ARIMA季节调整项目”课题组的研究，1854~1856年爱尔兰吉伯特(John Thomas Gilbert, 1829~1898 )和英国巴贝奇( Charles Babbage, 1792~1871 ) 分别在伦敦统计学会杂志上发表论文”钞票的流通”和”票据交换”对季节变动做了最初研究，这是可查到的研究经济数据季节变动的最早记录。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>这些版本的改进都直接受到移动平均平滑技术和Macaulay作品的启发，这一改进过程中有几个较为重要的版本：1960年X-3发布，它的特点是特异项的代替方法和季节要素的计算方法有了进一步改进；1961年X-10方法发布，它考虑到了根据不规则变动和季节变动的相对大小来选择计算季节要素的移动平均项数；在这段时期，美国劳工局也推出了自己的季节调整方法即BLS法(最后也转向了X-11)。<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>类似X-11风格的方法包括：澳大利亚统计局1987年提出的SEASABS方法，它是一个基于知识的季节性分析和调整工具；英格兰银行开发的GLAS方法，用于获得季节性调整的货币变量；贝尔实验室提出的SABL和STL方法。<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>即允许用户在季节性调整之前预先调整序列以处理异常值和日历效果。<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>X-12-ARIMA/X-13ARIMA-SEATS和TRAMO/SEATS+两种方法都分为两个主要部分。第一部分被称为预调整。它通过一个带有ARIMA噪音的回归模型，从系列中去除各种确定性的影响。第二部分是时间序列的分解，目的是估计和去除时间序列中的季节性成分。两种方法在第一部分使用了非常相似的方法来估计处理步骤中的相同模型，但它们在分解步骤中完全不同。因此，比较分解的结果往往是困难的。此外，它们的诊断方法侧重于不同的方面，其输出的形式也完全不同。<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -229,18 +228,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -272,11 +260,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -286,8 +313,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -299,7 +335,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -343,6 +502,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -368,6 +528,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -428,6 +614,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
