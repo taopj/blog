@@ -4,14 +4,14 @@
     "href": "posts/20230630-Loadcharactristics/index.html",
     "title": "负荷特性",
     "section": "",
-    "text": "6月20日给《电力需求侧管理》投稿–电力负荷特性的描述：负荷波动率（A description of electrical load characteristics：Load Volatility），其中一小段讨论了负荷特性的定义、研究目的和内容，这里先记录发布一下。"
+    "text": "6月20日给《电力需求侧管理》投稿–电力负荷特性的描述：负荷波动率（A description of electrical load characteristics：Load Volatility），其中一小段讨论了负荷特性的定义、研究目的和内容，这里先记录发布一下1 。"
   },
   {
     "objectID": "posts/20230630-Loadcharactristics/index.html#定义",
     "href": "posts/20230630-Loadcharactristics/index.html#定义",
     "title": "负荷特性",
     "section": "定义",
-    "text": "定义\n对负荷特性的描述包括总量、结构和波动三个方面，以及横、纵向两个维度。用电总量一般通过前后比较来描述增长，用横向比较确定所处状态；用电结构多通过截面数据的比值进行描述；而用电波动的描述多采用指标（如日负荷率、峰谷差率等）计算来获得。从广义上说，负荷特性是指对负荷总量、结构和波动特征的描述，就本文而言，负荷特性1专指对负荷波动的定量可比描述。\n1 这里实际给出了负荷特性的定义。居然没有在历史文献中查到负荷特性的定义-是看书少吗？"
+    "text": "定义\n对负荷特性的描述包括总量、结构和波动三个方面，以及横、纵向两个维度。用电总量一般通过前后比较来描述增长，用横向比较确定所处状态；用电结构多通过截面数据的比值进行描述；而用电波动的描述多采用指标（如日负荷率、峰谷差率等）计算来获得。从广义上说，负荷特性是指对负荷总量、结构和波动特征的描述，就本文而言，负荷特性2专指对负荷波动的定量可比描述。\n2 这里实际给出了负荷特性的定义。居然没有在历史文献中查到负荷特性的定义-是看书少吗？"
   },
   {
     "objectID": "posts/20230630-Loadcharactristics/index.html#研究目的和内容",
@@ -340,7 +340,7 @@
     "href": "index.html",
     "title": "Tao的文章",
     "section": "",
-    "text": "重启blog\n\n\n\n\n\n\n\n\n2025年8月31日\n\n1 分钟\n\n\n\n\n\n\n负荷特性\n\n\n\n\n\n\n\n\n2023年6月20日\n\n1 分钟\n\n\n\n\n\n\n第一次正式的负荷预测培训\n\n\n\n\n\n\n\n\n2023年4月13日\n\n1 分钟\n\n\n\n\n\n\n典型负荷日研究\n\n\n\n\n\n\n\n\n2023年3月25日\n\n1 分钟\n\n\n\n\n\n\n时间序列变量符号编制规则\n\n\n\n\n\n\n\n\n2023年2月26日\n\n1 分钟\n\n\n\n\n\n\n更新到Quarto\n\n\n\n\n\n\n\n\n2023年2月1日\n\n1 分钟\n\n\n\n\n\n\n无语的研究\n\n\n\n\n\n\n\n\n2022年10月23日\n\n1 分钟\n\n\n\n\n\n\n负荷预测的3个基本问题\n\n\n\n\n\n\n\n\n2022年5月15日\n\n1 分钟\n\n\n\n\n\n\nMTLF完成V30更新\n\n\n\n\n\n\n\n\n2022年5月6日\n\n1 分钟\n\n\n\n\n\n\n预测方法评估\n\n\n\n\n\n\n\n\n2022年3月20日\n\n7 分钟\n\n\n\n\n\n\n开始空调负荷理论研究\n\n\n\n\n\n\n\n\n2021年8月6日\n\n1 分钟\n\n\n\n\n\n\n季节调整历史\n\n\n\n\n\n\n\n\n2021年6月27日\n\n1 分钟\n\n\n\n\n\n\n更新本站theme\n\n\n\n\n\n\n\n\n2021年6月16日\n\n1 分钟\n\n\n\n\n\n\n时间序列分析的基本概念\n\n\n\n\n\n\n\n\n2021年6月12日\n\n13 分钟\n\n\n\n\n\n\n关于时间序列的7本好书\n\n\n\n\n\n\n\n\n2021年5月19日\n\n1 分钟\n\n\n\n\n\n\n开始使用Github Desktop\n\n\n\n\n\n\n\n\n2021年5月19日\n\n1 分钟\n\n\n\n\n\n\n假日政策历史回顾\n\n\n\n\n\n\n\n\n2021年5月19日\n\n1 分钟\n\n\n\n\n\n\n梅沙尖\n\n\n\n\n\n\n\n\n2021年3月28日\n\n1 分钟\n\n\n\n\n\n\n完成概率负荷预测所有理论\n\n\n\n\n\n\n\n\n2021年3月10日\n\n1 分钟\n\n\n\n\n\n\n启动失败再次安装\n\n\n\n\n\n\n\n\n2020年10月24日\n\n1 分钟\n\n\n\n\n\n\n完成Github Desktop安装进行测试\n\n\n\n\n\n\n\n\n2020年9月6日\n\n1 分钟\n\n\n\n\n\n\n修改界面主题\n\n\n\n\n\n\n\n\n2020年8月29日\n\n1 分钟\n\n\n\n\n\n\n开篇（Hugo-blogdown）\n\n\n\n\n\n\n\n\n2020年8月27日\n\n1 分钟\n\n\n\n\n无匹配项"
+    "text": "电量增势指数(EMI)\n\n\n\n\n\n\n\n\n2025年9月16日\n\n1 分钟\n\n\n\n\n\n\n重启blog\n\n\n\n\n\n\n\n\n2025年8月31日\n\n1 分钟\n\n\n\n\n\n\n负荷特性\n\n\n\n\n\n\n\n\n2023年6月20日\n\n1 分钟\n\n\n\n\n\n\n第一次正式的负荷预测培训\n\n\n\n\n\n\n\n\n2023年4月13日\n\n1 分钟\n\n\n\n\n\n\n典型负荷日研究\n\n\n\n\n\n\n\n\n2023年3月25日\n\n1 分钟\n\n\n\n\n\n\n时间序列变量符号编制规则\n\n\n\n\n\n\n\n\n2023年2月26日\n\n1 分钟\n\n\n\n\n\n\n更新到Quarto\n\n\n\n\n\n\n\n\n2023年2月1日\n\n1 分钟\n\n\n\n\n\n\n无语的研究\n\n\n\n\n\n\n\n\n2022年10月23日\n\n1 分钟\n\n\n\n\n\n\n负荷预测的3个基本问题\n\n\n\n\n\n\n\n\n2022年5月15日\n\n1 分钟\n\n\n\n\n\n\nMTLF完成V30更新\n\n\n\n\n\n\n\n\n2022年5月6日\n\n1 分钟\n\n\n\n\n\n\n预测方法评估\n\n\n\n\n\n\n\n\n2022年3月20日\n\n7 分钟\n\n\n\n\n\n\n开始空调负荷理论研究\n\n\n\n\n\n\n\n\n2021年8月6日\n\n1 分钟\n\n\n\n\n\n\n季节调整历史\n\n\n\n\n\n\n\n\n2021年6月27日\n\n1 分钟\n\n\n\n\n\n\n更新本站theme\n\n\n\n\n\n\n\n\n2021年6月16日\n\n1 分钟\n\n\n\n\n\n\n时间序列分析的基本概念\n\n\n\n\n\n\n\n\n2021年6月12日\n\n13 分钟\n\n\n\n\n\n\n关于时间序列的7本好书\n\n\n\n\n\n\n\n\n2021年5月19日\n\n1 分钟\n\n\n\n\n\n\n开始使用Github Desktop\n\n\n\n\n\n\n\n\n2021年5月19日\n\n1 分钟\n\n\n\n\n\n\n假日政策历史回顾\n\n\n\n\n\n\n\n\n2021年5月19日\n\n1 分钟\n\n\n\n\n\n\n梅沙尖\n\n\n\n\n\n\n\n\n2021年3月28日\n\n1 分钟\n\n\n\n\n\n\n完成概率负荷预测所有理论\n\n\n\n\n\n\n\n\n2021年3月10日\n\n1 分钟\n\n\n\n\n\n\n启动失败再次安装\n\n\n\n\n\n\n\n\n2020年10月24日\n\n1 分钟\n\n\n\n\n\n\n完成Github Desktop安装进行测试\n\n\n\n\n\n\n\n\n2020年9月6日\n\n1 分钟\n\n\n\n\n\n\n修改界面主题\n\n\n\n\n\n\n\n\n2020年8月29日\n\n1 分钟\n\n\n\n\n\n\n开篇（Hugo-blogdown）\n\n\n\n\n\n\n\n\n2020年8月27日\n\n1 分钟\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "posts/20200827-startblog/index.html",
@@ -530,5 +530,61 @@
     "title": "重启blog",
     "section": "github还是不会用",
     "text": "github还是不会用\n再摸索一下。测试更新。"
+  },
+  {
+    "objectID": "posts/20250916-SAGrowthMomentumIdx/index.html",
+    "href": "posts/20250916-SAGrowthMomentumIdx/index.html",
+    "title": "季调增势指标",
+    "section": "",
+    "text": "早上，突然想到的一个名词用来描述电量增长在哪里问题–电力增长动能指数（the Electricity Growth Momentum Index）–应该就是十年负荷分析研究的最终成果了吧。"
+  },
+  {
+    "objectID": "posts/20250916-SAGrowthMomentumIdx/index.html#名称调整",
+    "href": "posts/20250916-SAGrowthMomentumIdx/index.html#名称调整",
+    "title": "季调增势指标",
+    "section": "名称调整",
+    "text": "名称调整\n记录一下可能发生的名称调整。\n– 2025-09-16 08:28:09 – 电量季节调整增长动能指数（the Growth Momentum Index of Seasonal Adjusted Energy），简称增势指数（GMI），用于描述电量增长的态势，由于采用季调百分数，具有全时段和跨序列可比性，从而能直观描述电量涨在哪里的问题。\n– 2025-09-16 08:56:49 – 缩写用EGMI可能更好，GMI有全球制造业指数、毛利率、全球市场指数等比较多的通用意义。或者维持原状，以与PPI、CPI、PMI平齐？！–小得意的虚荣心–或者，不强调季调，电量增长动能指数（the Growth Momentum Index for Energy Analysis）\n– 2025-09-16 09:07:58 – 改为电力增长动能指数（the Electricity Growth Momentum Index），简称电力增势指数（eGMI）。"
+  },
+  {
+    "objectID": "posts/20250916-eGMI/index.html",
+    "href": "posts/20250916-eGMI/index.html",
+    "title": "能源增势指数(EMI)",
+    "section": "",
+    "text": "早上，突然想到的一个名词用来描述电量增长在哪里问题–电量增势指数（EMI，Energy Momentum Index）–应该就是十年负荷分析研究的最终成果了吧。"
+  },
+  {
+    "objectID": "posts/20250916-eGMI/index.html#名称调整",
+    "href": "posts/20250916-eGMI/index.html#名称调整",
+    "title": "能源增势指数(EMI)",
+    "section": "名称调整",
+    "text": "名称调整\n记录一下可能发生的名称调整。\n– 2025-09-16 08:28:09 – 电量季节调整增长动能指数（the Growth Momentum Index of Seasonal Adjusted Energy），简称增势指数（GMI），用于描述电量增长的态势，由于采用季调百分数，具有全时段和跨序列可比性，从而能直观描述电量涨在哪里的问题。\n– 2025-09-16 08:56:49 – 缩写用EGMI可能更好，GMI有全球制造业指数、毛利率、全球市场指数等比较多的通用意义。或者维持原状，以与PPI、CPI、PMI平齐？！–小得意的虚荣心–或者，不强调季调，电量增长动能指数（the Growth Momentum Index for Energy Analysis）\n– 2025-09-16 09:07:58 – 改为电力增长动能指数（the Electricity Growth Momentum Index），简称电力增势指数（eGMI）。\n– 2025-09-18 09:38:38 – 考虑改为电量（能源）增势（动量）指数 (the Energy Momentum Index)，主要原因是发现该指数计算方法实际可应用于所有能源消费领域的增长势头计算。"
+  },
+  {
+    "objectID": "posts/20250916-eGMI/index.html#解释及应用",
+    "href": "posts/20250916-eGMI/index.html#解释及应用",
+    "title": "能源增势指数(EMI)",
+    "section": "解释及应用",
+    "text": "解释及应用\n这是一大篇文章了，暂略。"
+  },
+  {
+    "objectID": "posts/20250916-EMI/index.html",
+    "href": "posts/20250916-EMI/index.html",
+    "title": "电量增势指数(EMI)",
+    "section": "",
+    "text": "早上，突然想到的一个名词用来描述电量增长在哪里问题–电量增势指数（EMI，Energy Momentum Index）–应该就是我的十年电力负荷分析研究的最终成果了吧。"
+  },
+  {
+    "objectID": "posts/20250916-EMI/index.html#名称调整",
+    "href": "posts/20250916-EMI/index.html#名称调整",
+    "title": "电量增势指数(EMI)",
+    "section": "名称调整",
+    "text": "名称调整\n记录一下可能发生的名称调整。\n– 2025-09-16 08:28:09 – 电量季节调整增长动能指数（Growth Momentum Index of Seasonal Adjusted Energy），简称增势指数（GMI），用于描述电量增长的态势，由于采用季调百分数，具有全时段和跨序列可比性，从而能直观描述电量涨在哪里的问题。\n– 2025-09-16 08:56:49 – 缩写用EGMI可能更好，GMI有全球制造业指数、毛利率、全球市场指数等比较多的通用意义。或者维持原状，以与PPI、CPI、PMI平齐？！–小得意的虚荣心–或者，不强调季调，电量增长动能指数（Growth Momentum Index for Energy Analysis）\n– 2025-09-16 09:07:58 – 改为电力增长动能指数（Electricity Growth Momentum Index），简称电力增势指数（eGMI）。\n– 2025-09-18 09:38:38 – 考虑改为电量增长动能（增势）指数 (EMI，Energy Momentum Index)，主要原因是发现该指数计算方法可应用于所有能源消费领域的增长势头计算。这一指数可以反映当前经济发展的态势，预期后续可以逐步解决电量与经济相关函数的问题！"
+  },
+  {
+    "objectID": "posts/20250916-EMI/index.html#解释及应用",
+    "href": "posts/20250916-EMI/index.html#解释及应用",
+    "title": "电量增势指数(EMI)",
+    "section": "解释及应用",
+    "text": "解释及应用\n这是一大篇1文章了，暂略。\n\n\n1 嗯，像一本书那么大一篇。"
   }
 ]
